@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body { font: 12px Arial;}
+
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+
+</style>
+<head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript">
+
+        function draw(data) {
+
+            //Setup relevant formats
+            var num_format = d3.format(",.01%");
+            var date_format = d3.time.format("%Y").parse;
+
+
+            data.forEach(function(d){
+                d['delay_change'] = parseFloat(d['delay_change']);
+                d['growth_rate'] = parseFloat(d['growth_rate']);
+                d['year'] = date_format((String(d['year'])));
+                d['arr_flights'] = parseInt(d['arr_flights'])
+
+
+            });
+
+
+
+
+            // Set up canvas
+            "use strict";
+            var margin = {top: 30, right: 40, bottom: 30, left: 200},
+                    width = 1200 - margin.left - margin.right,
+                    height = 600 - margin.top - margin.bottom;
+
+            d3.select("body")
+                    .select("#header")
+                    .text("Major Airport Flight Delays... Loading...");
+
+            // Set up an array of years
+
+            var time = [];
+            for (var i = 2005; i <= 2015; i += 1) {
+                time.push(i)
+                }
+
+            // Set up playground
+            d3.csv("data-draft-2/growth.csv", function(growth) {
+
+                growth.forEach(function(d) {
+                    d["Growth"] = parseFloat(d["Growth"]);
+                    d['Year'] = date_format((String(d['Year'])))
+                });
+
+                var x = d3.scale.linear().range([0, width]);
+                var y0 = d3.scale.linear().range([height, 0]);
+                var y1 = d3.scale.linear().range([height, 0]);
+
+                var xAxis = d3.svg.axis().scale(x)
+                        .orient("bottom").ticks(10)
+                        .tickFormat(num_format);
+
+
+                var yAxisLeft = d3.svg.axis().scale(y0)
+                        .orient("left").ticks(10)
+                        .tickFormat(num_format);
+
+
+                var yAxisRight = d3.svg.axis().scale(y1)
+                        .orient("right").ticks(10)
+                        .tickFormat(num_format);
+
+
+                var valueline = d3.svg.line()
+                        .x(function(d) { return x(d.Year); })
+                        .y(function(d) { return y1(d.Growth); });
+
+
+
+                var svg = d3.select("body")
+                        .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform",
+                                "translate(" + margin.left + "," + margin.top + ")");
+
+                // Scale the range of the data
+                var min_growth_rate = d3.min(data, function(d){
+                    return d.growth_rate;
+                });
+
+                var max_growth_rate = d3.max(data, function(d) {
+                    return d.growth_rate;
+                });
+
+                var min_delay_change = d3.min(data, function(d){
+                    return d.delay_change;
+                });
+
+                var max_delay_change = d3.max(data, function(d) {
+                    return d.delay_change;
+                });
+
+                var min_total_traffic = d3.min(data, function(d){
+                    return d.arr_flights;
+                });
+
+                var max_total_traffic = d3.max(data, function(d) {
+                    return d.arr_flights;
+                });
+
+                var min_Growth = d3.min(growth, function(d){
+                    return d.Growth;
+                });
+
+                var max_Growth = d3.max(growth, function(d) {
+                    return d.Growth;
+                });
+
+                x.domain([min_growth_rate-.05, max_growth_rate+.05]);
+
+                y0.domain([min_delay_change-.05, max_delay_change+.05]);
+
+                y1.domain([min_Growth-.05, max_Growth+.05]);
+
+
+
+
+
+
+                //draw playground
+
+//                svg.append("path")        // Add the valueline path.
+//                        .style("stroke", "red")
+//                        .attr("d", valueline(growth));
+
+                svg.append("g")            // Add the X Axis
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(xAxis);
+
+                svg.append("g")
+                        .attr("class", "y axis")
+                        .style("fill", "steelblue")
+                        .call(yAxisLeft);
+
+
+                svg.append("g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + width + " ,0)")
+                        .style("fill", "red")
+                        .call(yAxisRight);
+
+                svg.append("line")
+                        .attr("class", "GDP_line")
+                        .attr("x1", x(min_growth_rate-.05))
+                        .attr("x2", x(max_growth_rate+.05))
+                        .attr("y1", y1(0))
+                        .attr("y2", y1(0))
+                        .style("stroke", "rgb(255,0,0)")
+                        .style("stroke-width", "2");
+
+//                svg.append("g")
+//                        .attr("class", "bubbles")
+//                        .selectAll(".airport")
+//                        .data(data)
+//                        .enter()
+//                        .append("circle")
+//                        .attr("class", "airport")
+//                        .attr("cx", function(d){ x(d['growth_rate'])})
+//                        .attr("cy", function(d){ y0(d['delay_change'])})
+//                        .attr("r", 5);
+//
+//                var focus = svg.append("g")
+//                        .attr("class", "focus")
+//                        .style("display", "none");
+//
+//                focus.append("circle")
+//                        .attr("r", 4.5);
+//
+//                focus.append("text")
+//                        .attr("x", 9)
+//                        .attr("dy", ".35em");
+
+
+
+
+            // Define variables needed
+
+            // Group databased on year and airport
+
+//            var nested = d3.nest()
+//                    .key(function(d) {
+//                        return [d['year']];
+//                    })
+//                    .rollup(agg_airport_month)
+//                    .entries(data);
+
+            // Get color and radius gradiant range
+
+
+            function key_func(d) {
+                return d['key'];
+            }
+
+
+            function update(variable) {
+
+                //Filter data based on year for each update
+                var filtered = data.filter(function(d) {
+                    return (d['year'].getFullYear() == variable);
+                });
+
+
+                var filtered_growth = growth.filter(function(d) {
+                    return (d['Year'].getFullYear() == variable);
+                });
+
+                d3.select("#header")
+                        .text("Major Airport Delays For " + variable);
+
+
+                // Draw GDP Growth Circles
+
+
+                var color = d3.scale.linear()
+                        .domain([min_delay_change, 0, max_delay_change])
+                        .range(['red', 'white', 'green']);
+
+                var radius = d3.scale.sqrt()
+                        .domain([min_total_traffic, max_total_traffic])
+                        .range([5, 30]);
+
+
+
+
+
+
+
+                //Remove all circles and draw airport circles
+
+
+
+//                d3.selectAll('.airport').remove();
+                if (variable == 2005) {
+                    var little_circles =
+                            svg.append('g')
+                                    .attr("class", "bubble")
+                                    .selectAll(".airport")
+                                    .data(filtered)
+                                    .enter()
+                                    .append("circle")
+                                    .attr("class", "airport")
+                                    .attr('cx', function (d) {
+                                        return x(d.growth_rate);
+                                    })
+                                    .attr('cy', function (d) {
+                                        return y0(d.delay_change);
+                                    })
+                                    .attr('r', function (d) {
+                                        return radius(d.arr_flights)
+                                    })
+                                    .style('fill', function (d) {
+                                        return color(d.delay_change)
+                                    });
+                }
+
+                else {
+
+                    d3.selectAll(".airport")
+                            .data(filtered)
+                            .transition()
+                            .attr('cx', function (d) {
+                                return x(d.growth_rate);
+                            })
+                            .attr('cy', function (d) {
+                                return y0(d.delay_change);
+                            })
+                            .attr('r', function (d) {
+                                return radius(d.arr_flights)
+                            })
+                            .style('fill', function (d) {
+                                return color(d.delay_change)
+                            })
+                            .duration(1000);
+                    debugger;
+                }
+
+                d3.select(".GDP_line")
+                        .data(filtered_growth)
+                        .transition()
+                        .attr("x1", x(min_growth_rate-.05))
+                        .attr("x2", x(max_growth_rate+.05))
+                        .attr("y1", y1(filtered_growth[0]["Growth"]))
+                        .attr("y2", y1(filtered_growth[0]["Growth"]));
+//                        .on("mouseover", function(d){
+//
+//                            //Get this bar's x/y values, then augment for the tooltip
+//                            var xPosition = parseFloat(d3.select(this).attr("cx")) + 20;
+//                            var yPosition = parseFloat(d3.select(this).attr("cy")) + 50;
+//
+//                            //Update the tooltip position and value
+//                            d3.select("#tooltip")
+//                                    .style("left", xPosition + "px")
+//                                    .style("top", yPosition + "px")
+//                                    .select("#total")
+//                                    .text(d.values['total_delays']);
+//
+//                            d3.select("#carrier")
+//                                    .text(d.values['carrier']);
+//                            d3.select("#weather")
+//                                    .text(d.values['weather']);
+//                            d3.select("#nas")
+//                                    .text(d.values['nas']);
+//                            d3.select("#security")
+//                                    .text(d.values['security']);
+//                            d3.select("#late")
+//                                    .text(d.values['late_aircraft']);
+//                            d3.select("#airport_name")
+//                                    .text(d.key.split(',')[0]);
+//                            //Show the tooltip
+//                            d3.select("#tooltip").classed("hidden", false);
+//                        })
+//                        .on("mouseout", function(){d3.select("#tooltip").classed("hidden", true)});
+
+
+
+            }
+
+                var date_idx = 0;
+
+                //Enable animations on interval
+
+                var date_interval = setInterval(function() {
+                    update(time[date_idx]);
+
+                    date_idx++;
+
+                    if(date_idx >= time.length) {
+                        clearInterval(date_interval);
+
+                        var buttons = d3.select("#buttons")
+                                .append("div")
+                                .attr("class", "years_buttons")
+                                .selectAll("div")
+                                .data(time)
+                                .enter()
+                                .append("div")
+                                .text(function(d) {
+                                    return d;
+                                });
+
+                        buttons.on("click", function(d) {
+                            d3.select(".years_buttons")
+                                    .selectAll("div")
+                                    .transition()
+                                    .duration(500)
+                                    .style("color", "black")
+                                    .style("background", "rgb(251, 201, 127)");
+
+                            d3.select(this)
+                                    .transition()
+                                    .duration(500)
+                                    .style("background", "lightBlue")
+                                    .style("color", "white");
+                            update(d);
+                        });
+                    }
+                }, 2000);
+            });
+            }
+
+
+
+
+    </script>
+</head>
+<body>
+
+<h2 id="header">Major Airport Delay... Loading...</h2>
+
+<div id="buttons">
+</div>
+
+
+<!--Tooltip for airports-->
+<div id="tooltip" class="hidden">
+    <p><strong>Airport Name:</strong></p>
+    <p><span id="airport_name">Empty</span></p>
+    <p><strong>Total Number of Delays:</strong></p>
+    <p><span id="total">100</span></p>
+    <p><strong>Delay Compositions:</strong></p>
+    <p>
+        Carrier: <span id="carrier">100</span>,<br>
+        Weather: <span id="weather">100</span>,<br>
+        Airspace Control: <span id="nas">100</span>,<br>
+        Security: <span id="security">100</span>,<br>
+        Late Aircraft: <span id="late">100</span>
+    </p>
+</div>
+
+
+<!--Tooltip for GDP circles-->
+
+<div id="GDP-tooltip" class="hidden">
+    <p>
+        <strong>Growth Rate: </strong><br>
+        <span id="growth_number">100</span>
+    </p>
+</div>
+
+<script type="text/javascript">
+
+    /*
+     Use D3 to load the GeoJSON file
+     */
+
+    d3.csv("data-draft-2/clean_data.csv", draw);
+</script>
+</body>s
+</html>

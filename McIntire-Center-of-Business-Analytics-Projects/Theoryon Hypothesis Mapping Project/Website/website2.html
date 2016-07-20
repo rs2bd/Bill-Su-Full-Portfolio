@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Network | Basic usage</title>
+
+    <script type="text/javascript" src="/Users/billsu/Desktop/Website/vis.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="output.json"></script>
+    <link href="/Users/billsu/Desktop/Website/vis.css" rel="stylesheet" type="text/css" />
+    
+
+    <style type="text/css">
+        #mynetwork {
+            width: 600px;
+            height: 400px;
+            border: 1px solid lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<p>
+    Create a simple network with some nodes and edges.
+</p>
+
+<div id="mynetwork"></div>
+<script type="text/javascript">
+    // create an array with nodes
+    var nodes = new vis.DataSet([
+        {id: '1', label: '26064', x: 100, y: 1},
+        {id: 2, label: '26065', x: 200, y: 1},
+		{id: 3, label: '26065', x: 300, y: 1},
+		{id: 4, label: '26065', x: 400, y: 1},
+		{id: 5, label: '26065', x: 500, y: 1},
+		{id: 6, label: '26065', x: 600, y: 1},
+        
+			
+    ]);
+
+    // create an array with edges
+    var edges = new vis.DataSet([
+        {from: 2, to: 1, arrows: 'to', source_id: 12, p_value: 12},
+        
+    ]);
+
+    // create a network
+    var container = document.getElementById('mynetwork');
+    var data = {
+        nodes: nodes,
+        edges: edges
+    };
+    var options = { physics:{
+    enabled: false}};
+    var network = new vis.Network(container, data, options);
+</script>
+
+</body>
+</html>

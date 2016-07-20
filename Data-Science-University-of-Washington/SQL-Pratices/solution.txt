@@ -1,0 +1,75 @@
+a) 
+select count(*) from frequency where docid = "10398_txt_earn";
+
+solution: 138
+
+b)
+select count(term) from frequency where docid = "10398_txt_earn" and count = "1";
+
+solution: 110
+
+c) 
+select count(*) from
+(select * from frequency  where docid = "10398_txt_earn" and count = "1"
+UNION ALL
+select * from frequency  where docid = "925_txt_trade" and count = "1");
+
+solution: 335
+
+d) 
+select count(*) from frequency where term = "parliament";
+
+solution: 15
+
+e)
+select count(*) from 
+(select distinct docid from frequency group by docid having count(term) > 300);
+
+solution: 11
+
+f)
+select count(*) from(
+select distinct docid from frequency where term = "transactions" 
+INTERSECT
+select distinct docid from frequency where term = "world");
+
+solution: 3
+
+g) 
+select a.row_num, b.col_num, sum(a.value*b.value) 
+from a, b 
+where a.col_num = b.row_num
+group by a.row_num, b.col_num;
+
+solution:
+2874
+
+h)
+select a.docid, b.docid, sum(a.count*b.count)
+from frequency a, frequency b
+where a.term = b.term
+group by a.docid, b.docid;
+
+solution:
+10080_txt_crude|17035_txt_earn|19
+
+i)
+select doc, max(value) from 
+(select b.docid as doc, sum(a.count*b.count) as value 
+from (SELECT * FROM frequency UNION
+SELECT 'q' as docid, 'washington' as term, 1 as count 
+UNION 
+SELECT 'q' as docid, 'taxes' as term, 1 as count 
+UNION 
+SELECT 'q' as docid, 'treasury' as term, 1 as count) a,
+(SELECT * FROM frequency 
+UNION
+SELECT 'q' as docid, 'washington' as term, 1 as count 
+UNION 
+SELECT 'q' as docid, 'taxes' as term, 1 as count 
+UNION 
+SELECT 'q' as docid, 'treasury' as term, 1 as count) b 
+where a.term = b.term and a.docid = 'q'
+group by a.docid, b.docid);
+
+solution: 16094_txt_trade|6

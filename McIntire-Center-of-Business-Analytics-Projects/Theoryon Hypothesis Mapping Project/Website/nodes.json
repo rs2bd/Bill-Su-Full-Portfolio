@@ -1,0 +1,218 @@
+[
+   {
+      "label": "", 
+      "y": -250, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r1"
+   }, 
+   {
+      "label": "", 
+      "y": -250, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r2"
+   }, 
+   {
+      "label": "", 
+      "y": -215, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r14"
+   }, 
+   {
+      "label": "", 
+      "y": -215, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r15"
+   }, 
+   {
+      "label": "", 
+      "y": -215, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r16"
+   }, 
+   {
+      "label": "", 
+      "y": -179, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r23"
+   }, 
+   {
+      "label": "", 
+      "y": -179, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r24"
+   }, 
+   {
+      "label": "", 
+      "y": -179, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r25"
+   }, 
+   {
+      "label": "", 
+      "y": -179, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r26"
+   }, 
+   {
+      "label": "", 
+      "y": -19, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r38"
+   }, 
+   {
+      "label": "", 
+      "y": -19, 
+      "shape": "text", 
+      "source_id": "75", 
+      "x": 0, 
+      "type": "Intermediate", 
+      "id": "r39"
+   }, 
+   {
+      "color": "yellow", 
+      "label": "49179", 
+      "y": -350, 
+      "source_id": "75", 
+      "x": -200, 
+      "type": "Moderator", 
+      "id": "49179"
+   }, 
+   {
+      "color": "yellow", 
+      "label": "49180", 
+      "y": -225, 
+      "source_id": "75", 
+      "x": -200, 
+      "type": "Moderator", 
+      "id": "49180"
+   }, 
+   {
+      "color": "yellow", 
+      "label": "49181", 
+      "y": -100, 
+      "source_id": "75", 
+      "x": -200, 
+      "type": "Moderator", 
+      "id": "49181"
+   }, 
+   {
+      "color": "yellow", 
+      "label": "49185", 
+      "y": 25, 
+      "source_id": "75", 
+      "x": -200, 
+      "type": "Moderator", 
+      "id": "49185"
+   }, 
+   {
+      "color": "blue", 
+      "label": "110", 
+      "y": -250, 
+      "source_id": "75", 
+      "x": 300, 
+      "type": "Dependent", 
+      "id": "110"
+   }, 
+   {
+      "color": "blue", 
+      "label": "49188", 
+      "y": 0, 
+      "source_id": "75", 
+      "x": 300, 
+      "type": "Dependent", 
+      "id": "49188"
+   }, 
+   {
+      "color": "red", 
+      "label": "103", 
+      "y": -250, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "103"
+   }, 
+   {
+      "color": "red", 
+      "label": "104", 
+      "y": -179, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "104"
+   }, 
+   {
+      "color": "red", 
+      "label": "106", 
+      "y": -108, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "106"
+   }, 
+   {
+      "color": "red", 
+      "label": "107", 
+      "y": -37, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "107"
+   }, 
+   {
+      "color": "red", 
+      "label": "108", 
+      "y": 34, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "108"
+   }, 
+   {
+      "color": "red", 
+      "label": "109", 
+      "y": 105, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "109"
+   }, 
+   {
+      "color": "red", 
+      "label": "105", 
+      "y": 176, 
+      "source_id": "75", 
+      "x": -300, 
+      "type": "Independent", 
+      "id": "105"
+   }
+]

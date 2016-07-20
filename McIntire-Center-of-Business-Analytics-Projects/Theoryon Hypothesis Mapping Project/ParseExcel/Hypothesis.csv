@@ -1,0 +1,3021 @@
+Independent,Relationship ID,P-Value,Relationship,Dependent,Type,Supported,Hypothesis ID,Mediator/Moderator,Source ID
+103,1,,Has effect,110,Moderator,True,75-1,49179,75
+103,2,,Has effect,110,Moderator,True,75-1,49180,75
+104,3,0.05,Has effect,110,Moderator,True,75-2,49179,75
+104,4,0.05,Has effect,110,Moderator,True,75-2,49180,75
+104,5,0.05,Has effect,110,Moderator,True,75-2,49181,75
+106,6,0.05,Has effect,110,Moderator,True,75-3,49179,75
+106,7,0.05,Has effect,110,Moderator,True,75-3,49180,75
+106,8,0.05,Has effect,110,Moderator,True,75-3,49185,75
+106,9,0.05,Has effect,110,Moderator,True,75-3,49181,75
+107,10,0.05,Has no effect,110,Regular,True,75-4a,,75
+107,11,0.05,Has effect,49188,Moderator,True,75-4b,49180,75
+107,12,0.05,Has effect,49188,Moderator,True,75-4b,49181,75
+108,13,0.05,Has no effect,110,Regular,True,75-5a,,75
+109,14,0.05,Has no effect,110,Regular,True,75-5b,,75
+105,15,0.05,Has no effect,110,Regular,True,75-5c,,75
+110,16,0.05,Positive,49188,Regular,True,75-6,,75
+118,17,0.001,Positive,117,1,1,79-1,121,79
+119,18,0.01,Positive,117,1,1,79-2a,121,79
+119,19,NULL,Positive,118,1,0,79-2b,121,79
+120,20,0.05,Positive,117,1,1,79-3,121,79
+118,21,0.001,Positive,117,1,1,79-4,125,79
+118,22,0.001,Positive,117,1,1,79-4,121,79
+119,23,0.01,Positive,117,1,1,79-5a,121,79
+119,24,0.01,Positive,117,1,1,79-5a,125,79
+119,25,NULL,Positive,118,1,0,79-5b,121,79
+119,26,NULL,Positive,118,1,0,79-5b,125,79
+120,27,0.01,No effect,117,1,1,79-6,121,79
+120,28,0.01,No effect,117,1,1,79-6,125,79
+136,29,0.001,Positive,139,Regular,True,81-1,,81
+135,30,0.001,Positive,139,Regular,True,81-2,,81
+135,31,,Positive,136,Regular,False,81-3,,81
+130,32,0.01,Positive,135,Moderating,True,81-4,140,81
+131,33,0.01,Positive,135,Moderating,True,81-4,140,81
+132,34,0.01,Positive,135,Moderating,True,81-4,140,81
+133,35,0.01,Positive,135,Moderating,True,81-4,140,81
+134,36,0.01,Positive,135,Moderating,True,81-4,140,81
+130,37,0.001,Positive,136,Moderating,True,81-5,140,81
+131,38,0.001,Positive,136,Moderating,True,81-5,140,81
+132,39,0.001,Positive,136,Moderating,True,81-5,140,81
+133,40,0.001,Positive,136,Moderating,True,81-5,140,81
+134,41,0.001,Positive,136,Moderating,True,81-5,140,81
+138,42,0.001,Positive,130,Regular,True,81-6,,81
+138,43,0.001,Positive,131,Regular,True,81-6,,81
+138,44,0.001,Positive,132,Regular,True,81-6,,81
+138,45,0.001,Positive,133,Regular,True,81-6,,81
+138,46,0.001,Positive,134,Regular,True,81-6,,81
+137,47,0.01,Positive,130,Regular,True,81-7,,81
+137,48,0.01,Positive,131,Regular,True,81-7,,81
+137,49,0.01,Positive,132,Regular,True,81-7,,81
+137,50,0.01,Positive,133,Regular,True,81-7,,81
+137,51,0.01,Positive,134,Regular,True,81-7,,81
+162,52,0.001,Positive,169,0,1,82-1,NULL,82
+162,53,0.001,Positive,170,0,1,82-2,NULL,82
+162,54,0.001,Positive,171,0,1,82-3,NULL,82
+162,55,0.001,Negative,172,0,1,82-4,NULL,82
+162,56,0.001,Positive,173,0,1,82-5,NULL,82
+169,57,0.001,Positive,171,0,1,82-6,NULL,82
+170,58,NULL,Positive,171,0,0,82-7,NULL,82
+169,59,0.001,Positive,173,0,1,82-8,NULL,82
+170,60,0.05,Positive,173,0,1,82-9,NULL,82
+171,61,0.001,Positive,173,0,1,82-0,NULL,82
+172,62,NULL,Negative,173,0,0,82-1,NULL,82
+154,63,0.05,Positive,158,1,1,83-1,51879,83
+148,64,NULL,Positive,154,1,0,83-2,51879,83
+151,65,NULL,Positive,154,1,0,83-2,51879,83
+153,66,NULL,Positive,154,1,0,83-2,51879,83
+149,67,NULL,Positive,154,1,0,83-2,51879,83
+150,68,NULL,Positive,154,1,0,83-2,51879,83
+152,69,NULL,Positive,154,1,0,83-2,51879,83
+147,70,NULL,Positive,154,1,0,83-2,51879,83
+156,71,0.05,Positive,158,1,1,83-3,51879,83
+45923,72,0.05,Positive,160,0,1,84-1,NULL,84
+52096,73,0.05,Positive,160,0,1,84-1,NULL,84
+52096,74,NULL,No effect,159,0,0,84-2,NULL,84
+45923,75,NULL,No effect,159,0,0,84-2,NULL,84
+52096,76,0.05,Positive,161,0,1,84-3,NULL,84
+45923,77,0.05,Positive,161,0,1,84-3,NULL,84
+160,78,0.05,Positive,161,1,1,84-4,45923,84
+160,79,0.05,Positive,161,1,1,84-4,52096,84
+160,80,0.05,No effect,159,1,1,84-5,52096,84
+160,81,0.05,No effect,159,1,1,84-5,45923,84
+159,82,0.05,No effect,161,1,1,84-6,45923,84
+159,83,0.05,No effect,161,1,1,84-6,52096,84
+160,84,0.05,Positive,161,1,1,84-7,52096,84
+160,85,0.05,Positive,161,1,1,84-7,45923,84
+272,86,0.01,Positive,273,0,1,124-1,NULL,124
+271,87,0.01,Positive,273,0,1,124-2,NULL,124
+289,88,0.01,Positive,287,0,1,126-1,NULL,126
+288,89,0.01,Positive,287,0,1,126-2,NULL,126
+288,90,0.01,Positive,289,0,1,126-3,NULL,126
+290,91,0.01,Positive,287,0,1,126-4,NULL,126
+290,92,0.01,Positive,289,0,1,126-5,NULL,126
+292,93,NULL,Positive,290,0,0,126-6,NULL,126
+291,94,0.01,Positive,290,0,1,126-7,NULL,126
+294,95,0.01,Positive,290,0,1,126-8,NULL,126
+293,96,0.01,Positive,290,0,1,126-9,NULL,126
+288,97,0.01,Positive,290,0,1,126-0,NULL,126
+294,98,0.01,Positive,288,0,1,126-1,NULL,126
+292,99,0.01,Positive,288,0,1,126-2,NULL,126
+331,100,0.001,Positive,330,0,1,137-1,NULL,137
+333,101,0.001,Positive,331,0,1,137-2,NULL,137
+332,102,0.01,Positive,331,0,1,137-3,NULL,137
+332,103,0.001,Positive,330,0,1,137-4,NULL,137
+333,104,0.001,Positive,332,0,1,137-5,NULL,137
+376,105,0.001,Has effect,410,0,1,144-1,NULL,144
+374,106,0.001,Has effect,376,0,1,144-2a,NULL,144
+374,107,0.001,Has effect,410,0,1,144-2b,NULL,144
+383,108,NULL,Has effect,374,0,0,144-3a,NULL,144
+383,109,NULL,Has effect,376,0,0,144-3b,NULL,144
+384,110,NULL,Has effect,374,0,0,144-4a,NULL,144
+384,111,0.05,Has effect,376,0,1,144-4b,NULL,144
+395,112,0.05,Has effect,374,0,1,144-5a,NULL,144
+395,113,0.05,Has effect,376,0,1,144-5b,NULL,144
+397,114,0.05,Has effect,374,0,1,144-6a,NULL,144
+397,115,0.05,Has effect,376,0,1,144-6b,NULL,144
+400,116,0.05,Has effect,374,0,1,144-7a,NULL,144
+400,117,NULL,Has effect,376,0,0,144-7b,NULL,144
+45546,118,0.05,Has effect,416,0,1,146-1,NULL,146
+45546,119,0.05,Has effect,415,0,1,146-2,NULL,146
+45546,120,NULL,Has effect,411,0,0,146-3,NULL,146
+45546,121,NULL,Has effect,413,0,0,146-4,NULL,146
+588,122,0.005,positive,601,0,1,173-1,NULL,173
+589,123,NULL,positive,601,0,0,173-2,NULL,173
+591,124,0.005,negative,601,0,1,173-3,NULL,173
+597,125,0.005,positive,601,0,1,173-4,NULL,173
+598,126,0.01,positive,601,0,1,173-5,NULL,173
+600,127,NULL,positive,601,0,0,173-6,NULL,173
+23739,128,0.05,Positive,23754,Regular,True,6564-1,,6564
+23756,129,0.05,Positive,23740,Regular,True,6564-2,,6564
+23743,130,0.05,Positive,23740,Regular,True,6564-3a,,6564
+23743,131,0.05,Positive,23739,Regular,True,6564-3a,,6564
+23759,132,0.05,Positive,23756,Regular,True,6564-3b,,6564
+23759,133,0.05,Positive,23755,Regular,True,6564-3b,,6564
+23746,134,0.05,Positive,23741,Regular,True,6564-4a,,6564
+23762,135,0.05,Positive,23757,Regular,True,6564-4b,,6564
+23746,136,0.05,Positive,23745,Regular,True,6564-5a,,6564
+23762,137,0.05,Positive,23761,Regular,True,6564-5b,,6564
+23747,138,0.05,Positive,23741,Regular,True,6564-6a,,6564
+23763,139,0.05,Positive,23757,Regular,True,6564-6b,,6564
+23748,140,0.05,Positive,23741,Regular,True,6564-7a,,6564
+23764,141,0.05,Positive,23757,Regular,True,6564-7b,,6564
+23748,142,0.05,Positive,23744,Regular,True,6564-8a,,6564
+23748,143,,Positive,23745,Regular,False,6564-8a,,6564
+23764,144,0.05,Positive,52638,Regular,True,6564-8b,,6564
+23764,145,0.01,Positive,23761,Regular,True,6564-8b,,6564
+23749,146,0.01,Positive,23745,Regular,True,6564-9a,,6564
+23766,147,0.05,Positive,23761,Regular,True,6564-9b,,6564
+23750,148,0.05,Negative,23741,Regular,True,6564-0a,,6564
+23750,149,0.01,Negative,23761,Regular,True,6564-0b,,6564
+23751,150,,Positive,23745,Regular,False,6564-1,,6564
+23768,151,0.05,Positive,23761,Regular,True,6564-2,,6564
+23767,152,0.05,Positive,23761,Regular,True,6564-3,,6564
+23765,153,0.05,Positive,23757,Regular,True,6564-4,,6564
+23739,154,0.05,Positive,23744,regular,True,6564-5a,,6564
+23769,155,0.05,Positive,52638,regular,True,6564-5b,,6564
+61678,156,0.05,Negative,61680,Regular,,12085-1a,,12085
+61677,157,0.01,Negative,61680,Regular,,12085-1b,,12085
+61676,158,0.01,Positive,61680,Regular,,12085-2,,12085
+61665,159,0.01,Has affect,61680,Moderating,,12085-3,61676,12085
+61665,160,0.01,Has affect,61680,Moderating,,12085-4,61678,12085
+61665,161,0.01,Has affect,61680,Moderating,,12085-4,61677,12085
+61676,162,0.05,Positive,61680,Moderating,,12085-5a,61678,12085
+61676,163,0.01,Positive,61680,Moderating,,12085-6a,61677,12085
+2066,164,0.001,positive,51799,Regular,True,879-1,,879
+2066,165,0.001,positive,51800,Regular,True,879-1,,879
+2066,166,0.001,positive,51801,Regular,True,879-1,,879
+2067,167,0.001,positive,51798,Regular,true,879-2,,879
+2068,168,0.01,positive,51797,Regular,True,879-3,,879
+51810,169,,Positive,51806,Regular,,881-1,,881
+51810,170,0.01,Positive,51808,Regular,True,881-1,,881
+51810,171,0.001,Negative,51807,Regular,True,881-1,,881
+51810,172,0.05,Negative,51809,Regular,True,881-1,,881
+51810,173,0.01,Positive,51804,Regular,True,881-1,,881
+51810,174,0.001,Positive,51805,Regular,True,881-1,,881
+51802,175,,Positive,51806,Regular,False,881-1,,881
+51802,176,0.05,Positive,51808,Regular,Partial,881-1,,881
+51802,177,,Negative,51807,Regular,,881-1,,881
+51802,178,0.01,Positive,51809,Regular,True,881-1,,881
+51802,179,0.05,Positive,51804,Regular,Partial,881-1,,881
+51802,180,0.05,Positive,51805,Regular,Partial,881-1,,881
+2061,181,,Positive,51807,Regular,False,881-1,,881
+2061,182,0.05,Negative,51809,Regular,True,881-1,,881
+2061,183,0.05,Positive,51804,Regular,Partial,881-1,,881
+51813,184,,Negative,51809,Regular,False,881-2,,881
+51813,185,,Negative,51804,Regular,False,881-2,,881
+51813,186,,Negative,51805,Regular,False,881-2,,881
+51813,187,,Negative,51806,Regular,False,881-2,,881
+51813,188,,Negative,51807,Regular,False,881-2,,881
+51814,189,,Positive,51809,Regular,False,881-2,,881
+51814,190,,Positive,51804,Regular,False,881-2,,881
+51814,191,,Positive,51805,Regular,False,881-2,,881
+51814,192,,Positive,51806,Regular,False,881-2,,881
+51814,193,,Positive,51807,Regular,False,881-2,,881
+51815,194,,Positive,51809,Regular,False,881-2,,881
+51815,195,,Positive,51804,Regular,False,881-2,,881
+51815,196,,Positive,51805,Regular,False,881-2,,881
+51815,197,,Positive,51806,Regular,False,881-2,,881
+51815,198,,Positive,51807,Regular,False,881-2,,881
+51810,199,,Has effect,51806,Moderating,False,881-3,51813,881
+51810,200,,Has effect,51807,Moderating,False,881-3,51813,881
+51810,201,,Has effect,51809,Moderating,False,881-3,51813,881
+51810,202,,Has effect,51806,Moderating,False,881-3,51814,881
+51810,203,,Has effect,51807,Moderating,False,881-3,51814,881
+51810,204,,Has effect,51809,Moderating,False,881-3,51814,881
+51810,205,,Has effect,51806,Moderating,False,881-3,51815,881
+51810,206,,Has effect,51807,Moderating,False,881-3,51815,881
+51810,207,,Has effect,51809,Moderating,False,881-3,51815,881
+51802,208,,Has effect,51806,Moderating,False,881-3,51813,881
+51802,209,,Has effect,51807,Moderating,False,881-3,51813,881
+51802,210,,Has effect,51809,Moderating,False,881-3,51813,881
+51802,211,,Has effect,51806,Moderating,False,881-3,51814,881
+51802,212,,Has effect,51807,Moderating,False,881-3,51814,881
+51802,213,,Has effect,51809,Moderating,False,881-3,51814,881
+51802,214,,Has effect,51806,Moderating,False,881-3,,881
+51802,215,,Has effect,51807,Moderating,False,881-3,,881
+51802,216,0.05,Has effect,51809,Moderating,True,881-3,,881
+2061,217,,Has effect,51809,Moderating,False,881-3,51813,881
+2061,218,,Has effect,51804,Moderating,False,881-3,51813,881
+2061,219,,Has effect,51805,Moderating,False,881-3,51813,881
+2061,220,,Has effect,51807,Moderating,False,881-3,51813,881
+2061,221,,Has effect,51809,Moderating,False,881-3,51814,881
+2061,222,,Has effect,51804,Moderating,False,881-3,51814,881
+2061,223,,Has effect,51805,Moderating,False,881-3,51814,881
+2061,224,0.05,Has effect,51807,Moderating,True,881-3,51814,881
+2061,225,,Has effect,51809,Moderating,False,881-3,51815,881
+2061,226,,Has effect,51804,Moderating,False,881-3,51815,881
+2061,227,,Has effect,51805,Moderating,False,881-3,51815,881
+2061,228,,Has effect,51807,Moderating,False,881-3,51815,881
+51810,229,,Has effect,51806,Moderating,False,881-4,51812,881
+51810,230,,Has effect,51807,Moderating,False,881-4,51812,881
+51810,231,,Has effect,51809,Moderating,False,881-4,51812,881
+51810,232,,Has effect,51806,Moderating,False,881-4,51812,881
+51810,233,,Has effect,51807,Moderating,False,881-4,51812,881
+51810,234,,Has effect,51809,Moderating,False,881-4,51812,881
+51810,235,,Has effect,51806,Moderating,False,881-4,51812,881
+51810,236,,Has effect,51807,Moderating,False,881-4,51812,881
+51810,237,,Has effect,51809,Moderating,False,881-4,51812,881
+51802,238,,Has effect,51806,Moderating,False,881-4,51812,881
+51802,239,,Has effect,51807,Moderating,False,881-4,51812,881
+51802,240,,Has effect,51809,Moderating,False,881-4,51812,881
+51802,241,,Has effect,51806,Moderating,False,881-4,51812,881
+51802,242,,Has effect,51807,Moderating,False,881-4,51812,881
+51802,243,,Has effect,51809,Moderating,False,881-4,51812,881
+51802,244,,Has effect,51806,Moderating,False,881-4,51812,881
+51802,245,,Has effect,51807,Moderating,False,881-4,51812,881
+51802,246,,Has effect,51809,Moderating,False,881-4,51812,881
+2061,247,,Has effect,51809,Moderating,False,881-4,51812,881
+2061,248,,Has effect,51804,Moderating,False,881-4,51812,881
+2061,249,,Has effect,51805,Moderating,False,881-4,51812,881
+2061,250,,Has effect,51807,Moderating,False,881-4,51812,881
+2061,251,,Has effect,51809,Moderating,False,881-4,51812,881
+2061,252,,Has effect,51804,Moderating,False,881-4,51812,881
+2061,253,,Has effect,51805,Moderating,False,881-4,51812,881
+2061,254,,Has effect,51807,Moderating,False,881-4,51812,881
+2061,255,,Has effect,51809,Moderating,False,881-4,51812,881
+2061,256,,Has effect,51804,Moderating,False,881-4,51812,881
+2061,257,,Has effect,51805,Moderating,False,881-4,51812,881
+2061,258,,Has effect,51807,Moderating,False,881-4,51812,881
+51820,259,0.05,Has effect,51845,Regular,True,882-1,,882
+51820,260,0.05,Has effect,51847,Regular,True,882-1,,882
+51849,261,0.01,Positive,51820,Regular,True,882-2,,882
+51851,262,0.05,Has effect,51820,Regular,True,882-2,,882
+51852,263,0.05,Has effect,51820,Regular,True,882-3,,882
+51853,264,0.01,Has effect,51820,Regular,True,882-4,,882
+51855,265,0.05,No effect,51820,Regular,True,882-5,,882
+51854,266,0.05,No effect,51820,Regular,True,882-6,,882
+51856,267,0.05,Negative,51820,Regular,True,882-7,,882
+51848,268,0.05,Has effect,51820,Regular,True,882-8,,882
+51861,269,0.05,Has effect,51820,Regular,True,882-1,,882
+51860,270,0.05,Has effect,51820,Regular,True,882-1,,882
+51863,271,,Has effect,51820,Regular,False,882-2,,882
+51961,282,0.05,Positive,51962,Moderating,True,884-1,52040,884
+51961,283,0.05,Positive,51963,Moderating,True,884-1,52040,884
+51960,284,0.05,Positive,51962,Moderating,True,884-1,52040,884
+51960,285,0.05,Positive,51963,Moderating,True,884-1,52040,884
+51962,286,0.05,Positive,51962,Moderating,True,884-2a,52040,884
+51963,287,0.05,Positive,51963,Moderating,True,884-2b,52040,884
+51960,288,0.05,Positive,51962,Moderating,True,884-3a,52040,884
+51961,289,0.05,Positive,51962,Moderating,True,884-3a,52040,884
+51962,290,0.05,Positive,51962,Moderating,True,884-3a,52040,884
+51960,291,0.05,Positive,51963,Moderating,True,884-3b,52040,884
+51961,292,0.05,Positive,51963,Moderating,True,884-3b,52040,884
+51938,293,0.05,has effect,2118,Regular,True,885-1,,885
+51938,294,0.05,,2120,Regular,True,885-1,,885
+51938,295,0.05,,2121,Regular,True,885-1,,885
+51939,296,0.05,Effect,2118,Regular,True,885-1,,885
+51939,297,0.05,Effect,2120,Regular,True,885-1,,885
+51939,298,0.05,Effect,2121,Regular,True,885-1,,885
+51938,299,,Effect,51899,Regular,False,885-2,,885
+51939,300,,Effect,51899,Regular,False,885-2,,885
+51938,301,,Effect,51898,Regular,False,885-2,,885
+51939,302,,Effect,51898,Regular,False,885-2,,885
+51938,303,0.01,Positive,51935,Regular,True,885-3,,885
+51938,304,0.01,Positive,51937,Regular,True,885-3,,885
+51938,305,0.01,Positive,51936,Regular,True,885-3,,885
+51939,306,0.01,Positive,51935,Regular,True,885-3,,885
+51939,307,0.01,Positive,51937,Regular,True,885-3,,885
+51939,308,0.01,Positive,51936,Regular,True,885-3,,885
+51934,309,0.001,Effect,51937,Moderating,True,885-4a,51938,885
+51934,310,0.001,Effect,51933,Moderating,True,885-4a,51938,885
+51934,311,0.001,Effect,51937,Moderating,True,885-4a,51939,885
+51934,312,0.001,Effect,51933,Moderating,True,885-4a,51939,885
+51934,313,,Effect,51898,Moderating,Partial,885-4b,51938,885
+51934,314,,Effect,51899,Moderating,Partial,885-4b,51938,885
+51934,315,,Effect,51898,Moderating,Partial,885-4b,51938,885
+51934,316,,Effect,51935,Moderating,Partial,885-4b,51938,885
+51934,317,,Effect,51936,Moderating,Partial,885-4b,51938,885
+51934,318,,Effect,51898,Moderating,Partial,885-4b,51939,885
+51934,319,,Effect,51899,Moderating,Partial,885-4b,51939,885
+51934,320,,Effect,51898,Moderating,Partial,885-4b,51939,885
+51934,321,,Effect,51935,Moderating,Partial,885-4b,51939,885
+51934,322,,Effect,51936,Moderating,Partial,885-4b,51939,885
+51934,323,,Effect,51933,Moderating,Partial,885-4b,51939,885
+2090,324,0.05,Positive,2089,Regular,True,886-1,,886
+51957,325,,Positive,2090,Regular,False,886-2a,,886
+51959,326,,Positive,2090,Regular,False,886-2a,,886
+2091,327,0.05,Positive,2090,Regular,True,886-2b,,886
+51955,328,0.05,has effect,2089,Mediating,True,886-3,2090,886
+51956,329,0.05,has effect,2089,Mediating,True,886-3,2090,886
+51957,330,0.05,has effect,2089,Mediating,True,886-3,2090,886
+51958,331,0.05,has effect,2089,Mediating,True,886-3,2090,886
+51959,332,0.05,has effect,2089,Mediating,True,886-3,2090,886
+2138,333,,Positive,2135,Regular,Partial,887-1,,887
+2138,334,,Positive,2136,Regular,Partial,887-1,,887
+2138,335,,Has effect,2135,Mediating,Partial,887-2,2139,887
+2138,336,,Has effect,2136,Mediating,Partial,887-2,2139,887
+2138,337,,Has effect,2135,Mediating,Partial,887-2,52014,887
+2138,338,,Has effect,2136,Mediating,Partial,887-2,52014,887
+2112,339,0.05,Positive,2110,Moderator,True,888-1,2113,888
+2111,340,0.01,Has effect,2116,Mediating,True,890-1,2114,890
+2114,341,0.05,Has effect,53550,Mediating,True,890-2,2116,890
+2111,342,0.01,Has effect,2126,Mediating,True,890-3,2125,890
+2125,343,0.01,Has effect,53550,Mediating,True,890-4,2126,890
+2116,344,0.01,Positive,2126,Regular,True,890-5,,890
+2160,345,0.01,Negative,2159,Regular,True,891-1a,,891
+2160,346,,Positive,2159,Regular,False,891-1b,,891
+2161,347,0.001,Positive,2159,Regular,True,891-2a,,891
+2160,348,,Has effect,2159,Moderator,False,891-2b,2161,891
+2164,349,0.001,Positive,2159,Regular,True,891-3a,,891
+2160,350,0.01,Negative,2159,Moderator,True,891-3b,2164,891
+2160,351,,Negative,2159,Moderator,False,891-4,2165,891
+52438,352,0.001,Has effect,52442,Moderator,True,892-1a,52440,892
+52438,353,0.001,Has effect,52442,Moderator,True,892-1b,52440,892
+52438,354,0.001,Has effect,52442,Moderator,True,892-1b,52439,892
+52445,355,0.05,Has effect,52443,Moderator,True,892-1a,52440,892
+52445,356,0.05,Has effect,52443,Moderator,True,892-1b,52440,892
+52445,357,0.05,Has effect,52443,Moderator,True,892-1b,52439,892
+2129,358,0.05,Positive,2131,Regular,True,893-1,,893
+2129,359,0.05,Positive,2132,Regular,True,893-1,,893
+2129,360,0.05,Positive,2133,Regular,True,893-1,,893
+2130,361,0.001,Positive,2131,Regular,True,893-2,,893
+2130,362,0.001,Positive,2132,Regular,True,893-2,,893
+2130,363,0.001,Positive,2133,Regular,True,893-2,,893
+2128,364,0.01,Positive,2131,Regular,True,893-3,,893
+2128,365,0.01,Positive,2132,Regular,True,893-3,,893
+2128,366,0.01,Positive,2133,Regular,True,893-3,,893
+2131,367,0.01,Positive,52158,Regular,True,893-4,,893
+2132,368,0.01,Positive,52158,Regular,True,893-4,,893
+2133,369,0.01,Positive,52158,Regular,True,893-4,,893
+52158,370,0.01,Has effect,2129,Mediating,True,893-5,2131,893
+52158,371,0.01,Has effect,2130,Mediating,True,893-5,2131,893
+52158,372,0.01,Has effect,2128,Mediating,True,893-5,2131,893
+52158,373,0.01,Has effect,2129,Mediating,True,893-5,2132,893
+52158,374,0.01,Has effect,2130,Mediating,True,893-5,2132,893
+52158,375,0.01,Has effect,2128,Mediating,True,893-5,2132,893
+52158,376,0.01,Has effect,2129,Mediating,True,893-5,2133,893
+52158,377,0.01,Has effect,2130,Mediating,True,893-5,2133,893
+52158,378,0.01,Has effect,2128,Mediating,True,893-5,2133,893
+52336,379,,Has effect,2166,Regular,False,1004-1,,1004
+52336,380,0.01,Has effect,52330,Regular,True,1004-1,,1004
+2162,381,0.01,Positive,52330,Regular,True,1004-2,,1004
+52332,382,0.01,Negative,52329,Regular,True,1004-3a,,1004
+52332,383,0.01,Negative,2163,Regular,True,1004-3a,,1004
+52331,384,0.01,Negative,52329,Regular,True,1004-3a,,1004
+52331,385,0.01,Negative,2163,Regular,True,1004-3a,,1004
+52332,386,0.01,Positive,2167,Regular,True,1004-3b,,1004
+52331,387,0.01,Positive,2167,Regular,True,1004-3b,,1004
+52332,388,0.01,Positive,2168,Regular,True,1004-3b,,1004
+52331,389,0.01,Positive,2168,Regular,True,1004-3b,,1004
+52334,390,0.01,Has effect,52329,Moderating,True,1004-4a,2162,1004
+52334,391,0.01,Has effect,2163,Moderating,True,1004-4a,2162,1004
+52334,392,,Has effect,2168,Moderating,False,1004-4b,2162,1004
+52334,393,,Has effect,2167,Moderating,False,1004-4b,2162,1004
+2140,394,0.01,Has effect,2148,Moderating,True,1005-1a,2146,1005
+2140,395,0.05,Has effect,2150,Moderating,True,1005-1a,2146,1005
+2140,396,0.01,Has effect,2148,Moderating,True,1005-1a,2147,1005
+2140,397,0.01,Has effect,2150,Moderating,True,1005-1a,2147,1005
+2140,398,0.01,Has effect,52344,Moderating,Partial,1005-1b,2146,1005
+2140,399,0.01,Has effect,52344,Moderating,Partial,1005-1b,2147,1005
+2140,400,0.01,Has effect,52344,Moderating,Partial,1005-1b,2148,1005
+2140,401,0.01,Has effect,52344,Moderating,Partial,1005-1b,2150,1005
+2140,402,0.01,Has effect,2148,Regular,True,1005-2,,1005
+2146,403,0.05,Has effect,2148,Moderating,True,1005-3,2140,1005
+52355,404,0.05,Has effect,2225,Regular,True,1006-1,,1006
+52355,405,0.05,Has effect,2231,Regular,True,1006-2,,1006
+2231,406,0.01,Positive,2237,Regular,True,1006-3,,1006
+2231,407,0.05,Positive,2236,Regular,True,1006-4,,1006
+2236,408,0.01,Has effect,2231,Moderating,True,1006-5,2224,1006
+52399,409,0.01,Negative,52384,Regular,True,1007-1,,1007
+52398,410,,Negative,52384,Regular,False,1007-2,,1007
+52392,411,0.001,Positive,52384,Regular,True,1007-3,,1007
+52384,412,0.01,Negative,52385,Regular,True,1007-4a,,1007
+52384,413,0.001,Negative,52386,Regular,True,1007-4b,,1007
+52399,414,,Has effect,52385,Mediating,Partial,1007-5a,52384,1007
+52399,415,,Has effect,52386,Mediating,Partial,1007-5b,52384,1007
+52398,416,,Has effect,52386,Mediating,Partial,1007-5b,52384,1007
+52429,417,0.05,Negative,2156,Regular,True,1008-1a,,1008
+52429,418,0.05,Negative,2155,Regular,True,1008-1b,,1008
+2152,419,,Positive,2156,Regular,False,1008-2a,,1008
+2152,420,,Negative,2155,Regular,False,1008-2b,,1008
+2154,421,0.05,Positive,2156,Regular,True,1008-3a,,1008
+2154,422,0.05,Positive,2155,Regular,True,1008-3b,,1008
+2153,423,,Positive,2156,Regular,False,1008-4a,,1008
+2153,424,0.05,Positive,2155,Regular,True,1008-4b,,1008
+2153,425,0.05,Has effect,2156,Moderating,True,1008-5a,2158,1008
+2153,426,,Has effect,2155,Moderating,False,1008-5b,2158,1008
+2181,430,0.01,Negative,2177,Regular,True,1009-2a,,1009
+2182,431,0.01,Positive,2177,Regular,True,1009-2b,,1009
+2183,432,,No effect,2177,Regular,False,1009-2c,,1009
+2178,433,0.05,Negative,2181,Regular,True,1009-3a,,1009
+2178,434,,No effect,2182,Regular,False,1009-3b,,1009
+2178,435,0.01,Negative,2183,Regular,True,1009-3c,,1009
+2179,436,0.01,Positive,2181,Regular,True,1009-4a,,1009
+2179,437,,Positive,2182,Regular,False,1009-4b,,1009
+2179,438,0.01,Positive,2183,Regular,True,1009-4c,,1009
+52452,439,,positive,2171,Moderating,False,1010-1,52454,1010
+52452,440,,positive,2172,Moderating,False,1010-1,52454,1010
+52452,441,,positive,2174,Moderating,False,1010-1,52454,1010
+52452,442,,positive,2180,Moderating,False,1010-1,52454,1010
+52459,443,,positive,2184,Moderating,False,1010-1,52456,1010
+52459,444,,positive,2185,Moderating,False,1010-1,52456,1010
+52459,445,,positive,2186,Moderating,False,1010-1,52456,1010
+52459,446,,positive,2180,Moderating,False,1010-1,52456,1010
+52453,447,,positive,2171,Moderating,False,1010-1,52454,1010
+52453,448,,positive,2172,Moderating,False,1010-1,52454,1010
+52453,449,,positive,2174,Moderating,False,1010-1,52454,1010
+52453,450,,positive,2180,Moderating,False,1010-1,52454,1010
+52460,451,,positive,2171,Moderating,False,1010-1,52456,1010
+52460,452,,positive,2185,Moderating,False,1010-1,52456,1010
+52460,453,,positive,2186,Moderating,False,1010-1,52456,1010
+52460,454,,positive,2180,Moderating,False,1010-1,52456,1010
+52451,455,,positive,2171,Moderating,False,1010-1,52454,1010
+52451,456,,positive,2172,Moderating,False,1010-1,52454,1010
+52451,457,,positive,2174,Moderating,False,1010-1,52454,1010
+52451,458,,positive,2180,Moderating,False,1010-1,52454,1010
+52458,459,,positive,2171,Moderating,False,1010-1,52456,1010
+52458,460,,positive,2185,Moderating,False,1010-1,52456,1010
+52458,461,,positive,2186,Moderating,False,1010-1,52456,1010
+52458,462,,positive,2180,Moderating,False,1010-1,52456,1010
+52452,463,0.05,positive,2171,Moderating,True,1010-2,52455,1010
+52452,464,0.05,positive,2172,Moderating,True,1010-2,52455,1010
+52452,465,0.05,positive,2174,Moderating,True,1010-2,52455,1010
+52452,466,0.05,positive,2180,Moderating,True,1010-2,52455,1010
+52459,467,0.05,positive,2184,Moderating,True,1010-2,52457,1010
+52459,468,0.05,positive,2185,Moderating,True,1010-2,52457,1010
+52459,469,0.05,positive,2186,Moderating,True,1010-2,52457,1010
+52459,470,0.05,positive,2180,Moderating,True,1010-2,52457,1010
+52453,471,0.05,positive,2171,Moderating,True,1010-2,52455,1010
+52453,472,0.05,positive,2172,Moderating,True,1010-2,52455,1010
+52453,473,0.05,positive,2174,Moderating,True,1010-2,52455,1010
+52453,474,0.05,positive,2180,Moderating,True,1010-2,52455,1010
+52460,475,0.05,positive,2184,Moderating,True,1010-2,52457,1010
+52460,476,0.05,positive,2185,Moderating,True,1010-2,52457,1010
+52460,477,0.05,positive,2186,Moderating,True,1010-2,52457,1010
+52460,478,0.05,positive,2180,Moderating,True,1010-2,52457,1010
+52451,479,0.05,positive,2171,Moderating,True,1010-2,52455,1010
+52451,480,0.05,positive,2172,Moderating,True,1010-2,52455,1010
+52451,481,0.05,positive,2174,Moderating,True,1010-2,52455,1010
+52451,482,0.05,positive,2180,Moderating,True,1010-2,52455,1010
+52458,483,0.05,positive,2184,Moderating,True,1010-2,52457,1010
+52458,484,0.05,positive,2185,Moderating,True,1010-2,52457,1010
+52458,485,0.05,positive,2186,Moderating,True,1010-2,52457,1010
+52458,486,0.05,positive,2180,Moderating,True,1010-2,52457,1010
+52453,487,0.01,Has effect,2171,Moderating,True,1010-3,52454,1010
+52453,488,0.01,Has effect,2172,Moderating,True,1010-3,52454,1010
+52453,489,0.01,Has effect,2174,Moderating,True,1010-3,52454,1010
+52453,490,0.01,Has effect,2180,Moderating,True,1010-3,52454,1010
+52452,491,0.01,Has effect,2171,Moderating,True,1010-3,52454,1010
+52452,492,0.01,Has effect,2172,Moderating,True,1010-3,52454,1010
+52452,493,0.01,Has effect,2174,Moderating,True,1010-3,52454,1010
+52452,494,0.01,Has effect,2180,Moderating,True,1010-3,52454,1010
+52453,495,0.01,Has effect,2171,Moderating,True,1010-3,52455,1010
+52453,496,0.01,Has effect,2172,Moderating,True,1010-3,52455,1010
+52453,497,0.01,Has effect,2174,Moderating,True,1010-3,52455,1010
+52453,498,0.01,Has effect,2180,Moderating,True,1010-3,52455,1010
+52451,499,0.01,Has effect,2171,Moderating,True,1010-3,52455,1010
+52451,500,0.01,Has effect,2172,Moderating,True,1010-3,52455,1010
+52451,501,0.01,Has effect,2174,Moderating,True,1010-3,52455,1010
+52451,502,0.01,Has effect,2180,Moderating,True,1010-3,52455,1010
+52460,503,0.01,Has effect,2184,Moderating,True,1010-3,52456,1010
+52460,504,0.01,Has effect,2185,Moderating,True,1010-3,52456,1010
+52460,505,0.01,Has effect,2186,Moderating,True,1010-3,52456,1010
+52460,506,0.01,Has effect,2180,Moderating,True,1010-3,52456,1010
+52459,507,0.01,Has effect,2184,Moderating,True,1010-3,52456,1010
+52459,508,0.01,Has effect,2185,Moderating,True,1010-3,52456,1010
+52459,509,0.01,Has effect,2186,Moderating,True,1010-3,52456,1010
+52459,510,0.01,Has effect,2180,Moderating,True,1010-3,52456,1010
+52460,511,0.01,Has effect,2184,Moderating,True,1010-3,52457,1010
+52460,512,0.01,Has effect,2185,Moderating,True,1010-3,52457,1010
+52460,513,0.01,Has effect,2186,Moderating,True,1010-3,52457,1010
+52460,514,0.01,Has effect,2180,Moderating,True,1010-3,52457,1010
+52458,515,0.01,Has effect,2184,Moderating,True,1010-3,52457,1010
+52458,516,0.01,Has effect,2185,Moderating,True,1010-3,52457,1010
+52458,517,0.01,Has effect,2186,Moderating,True,1010-3,52457,1010
+52458,518,0.01,Has effect,2180,Moderating,True,1010-3,52457,1010
+52453,519,0.01,No effect,2171,Moderating,True,1010-3,52454,1010
+52453,520,0.01,No effect,2172,Moderating,True,1010-3,52454,1010
+52453,521,0.01,No effect,2174,Moderating,True,1010-3,52454,1010
+52453,522,0.01,No effect,2180,Moderating,True,1010-3,52454,1010
+52451,523,0.01,No effect,2171,Moderating,True,1010-3,52454,1010
+52451,524,0.01,No effect,2172,Moderating,True,1010-3,52454,1010
+52451,525,0.01,No effect,2174,Moderating,True,1010-3,52454,1010
+52451,526,0.01,No effect,2180,Moderating,True,1010-3,52454,1010
+52453,527,0.01,No effect,2171,Moderating,True,1010-3,52455,1010
+52453,528,0.01,No effect,2172,Moderating,True,1010-3,52455,1010
+52453,529,0.01,No effect,2174,Moderating,True,1010-3,52455,1010
+52453,530,0.01,No effect,2180,Moderating,True,1010-3,52455,1010
+52452,531,0.01,No effect,2171,Moderating,True,1010-3,52455,1010
+52452,532,0.01,No effect,2172,Moderating,True,1010-3,52455,1010
+52452,533,0.01,No effect,2174,Moderating,True,1010-3,52455,1010
+52452,534,0.01,No effect,2180,Moderating,True,1010-3,52455,1010
+52460,535,0.01,No effect,2184,Moderating,True,1010-3,52456,1010
+52460,536,0.01,No effect,2185,Moderating,True,1010-3,52456,1010
+52460,537,0.01,No effect,2186,Moderating,True,1010-3,52456,1010
+52460,538,0.01,No effect,2180,Moderating,True,1010-3,52456,1010
+52458,539,0.01,No effect,2184,Moderating,True,1010-3,52456,1010
+52458,540,0.01,No effect,2185,Moderating,True,1010-3,52456,1010
+52458,541,0.01,No effect,2186,Moderating,True,1010-3,52456,1010
+52458,542,0.01,No effect,2180,Moderating,True,1010-3,52456,1010
+52460,543,0.01,No effect,2184,Moderating,True,1010-3,52457,1010
+52460,544,0.01,No effect,2185,Moderating,True,1010-3,52457,1010
+52460,545,0.01,No effect,2186,Moderating,True,1010-3,52457,1010
+52460,546,0.01,No effect,2180,Moderating,True,1010-3,52457,1010
+52459,547,0.01,No effect,2184,Moderating,True,1010-3,52457,1010
+52459,548,0.01,No effect,2185,Moderating,True,1010-3,52457,1010
+52459,549,0.01,No effect,2186,Moderating,True,1010-3,52457,1010
+52459,550,0.01,No effect,2180,Moderating,True,1010-3,52457,1010
+52463,551,,Positive,2208,Regular,False,1013-2,,1013
+52464,552,,Positive,2208,Regular,False,1013-2,,1013
+52474,553,0.01,Positive,2208,Regular,True,1013-2,,1013
+2211,554,,Positive,2208,Regular,False,1013-2,,1013
+2210,555,0.001,Positive,2208,Regular,True,1013-2,,1013
+52461,556,,Positive,2208,Regular,False,1013-2,,1013
+52462,557,0.05,Positive,2208,Regular,True,1013-2,,1013
+2209,558,0.001,Positive,2208,Regular,True,1013-2,,1013
+2208,559,0.05,Has effect,52465,Regular,True,1013-3,,1013
+2208,560,0.05,Has effect,52466,Regular,True,1013-3,,1013
+2208,561,0.05,Has effect,52467,Regular,True,1013-3,,1013
+2208,562,0.05,Has effect,52468,Regular,True,1013-3,,1013
+52473,563,0.05,Positive,2208,Regular,True,1013-4,,1013
+52473,564,0.05,Positive,52463,Regular,True,1013-4,,1013
+52473,565,0.05,Positive,52464,Regular,True,1013-4,,1013
+52473,566,0.05,Positive,2210,Regular,True,1013-4,,1013
+52473,567,0.05,Positive,2209,Regular,True,1013-4,,1013
+52473,568,0.05,Positive,52462,Regular,,1013-4,,1013
+2192,569,0.01,Negative,52472,Regular,True,1014-1,,1014
+2192,570,0.01,Positive,2193,Regular,True,1014-2,,1014
+2192,571,,Has effect,52472,Moderating,False,1014-3,52469,1014
+2192,572,0.01,Has effect,52472,Moderating,True,1014-4,52470,1014
+2192,573,,Has effect,2193,Moderating,False,1014-5,52469,1014
+2192,574,0.01,Has effect,2193,Moderating,True,1014-6,52470,1014
+2192,575,0.05,Has effect,2194,Moderating,True,1014-7,52469,1014
+2192,576,0.01,Has effect,2194,Moderating,True,1014-8,52470,1014
+2232,577,0.01,Positive,2229,Regular,True,1016-1,,1016
+2232,578,0.01,Positive,2229,Moderating,True,1016-2,2226,1016
+52562,579,0.05,Has effect,2212,Regular,True,1017-1,,1017
+52562,580,0.05,Has effect,2213,Regular,True,1017-1,,1017
+52562,581,0.05,Has effect,2214,Regular,True,1017-1,,1017
+52562,582,0.05,Has effect,2215,Regular,True,1017-1,,1017
+52562,583,0.05,Has effect,2216,Regular,True,1017-1,,1017
+52562,584,0.05,Has effect,2212,Regular,True,1017-2,,1017
+52562,585,0.05,Has effect,2213,Regular,True,1017-2,,1017
+52562,586,0.05,Has effect,2214,Regular,True,1017-2,,1017
+52562,587,0.05,Has effect,2215,Regular,True,1017-2,,1017
+52562,588,0.05,Has effect,2216,Regular,True,1017-2,,1017
+52487,589,0.05,Has effect,52490,Moderating,True,1018-1,52488,1018
+52486,590,0.05,Has effect,52490,Moderating,True,1018-1,52488,1018
+52487,591,0.05,Has effect,52490,Moderating,True,1018-1,52489,1018
+52486,592,0.05,Has effect,52490,Moderating,True,1018-1,52489,1018
+52487,593,0.01,Has effect,2283,Moderating,True,1018-2,52488,1018
+52487,594,0.01,Has effect,2283,Moderating,True,1018-2,52488,1018
+52486,595,0.01,Has effect,2283,Moderating,True,1018-2,52489,1018
+52486,596,0.01,Has effect,2283,Moderating,True,1018-2,52489,1018
+52487,597,0.05,Has effect,52490,Mediating,True,1018-3,2283,1018
+52491,598,0.01,Positive,52493,Regular,True,1019-1,,1019
+52492,599,0.01,Positive,52494,Regular,True,1019-1,,1019
+52491,600,0.05,Has effect,52493,Moderating,True,1019-2,2286,1019
+52492,601,0.05,Has effect,52494,Moderating,True,1019-2,2286,1019
+52491,602,0.05,Has effect,52493,Moderating,True,1019-3,2287,1019
+52492,603,0.05,Has effect,52494,Moderating,True,1019-3,2287,1019
+2289,604,0.05,Positive,52496,Regular,True,1020-1,,1020
+2289,605,0.05,Positive,52498,Regular,True,1020-1,,1020
+2289,606,0.05,Positive,2291,Regular,True,1020-2,,1020
+52495,607,0.05,Positive,2291,Regular,True,1020-2,,1020
+52497,608,0.05,Positive,2290,Regular,True,1020-3,,1020
+52498,609,0.05,Positive,52496,Regular,True,1020-3,,1020
+2289,610,0.05,Has effect,52496,Mediating,True,1020-4,52498,1020
+52496,611,0.01,Negative,2292,Regular,True,1020-5a,,1020
+2290,612,,Positive,2292,Regular,False,1020-5b,,1020
+2291,613,0.05,Has effect,2292,Regular,True,1020-6a,,1020
+2291,614,0.05,No effect,2292,Moderating?,True,1020-6b,52495,1020
+52525,652,0.05,Positive,2312,Regular,True,1023-1a,,1023
+52525,653,0.05,Positive,2312,Regular,True,1023-1a,,1023
+52525,654,0.05,Positive,2315,Regular,True,1023-1b,,1023
+52525,655,0.05,Positive,2315,Regular,True,1023-1b,,1023
+52525,656,0.05,Positive,2317,Regular,True,1023-1c,,1023
+52525,657,0.05,Positive,2317,Regular,True,1023-1c,,1023
+52525,658,0.001,Positive,2306,Regular,True,1023-2,,1023
+52525,659,0.001,Positive,2306,Regular,True,1023-2,,1023
+2312,660,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2312,661,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2315,662,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2315,663,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2317,664,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2317,665,,Has effect,2306,Moderating,False,1023-3,52525,1023
+2312,666,0.05,Positive,2306,Moderating,True,1023-4a,52525,1023
+2312,667,0.05,Positive,2306,Moderating,True,1023-4a,52525,1023
+2315,668,0.01,Positive,2306,Moderating,True,1023-4b,52525,1023
+2315,669,0.01,Positive,2306,Moderating,True,1023-4b,52525,1023
+2317,670,,Positive,2306,Moderating,False,1023-4c,52525,1023
+2317,671,,Positive,2306,Moderating,False,1023-4c,52525,1023
+2307,672,0.001,Positive,2306,Moderating,True,1023-4d,52525,1023
+2307,673,0.001,Positive,2306,Moderating,True,1023-4d,52525,1023
+2308,674,0.05,Positive,2306,Moderating,True,1023-4d,52525,1023
+2308,675,0.001,Positive,2306,Moderating,True,1023-4d,52525,1023
+2309,676,0.05,Positive,2306,Moderating,True,1023-4e,52525,1023
+2309,677,0.01,Positive,2306,Moderating,True,1023-4e,52525,1023
+2318,678,0.01,Positive,2306,Moderating,True,1023-5a,52525,1023
+2318,679,0.01,Positive,2306,Moderating,True,1023-5a,52525,1023
+2319,680,0.01,Positive,2306,Moderating,True,1023-5b,52525,1023
+2319,681,0.01,Positive,2306,Moderating,True,1023-5b,52525,1023
+2318,682,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2319,683,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2318,684,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2319,685,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2312,686,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2315,687,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2317,688,0.01,Positive,2306,Moderating,True,1023-6,52525,1023
+2327,689,0.01,Positive,2339,Regular,Partial,1024-1,,1024
+2328,690,0.01,Positive,2339,Regular,Partial,1024-1,,1024
+2327,691,0.05,Has effect,2339,Mediating,Partial,1024-2,2330,1024
+2327,692,0.05,Has effect,2339,Mediating,Partial,1024-2,2335,1024
+2327,693,0.05,Has effect,2339,Mediating,Partial,1024-2,2338,1024
+2328,694,0.05,Has effect,2339,Mediating,Partial,1024-2,2330,1024
+2328,695,0.05,Has effect,2339,Mediating,Partial,1024-2,2335,1024
+2328,696,0.05,Has effect,2339,Mediating,Partial,1024-2,2338,1024
+2328,697,,Has effect,2339,Mediating,False,1024-3,2329,1024
+2327,698,0.05,Has effect,2339,Moderating,True,1024-4,2329,1024
+2339,699,0.05,Positive,2340,Regular,True,1024-5,,1024
+2339,700,0.05,Positive,2341,Regular,True,1024-5,,1024
+2344,701,0.05,Positive,2342,Regular,True,1025-1,,1025
+52630,702,0.05,Positive,2343,Regular,True,1025-1,,1025
+2345,703,0.05,Positive,2342,Regular,True,1025-2,,1025
+52632,704,0.01,Positive,2343,Regular,True,1025-2,,1025
+2346,705,,Positive,2342,Regular,False,1025-3,,1025
+2347,706,0.05,Positive,2343,Regular,True,1025-3,,1025
+2348,707,,Positive,2342,Regular,False,1025-4,,1025
+52633,708,,Positive,2343,Regular,False,1025-4,,1025
+2350,709,0.05,Positive,2351,Regular,True,1027-1a,,1027
+2350,710,0.05,Positive,53154,Regular,True,1027-1b,,1027
+2350,711,0.05,Positive,53153,Regular,True,1027-1c,,1027
+2350,712,0.05,Has effect,2351,Moderating,True,1027-2,2352,1027
+2350,713,0.05,Has effect,53154,Moderating,True,1027-2,2352,1027
+2350,714,0.05,Has effect,53153,Moderating,True,1027-2,2352,1027
+52710,715,0.05,Has effect,2434,LGB supervisors,True,1028-1a,2451,1028
+52710,716,,Has effect,2451,Regular,False,1028-1c,,1028
+52711,717,0.001,Has effect,2451,Regular,True,1028-1d,,1028
+2436,718,0.001,Has effect,2434,Moderating,True,1028-2a,2451,1028
+52717,719,0.001,Has effect,2434,Moderating,True,1028-2b,2451,1028
+2436,720,0.05,Has effect,2451,Regular,True,1028-2c,,1028
+52717,721,0.001,Has effect,2451,Regular,True,1028-2d,,1028
+2435,722,0.001,Has effect,2434,Moderating,True,1028-3a,2451,1028
+2435,723,,Has effect,2451,Regular,False,1028-3b,,1028
+2434,724,0.001,Has effect,2441,Regular,True,1028-4,,1028
+2434,725,0.001,Has effect,2442,Regular,True,1028-4,,1028
+2434,726,0.001,Has effect,2443,Regular,True,1028-4,,1028
+2434,727,0.001,Has effect,2444,Regular,True,1028-4,,1028
+2434,728,0.001,Has effect,2445,Regular,True,1028-4,,1028
+2434,729,0.001,Has effect,2446,Regular,True,1028-4,,1028
+2434,730,0.05,Has effect,2447,Regular,True,1028-4,,1028
+2434,731,0.001,Has effect,2448,Regular,True,1028-4,,1028
+2434,732,0.001,Has effect,2449,Regular,True,1028-4,,1028
+2434,733,0.001,Has effect,2450,Regular,True,1028-4,,1028
+2434,734,0.001,Has effect,52713,Regular,True,1028-4,,1028
+2434,735,0.001,Has effect,52714,Regular,True,1028-4,,1028
+2434,736,0.001,Has effect,52715,Regular,True,1028-4,,1028
+2434,737,0.001,Has effect,52716,Regular,True,1028-4,,1028
+2367,738,0.001,Positive,2372,Mediating,True,1031-1,2370,1031
+2367,739,0.001,Positive,2370,Moderating,True,1031-2,2371,1031
+2367,740,0.001,Positive,2370,Moderating,True,1031-3,2369,1031
+2380,741,0.05,Positive,52769,Regular,True,1033-1,,1033
+2380,742,0.05,Positive,52770,Regular,True,1033-1,,1033
+2380,743,0.05,Positive,52771,Regular,True,1033-1,,1033
+2383,744,0.05,Negative,52769,Regular,True,1033-1,,1033
+2383,745,0.05,Negative,52770,Regular,True,1033-1,,1033
+2383,746,0.05,Negative,52771,Regular,True,1033-1,,1033
+2380,747,0.001,Has effect,52769,Moderating,True,1033-2,2381,1033
+2380,748,0.001,Has effect,52770,Moderating,True,1033-2,2381,1033
+2380,749,0.001,Has effect,52771,Moderating,True,1033-2,2381,1033
+2380,750,0.001,Has effect,52769,Moderating,True,1033-2,2382,1033
+2380,751,0.001,Has effect,52770,Moderating,True,1033-2,2382,1033
+2380,752,0.001,Has effect,52771,Moderating,True,1033-2,2382,1033
+2383,753,0.001,Has effect,52769,Moderating,True,1033-2,2382,1033
+2383,754,0.001,Has effect,52770,Moderating,True,1033-2,2382,1033
+2383,755,0.001,Has effect,52771,Moderating,True,1033-2,2382,1033
+2383,756,0.001,Has effect,52769,Moderating,True,1033-2,2381,1033
+2383,757,0.001,Has effect,52770,Moderating,True,1033-2,2381,1033
+2383,758,0.001,Has effect,52771,Moderating,True,1033-2,2381,1033
+2380,759,,Negative,52769,Moderating,False,1033-3,2383,1033
+2380,760,,Negative,52770,Moderating,False,1033-3,2383,1033
+2380,761,,Negative,52771,Moderating,False,1033-3,2383,1033
+2384,762,0.01,Positive,2386,Regular,True,1034-1,,1034
+52789,763,0.01,Positive,2386,Regular,True,1034-1,,1034
+2386,764,0.05,Positive,2387,Regular,True,1034-2,,1034
+2384,765,0.01,Positive,52790, ,True,1034-3,,1034
+52789,766,0.05,Positive,52790, ,True,1034-3,,1034
+52798,767,0.05,Positive,2393,Regular,partial,1035-1a,,1035
+52798,768,0.05,Positive,2393,Moderating,partial,1035-1b,,1035
+2390,769,,Positive,2393,Regular,False,1035-2,,1035
+52799,770,0.01,Positive,2393,Regular,True,1035-3a,,1035
+52800,771,0.05,Negative,2393,Regular,True,1035-3b,,1035
+2392,772,,Positive,2393,Regular,False,1035-4,,1035
+2394,773,0.05,Positive,2393,Regular,True,1035-5a,,1035
+2395,774,,Positive,2393,Regular,False,1035-5b,,1035
+2391,775,0.05,No effect,2393,Regular,True,1035-5c,,1035
+2402,776,0.05,positive,2399,Regular,True,1036-1a,,1036
+2402,777,,Negative,2400,Regular,False,1036-1b,,1036
+2403,778,,Negative,2399,Regular,False,1036-1c,,1036
+2403,779,0.05,positive,2400,Regular,True,1036-1d,,1036
+2404,780,0.05,Positive,2399,Regular,True,1036-2a,,1036
+2404,781,0.05,Negative,2400,Regular,True,1036-2b,,1036
+2405,782,0.05,Positive,2399,Regular,True,1036-2c,,1036
+2405,783,,Negative,2400,Regular,False,1036-2d,,1036
+2406,784,,Positive,2399,Regular,False,1036-3a,,1036
+2406,785,,Negative,2400,Regular,False,1036-3b,,1036
+2406,786,0.05,Positive,2399,Regular,True,1036-3c,,1036
+2406,787,,Negative,2400,Regular,False,1036-3d,,1036
+52809,788,,Negative,2399,Regular,False,1036-4a,,1036
+52809,789,0.05,Positive,2400,Regular,True,1036-4b,,1036
+52809,790,0.05,Negative,2399,Regular,True,1036-4c,,1036
+52809,791,0.05,Positive,2400,Regular,True,1036-4d,,1036
+52949,792,0.05,Positive,2399,Regular,True,1036-5,,1036
+52811,793,0.01,Positive,52816,Regular,True,1037-1,,1037
+52812,794,0.01,Positive,52816,Regular,True,1037-1,,1037
+52813,795,0.01,Negative,52816,Regular,True,1037-1,,1037
+52814,796,0.01,Positive,52815,Regular,True,1037-2,,1037
+52815,797,0.01,Positive,52815,Regular,True,1037-2,,1037
+52816,798,0.01,Negative,52815,Regular,True,1037-2,,1037
+52817,799,0.01,Positive,52814,Regular,True,1037-3,,1037
+52818,800,0.05,No effect,52814,Regular,True,1037-3,,1037
+52819,801,0.05,No effect,52814,Regular,True,1037-3,,1037
+52817,802,0.05,Has effect,3213,Mediator,True,1037-4,52816,1037
+52817,803,0.05,Has effect,3213,Mediator,True,1037-4,52815,1037
+52817,804,0.05,Has effect,3213,Mediator,True,1037-4,52814,1037
+52817,805,0.05,Has effect,3212,Mediator,True,1037-4,52816,1037
+52817,806,0.05,Has effect,3212,Mediator,True,1037-4,52815,1037
+52817,807,0.05,Has effect,3212,Mediator,True,1037-4,52814,1037
+52818,808,0.05,Has effect,3213,Mediator,True,1037-5,52816,1037
+52818,809,0.05,Has effect,3213,Mediator,True,1037-5,52815,1037
+52818,810,0.05,Has effect,3212,Mediator,True,1037-5,52816,1037
+52818,811,0.05,Has effect,3212,Mediator,True,1037-5,52815,1037
+2956,812,0.01,Positive,2959,Moderating,True,1054-1,2953,1054
+2418,813,0.001,Positive,2421,Regular,True,1055-1,,1055
+2419,814,0.001,Positive,2421,Regular,True,1055-1,,1055
+2418,815,0.001,Positive,2422,Regular,True,1055-1,,1055
+2419,816,0.05,Positive,2422,Regular,True,1055-1,,1055
+2418,817,0.001,Positive,2423,Mediator,True,1055-2,2421,1055
+2419,818,0.05,Positive,2423,Mediator,True,1055-2,2421,1055
+2418,819,0.001,Positive,2423,Mediator,True,1055-2,2422,1055
+2419,820,0.05,Positive,2423,Mediator,True,1055-2,2422,1055
+2422,821,0.001,Has effect,2423,Regular,True,1055-3,,1055
+2421,822,NULL,Has effect,,Regular,False,1055-3,,1055
+52899,823,0.001,Positive,2418,Regular,True,1055-4a,,1055
+52899,824,0.001,Positive,2421,Mediator,True,1055-4b,2418,1055
+52899,825,0.01,Positive,2422,Mediator,True,1055-4b,2418,1055
+52901,826,0.01,Positive,2419,Regular,True,1055-5a,,1055
+52904,827,0.001,Positive,2419,Regular,True,1055-5a,,1055
+52901,828,0.1,Positive,2421,Mediator,True,1055-5b,2419,1055
+52904,829,0.1,Positive,2421,Mediator,True,1055-5b,2419,1055
+52901,830,0.05,Positive,2422,Mediator,True,1055-5b,2419,1055
+52904,831,0.05,Positive,2422,Mediator,True,1055-5b,2419,1055
+2247,832,0.01,Positive,2249,Regular,True,1056-1,,1056
+2246,833,0.01,Positive,2249,Regular,True,1056-2,,1056
+2249,834,0.01,Positive,2252,Regular,True,1056-3,,1056
+2249,835,0.01,Positive,2254,Regular,True,1056-4,,1056
+2246,836,0.05,Has effect,2252,Mediator,True,1056-5,2249,1056
+2247,837,0.01,Has effect,2252,Mediator,True,1056-5,2249,1056
+2246,838,0.01,Has effect,2254,Mediator,True,1056-5,2249,1056
+2247,839,0.01,Has effect,2254,Mediator,True,1056-5,2249,1056
+52900,840,0.01,Positive,2250,Regular,True,1056-6,,1056
+2248,841,0.01,Positive,2250,Regular,True,1056-7,,1056
+2247,842,0.01,Negative,2250,Regular,True,1056-8,,1056
+2250,843,0.01,Negative,2252,Regular,True,1056-9,,1056
+2250,844,,Negative,2254,Regular,False,1056-0,,1056
+52900,845,0.06,has effect,2252,Mediator,Partially supported,1056-1,2250,1056
+2248,846,0.05,has effect,2252,Mediator,True,1056-1,,1056
+2247,847,0.05,has effect,2252,Mediator,True,1056-1,,1056
+2248,848,NULL,Negative,2250,Moderator,False,1056-2,2246,1056
+2248,849,NULL,Negative,2250,Moderator,False,1056-2,2247,1056
+52900,850,NULL,Negative,2250,Moderator,False,1056-3,2246,1056
+52900,851,NULL,Negative,2250,Moderator,False,1056-3,2247,1056
+2246,852,NULL,Positive,2249,Moderator,False,1056-4,2248,1056
+2246,853,NULL,Positive,2249,Moderator,False,1056-4,52900,1056
+2247,854,NULL,Positive,2249,Moderator,False,1056-5,2248,1056
+2247,855,NULL,Positive,2249,Moderator,False,1056-5,52900,1056
+2255,856,0.001,Positive,2261,Regular,True,1057-1,NULL,1057
+2261,857,0.001,Positive,2262,Regular,True,1057-2,NULL,1057
+2261,858,0.001,Positive,2262,Regular,True,1057-2,NULL,1057
+2255,859,0.001,Has effect,2262,Mediator,True,1057-3,2261,1057
+2255,860,0.001,Has effect,2262,Mediator,True,1057-3,2261,1057
+2257,861,0.05,Positive,2256,Regular,True,1057-4,,1057
+2255,862,0.001,Positive,2261,Moderator,True,1057-5,2256,1057
+52943,863,0.05,Positive,52944,Mediate,TRUE--partially supported,1058-1,2452,1058
+52942,864,0.05,Positive,52945,Mediate,True,1058-1,2453,1058
+52943,865,0.05,Positive,2452,Mediate,True,1058-2,52942,1058
+52943,866,0.05,Positive,2452,Mediate,True,1058-2,2453,1058
+2453,867,,Positive,52944,Mediate,False,1058-3,2452,1058
+2453,868,,Positive,52944,Mediate,False,1058-3,52945,1058
+52942,869,0.05,Positive,2452,Moderate,True,1058-4,52943,1058
+2452,870,0.05,Negative,52944,Moderate,TRUE--partially supported,1058-5,2453,1058
+2424,871,0.01,Has effect,2433,Mediator,True,1060-1,2428,1060
+2424,872,0.01,Has effect,2432,Mediator,True,1060-1,2428,1060
+2425,873,0.01,Has effect,2433,Mediator,True,1060-1,2428,1060
+2425,874,0.01,Has effect,2432,Mediator,True,1060-1,2428,1060
+2424,875,0.01,Has effect,2433,Moderate,True,1060-1,2429,1060
+2424,876,0.01,Has effect,2432,Moderate,True,1060-1,2429,1060
+2424,877,0.01,Has effect,2433,Moderate,True,1060-1,2430,1060
+2424,878,0.01,Has effect,2432,Moderate,True,1060-1,2430,1060
+2425,879,0.01,Has effect,2433,Moderate,True,1060-1,2429,1060
+2425,880,0.01,Has effect,2432,Moderate,True,1060-1,2429,1060
+2425,881,0.01,Has effect,2433,Moderate,True,1060-1,2430,1060
+2425,882,0.01,Has effect,2432,Moderate,True,1060-1,2430,1060
+2426,883,0.01,Has effect,2433,Mediator,True,1060-2,2428,1060
+2426,884,0.01,Has effect,2432,Mediator,True,1060-2,2428,1060
+2427,885,0.01,Has effect,2433,Mediator,True,1060-2,2428,1060
+2427,886,0.01,Has effect,2432,Mediator,True,1060-2,2428,1060
+2426,887,0.01,Has effect,2433,Moderate,True,1060-2,2429,1060
+2426,888,0.01,Has effect,2432,Moderate,True,1060-2,2429,1060
+2426,889,0.01,Has effect,2433,Moderate,True,1060-2,2430,1060
+2426,890,0.01,Has effect,2432,Moderate,True,1060-2,2430,1060
+2427,891,0.01,Has effect,2433,Moderate,True,1060-2,2429,1060
+2427,892,0.01,Has effect,2432,Moderate,True,1060-2,2429,1060
+2427,893,0.01,Has effect,2433,Moderate,True,1060-2,2430,1060
+2427,894,0.01,Has effect,2432,Moderate,True,1060-2,2430,1060
+2462,895,0.05,Positive,2458,Moderating,True,1063-1,2461,1063
+2462,896,0.05,Positive,2459,Moderating,True,1063-2,2461,1063
+2461,897,0.01,Has effect,2459,Mediating,True,1063-3,2458,1063
+2467,898,0.05,Has effect,2460,Moderating,Partial,1063-4,2461,1063
+2467,899,0.05,Has effect,2460,Moderating,Partial,1063-4,2462,1063
+52997,900,0.05,Has effect,52999,Moderator,True,1064-1,2470,1064
+52997,901,0.05,Has effect,52999,Moderator,True,1064-1,52996,1064
+52997,902,0.01,Has effect,2472,Moderator,True,1064-2a,2470,1064
+52997,903,0.01,Has effect,2472,Moderator,True,1064-2a,52996,1064
+52997,904,,has effect,52999,Mediated moderation,False,1064-2b,2472,1064
+52997,905,0.001,Has effect,2473,Moderator,True,1064-3a,2470,1064
+52997,906,0.001,Has effect,2473,Moderator,True,1064-3a,52996,1064
+52997,907,0.05,Has effect,52999,Mediated moderation,True,1064-3b,2473,1064
+52997,908,0.05,Has effect,2474,moderator,True,1064-4a,2470,1064
+52997,909,0.05,Has effect,2474,moderator,True,1064-4a,52996,1064
+52997,910,0.05,Has effect,52999,Mediated moderation,True,1064-4b,2474,1064
+53000,911,0.05,Positive,2495,Moderating,True,1066-1,2497,1066
+53000,912,0.05,positive,2496,Moderating,True,1066-2,2497,1066
+2509,913,0.001,positive,2516,Regular,true,1068-1,,1068
+2517,914,0.001,Has effect,53005,Regular,true,1068-2,,1068
+2517,915,0.001,Has effect,2516,Regular,true,1068-3,,1068
+2517,916,0.01,Has effect,2516,Mediating,true,1068-4,53005,1068
+2517,917,,has effect,53005,regular,False,1068-5,,1068
+2517,918,0.001,has effect,2516,Moderating,true,1068-6,2511,1068
+2517,919,,Has effect,53005,Moderating,False,1068-7,,1068
+2517,920,,Has effect,2516,Moderating,False,1068-7,,1068
+21100,921,No,Positive,21095,Regular,,6175-1a,,6175
+21100,922,No,Positive,21096,Regular,,6175-1a,,6175
+21097,923,0.01,Positive,21095,Regular,,6175-1b,,6175
+21097,924,0.04,Positive,21096,Regular,,6175-1b,,6175
+21097,925,No,Positive,21095,Regular,,6175-2a,,6175
+21099,926,0.05,Positive,21096,Regular,,6175-2a,,6175
+21098,927,0.02,Negative,21095,Regular,,6175-2b,,6175
+21098,928,No,Negative,21096,Regular,,6175-2b,,6175
+21103,929,No,Negative,21100,Regular,,6175-3a,,6175
+21103,930,No,Negative,21097,Regular,,6175-3b,,6175
+21103,931,0.01,Negative,21099,Regular,,6175-3c,,6175
+21103,932,No,Negative,21098,Regular,,6175-3d,,6175
+21101,933,0.01,Positive,21100,Regular,,6175-3e,,6175
+21101,934,0.01,Positive,21097,Regular,,6175-3f,,6175
+21101,935,No,Positive,21099,Regular,,6175-3g,,6175
+21101,936,No,Positive,21098,Regular,,6175-3h,,6175
+21102,937,0.01,Positive,21100,Regular,,6175-3i,,6175
+21102,938,0.01,Positive,21097,Regular,,6175-3j,,6175
+21102,939,0.01,Positive,21099,Regular,,6175-3k,,6175
+21102,940,0.01,Positive,21098,Regular,,6175-3l,,6175
+21104,941,No,Positive,21100,Regular,,6175-4a,,6175
+21104,942,No,Positive,21097,Regular,,6175-4b,,6175
+21104,943,No,Positive,21099,Regular,,6175-4c,,6175
+21104,944,No,Negative,21098,Regular,,6175-4d,,6175
+21106,945,No,Positive,21100,Regular,,6175-4e,,6175
+21106,946,No,Positive,21097,Regular,,6175-4f,,6175
+21106,947,0.03,Positive,21099,Regular,,6175-4g,,6175
+21106,948,No,Negative,21098,Regular,,6175-4h,,6175
+21105,949,No,Positive,21100,Regular,,6175-4i,,6175
+21105,950,No,Positive,21097,Regular,,6175-4j,,6175
+21105,951,No,Positive,21099,Regular,,6175-4k,,6175
+21105,952,No,Negative,21098,Regular,,6175-4l,,6175
+48900,953,0.01,Positive,48906,Regular,,6177-1a,,6177
+48901,954,0.01,Positive,48906,Regular,,6177-1a,,6177
+48900,955,No,Positive,48907,Regular,,6177-1a,,6177
+48901,956,No,Positive,48907,Regular,,6177-1a,,6177
+48900,957,No,Positive,48909,Regular,,6177-1a,,6177
+48901,958,No,Positive,48909,Regular,,6177-1a,,6177
+48900,959,No,Positive,48908,Regular,,6177-1a,,6177
+48901,960,No,Positive,48908,Regular,,6177-1a,,6177
+48900,961,No,Positive,48910,Regular,,6177-1a,,6177
+48901,962,No,Positive,48910,Regular,,6177-1a,,6177
+48900,963,0.01,Positive,48906,Mediator,,6177-1b,48904,6177
+48901,964,0.01,Positive,48906,Mediator,,6177-1b,48904,6177
+48900,965,No,Positive,48907,Mediator,,6177-1b,48904,6177
+48901,966,No,Positive,48907,Mediator,,6177-1b,48904,6177
+48900,967,No,Positive,48909,Mediator,,6177-1b,48904,6177
+48901,968,No,Positive,48909,Mediator,,6177-1b,48904,6177
+48900,969,No,Positive,48910,Mediator,,6177-1b,48904,6177
+48901,970,No,Positive,48910,Mediator,,6177-1b,48904,6177
+48900,971,0.01,Positive,48906,Mediator,,6177-1b,48905,6177
+48901,972,0.01,Positive,48906,Mediator,,6177-1b,48905,6177
+48900,973,No,Positive,48907,Mediator,,6177-1b,48905,6177
+48901,974,No,Positive,48907,Mediator,,6177-1b,48905,6177
+48901,975,No,Positive,48910,Mediator,,6177-1b,48905,6177
+48900,976,No,Positive,48910,Mediator,,6177-1b,48905,6177
+48901,977,No,Positive,48909,Mediator,,6177-1b,48905,6177
+48900,978,No,Positive,48909,Mediator,,6177-1b,48905,6177
+48902,979,0.01,Positive,48906,Regular,,6177-2a,,6177
+48903,980,0.01,Positive,48906,Regular,,6177-2a,,6177
+48902,981,No,Positive,48907,Regular,,6177-2a,,6177
+48903,982,No,Positive,48907,Regular,,6177-2a,,6177
+48902,983,No,Positive,48909,Regular,,6177-2a,,6177
+48903,984,No,Positive,48909,Regular,,6177-2a,,6177
+48902,985,No,Positive,48908,Regular,,6177-2a,,6177
+48903,986,No,Positive,48908,Regular,,6177-2a,,6177
+48902,987,No,Positive,48910,Regular,,6177-2a,,6177
+48903,988,No,Positive,48910,Regular,,6177-2a,,6177
+48902,989,0.01,Positive,48906,Mediator,,6177-2b,48904,6177
+48903,990,0.01,Positive,48906,Mediator,,6177-2b,48904,6177
+48902,991,No,Positive,48907,Mediator,,6177-2b,48904,6177
+48903,992,No,Positive,48907,Mediator,,6177-2b,48904,6177
+48902,993,No,Positive,48909,Mediator,,6177-2b,48904,6177
+48903,994,No,Positive,48909,Mediator,,6177-2b,48904,6177
+48902,995,No,Positive,48910,Mediator,,6177-2b,48904,6177
+48903,996,No,Positive,48910,Mediator,,6177-2b,48904,6177
+48902,997,0.01,Positive,48906,Mediator,,6177-2b,48905,6177
+48903,998,0.01,Positive,48906,Mediator,,6177-2b,48905,6177
+48902,999,No,Positive,48909,Mediator,,6177-2b,48905,6177
+48903,1000,No,Positive,48909,Mediator,,6177-2b,48905,6177
+48902,1001,No,Positive,48907,Mediator,,6177-2b,48905,6177
+48903,1002,No,Positive,48907,Mediator,,6177-2b,48905,6177
+48902,1003,No,Positive,48910,Mediator,,6177-2b,48905,6177
+48903,1004,No,Positive,48910,Mediator,,6177-2b,48905,6177
+21040,1005,0.05,,21074,Regular,,6178-1,,6178
+21040,1006,0.01,,50053,Regular,,6178-2,,6178
+21040,1007,0.1 (weakly supported),,21049,Regular,,6178-3,,6178
+21040,1008,0.001,,21041,Regular,,6178-4,,6178
+21040,1009,No,,21042,Regular,,6178-5,,6178
+21040,1010,0.001,,21043,Regular,,6178-6,,6178
+21040,1011,0.001,,21044,Regular,,6178-7,,6178
+21052,1012,0.1 (weakly supported),,21045,Regular,,6178-8,,6178
+21052,1013,No,,21046,Regular,,6178-9,,6178
+21052,1014,0.001,,50053,Regular,,6178-0,,6178
+21052,1015,0.001,,21049,Regular,,6178-1,,6178
+50238,1016,0.01,Negative,21332,Regular,,6179-1,,6179
+50237,1017,0.0001,Negative,21332,Regular,,6179-2,,6179
+21324,1018,,Positive,21331,Moderator,,6179-3a,50239,6179
+21324,1019,Partially supported,Negative,21332,Moderator,,6179-3b,50239,6179
+21326,1020,No,Has effect,21331,Moderator,,6179-3c,50239,6179
+21326,1021,No,Has effect,21332,Moderator,,6179-3d,50239,6179
+21329,1022,Partially supported,Positive,21331,Moderator,,6179-3e,50239,6179
+21329,1023,0.05,Negative,21332,Moderator,,6179-3f,50239,6179
+21087,1024,No,Doesn't have affect,21081,Regular,,6181-1,,6181
+21088,1025,No,Doesn't have affect,21081,Regular,,6181-1,,6181
+21087,1026,No,Has effect,21081,Regular,,6181-2,21093,6181
+21088,1027,No,Has effect,21081,Regular,,6181-2,21093,6181
+21089,1028,No,Has effect,21081,Regular,,6181-2,21093,6181
+21087,1029,No,Has effect,21081,Regular,,6181-3,21091,6181
+21088,1030,No,Has effect,21081,Regular,,6181-3,21091,6181
+21087,1031,No,Has effect,21081,Regular,,6181-4,21092,6181
+21088,1032,No,Has effect,21081,Regular,,6181-4,21092,6181
+21374,1033,0.05,Has effect,21363,Regular,,6182-1,,6182
+21375,1034,0.05,Has effect,21363,Regular,,6182-1,,6182
+21376,1035,No,Has effect,21363,Regular,,6182-1,,6182
+21374,1036,No,Has effect,21364,Regular,,6182-2,,6182
+21375,1037,No,Has effect,21364,Regular,,6182-2,,6182
+21376,1038,No,Has effect,21364,Regular,,6182-2,,6182
+21374,1039,No,Has effect,50267,Regular,,6182-2,,6182
+21375,1040,No,Has effect,50267,Regular,,6182-2,,6182
+21376,1041,No,Has effect,50267,Regular,,6182-2,,6182
+21374,1042,Partially supported,Has effect,21364,Mediator,,6182-3,50268,6182
+21375,1043,Partially supported,Has effect,21364,Mediator,,6182-3,50268,6182
+21376,1044,Partially supported,Has effect,21364,Mediator,,6182-3,50268,6182
+21374,1045,0.05,No relationship,21363,Mediator,,6182-3,50268,6182
+21375,1046,0.05,No relationship,21363,Mediator,,6182-3,50268,6182
+21376,1047,0.05,No relationship,21363,Mediator,,6182-3,50268,6182
+21374,1048,0.01,No relationship,50267,Mediator,,6182-3,50268,6182
+21375,1049,0.01,No relationship,50267,Mediator,,6182-3,50268,6182
+21376,1050,0.01,No relationship,50267,Mediator,,6182-3,50268,6182
+27544,1051,0.05,Has a difference,27545,Regular,,6186-1,,6186
+27544,1052,0.05,Has a difference,27546,Regular,,6186-1,,6186
+27545,1053,0.05,Has a difference,27544,Regular,,6186-1,,6186
+27547,1054,Not supported,Has an effect,27545,Regular,,6186-2,,6186
+27547,1055,0.05,Has an effect,27546,Regular,,6186-2,,6186
+27547,1056,Not supported,Has an effect,27544,Regular,,6186-2,,6186
+27548,1057,Not supported,Has an effect,27545,Regular,,6186-3,,6186
+27548,1058,0.05,Has an effect,27546,Regular,,6186-3,,6186
+27548,1059,Not supported,Has an effect,27544,Regular,,6186-3,,6186
+27549,1060,Not supported,Has an effect,27545,Regular,,6186-4,,6186
+27549,1061,Not supported,Has an effect,27546,Regular,,6186-4,,6186
+27549,1062,Not supported,Has an effect,27544,Regular,,6186-4,,6186
+27550,1063,Not supported,Has an effect,27545,Regular,,6186-5,,6186
+27550,1064,Not supported,Has an effect,27546,Regular,,6186-5,,6186
+27550,1065,Not supported,Has an effect,27544,Regular,,6186-5,,6186
+50856,1066,0.001,Has effect,21275,Regular,,6187-3,,6187
+50856,1067,0.001,Has effect,21273,Regular,,6187-3,,6187
+21273,1068,No,Has effect,21275,Regular,,6187-4,,6187
+21273,1069,0.003,Has effect,21275,Regular,,6187-5,,6187
+21275,1070,0.003,Has effect,21275,Regular,,6187-5,,6187
+50827,1071,0.01,Has effect,21275,Regular,,6187-7,,6187
+50827,1072,No,Has effect,21273,Regular,,6187-7,,6187
+50829,1073,0.05,Has effect,21275,Regular,,6187-7,,6187
+50829,1074,0.05,Has effect,21273,Regular,,6187-7,,6187
+50833,1075,No,Has effect,21275,Regular,,6187-7,,6187
+50833,1076,No,Has effect,21273,Regular,,6187-7,,6187
+50845,1077,No,Has effect,21273,Regular,,6187-8,,6187
+50848,1078,0.001,Has effect,21275,Regular,,6187-8,,6187
+21300,1079,not supported,Positive,21306,Regular,,6188-1,,6188
+21303,1080,not supported,Positive,21306,Regular,,6188-2,,6188
+21300,1081,not supported,Positive,21303,Regular,,6188-3,,6188
+21300,1082,0.05,Has a difference,21303,Moderator,,6188-4,60800,6188
+21300,1083,0.05,Has a difference,21306,Regular,,6188-5,60800,6188
+21303,1084,not supported,Has a difference,21306,Regular,,6188-6,60800,6188
+21309,1085,not supported,Positive,21306,Regular,,6188-7,,6188
+21310,1086,not supported,Positive,21306,Regular,,6188-8,,6188
+51341,1087,0.01,Negative,21419,Regular,,6190-1a,,6190
+51343,1088,0.01,Negative,21419,Regular,,6190-1a,,6190
+51339,1089,0.01,Negative,21419,Regular,,6190-1a,,6190
+51341,1090,0.01,Negative,21420,Regular,,6190-1b,,6190
+51343,1091,0.01,Negative,21420,Regular,,6190-1b,,6190
+51339,1092,0.01,Negative,21420,Regular,,6190-1b,,6190
+51341,1093,0.01,Positive,21421,Regular,,6190-1c,,6190
+51343,1094,0.01,Positive,21421,Regular,,6190-1c,,6190
+51339,1095,0.01,Positive,21421,Regular,,6190-1c,,6190
+51341,1096,0.01,Positive,21422,Regular,,6190-1d,,6190
+51343,1097,0.01,Positive,21422,Regular,,6190-1d,,6190
+51339,1098,0.01,Positive,21422,Regular,,6190-1d,,6190
+51352,1099,no,Negative,21419,Moderator,,6190-2a,51343,6190
+51357,1100,no,Negative,21419,Moderator,,6190-2a,51343,6190
+51355,1101,no,Negative,21419,Moderator,,6190-2a,51343,6190
+51352,1102,no,Negative,21420,Moderator,,6190-2b,51343,6190
+51357,1103,no,Negative,21420,Moderator,,6190-2b,51343,6190
+51355,1104,no,Negative,21420,Moderator,,6190-2b,51343,6190
+51352,1105,no,Positive,21421,Moderator,,6190-2c,51343,6190
+51357,1106,no,Positive,21421,Moderator,,6190-2c,51343,6190
+51355,1107,no,Positive,21421,Moderator,,6190-2c,51343,6190
+51352,1108,no,Positive,21422,Moderator,,6190-2d,51343,6190
+51357,1109,no,Positive,21422,Moderator,,6190-2d,51343,6190
+51355,1110,no,Positive,21422,Moderator,,6190-2d,51343,6190
+24121,1111,no,Positive,24132,Regular,,6589-1,,6589
+50591,1112,no,Positive,24132,Regular,,6589-1,,6589
+24121,1113,0.05,Positive,24122,Regular,,6589-2,,6589
+50591,1114,0.05,Positive,24122,Regular,,6589-2,,6589
+24121,1115,0.05,Positive,24123,Regular,,6589-3,,6589
+50591,1116,0.05,Positive,24123,Regular,,6589-3,,6589
+24121,1117,0.05,Positive,24131,Regular,,6589-4,,6589
+50591,1118,0.05,Positive,24131,Regular,,6589-4,,6589
+24121,1119,0.05,Positive,24129,Regular,,6589-4,,6589
+50591,1120,0.05,Positive,24129,Regular,,6589-4,,6589
+24121,1121,no,Positive,24130,Regular,,6589-4,,6589
+50591,1122,no,Positive,24130,Regular,,6589-4,,6589
+24121,1123,0.05,Positive,24127,Regular,,6589-4,,6589
+50591,1124,0.05,Positive,24127,Regular,,6589-4,,6589
+24121,1125,0.05,Positive,24128,Regular,,6589-4,,6589
+50591,1126,0.05,Positive,24128,Regular,,6589-4,,6589
+24121,1127,0.05,Positive,24126,Regular,,6589-5,,6589
+50591,1128,0.05,Positive,24126,Regular,,6589-5,,6589
+24121,1129,0.1,Positive,24124,Regular,,6589-5,,6589
+50591,1130,0.1,Positive,24124,Regular,,6589-5,,6589
+24121,1131,0.05,Positive,24125,Regular,,6589-5,,6589
+50591,1132,0.05,Positive,24125,Regular,,6589-5,,6589
+24122,1133,0.01,Positive,24131,Regular,,6589-6,,6589
+24122,1134,0.01,Positive,24129,Regular,,6589-6,,6589
+24122,1135,0.01,Positive,24130,Regular,,6589-6,,6589
+24122,1136,0.01,Positive,24127,Regular,,6589-6,,6589
+24122,1137,0.01,Positive,24128,Regular,,6589-6,,6589
+23774,1138,0.05,Positive,23776,Moderating,,6590-1,23773,6590
+23774,1139,0.05,Positive,23777,Moderating,,6590-1,23773,6590
+23776,1140,0.05,Positive,23777,Moderating,,6590-2,23773,6590
+23776,1141,0.05,Positive,23777,Moderating,,6590-2,23774,6590
+23777,1142,0.05,Positive,23776,Moderating,,6590-2,23773,6590
+23777,1143,0.05,Positive,23776,Moderating,,6590-2,23774,6590
+23775,1144,0.05,Positive,23774,Moderating,,6590-3,23773,6590
+23775,1145,0.05,Positive,23776,Moderating,,6590-3,23773,6590
+23775,1146,0.05,Positive,23777,Moderating,,6590-3,23773,6590
+23776,1147,0.05,Positive,23779,Moderating,,6590-4,23774,6590
+23777,1148,0.05,Positive,23778,Moderating,,6590-4,23774,6590
+51188,1149,0.05,Positive,51185,Regular,,6591-1,,6591
+51187,1150,0.05,Negative,51185,Regular,,6591-1,,6591
+51188,1151,0.1 (paper says supported),Positive,23780,Regular,,6591-1,,6591
+51187,1152,0.1 (paper says supported),Negative,23780,Regular,,6591-1,,6591
+51188,1153,Not supported,Positive,23781,Regular,,6591-2,,6591
+51187,1154,Not supported,Negative,23781,Regular,,6591-2,,6591
+51188,1155,0.05,Positive,23783,Regular,,6591-3,,6591
+51187,1156,0.05,Negative,23783,Regular,,6591-3,,6591
+51185,1157,0.05,Positive,23781,Regular,,6591-4,,6591
+51185,1158,0.05,Positive,23783,Regular,,6591-5,,6591
+23780,1159,0.05,Positive,23783,Regular,,6591-5,,6591
+23781,1160,Not supported,Positive,23783,Regular,,6591-6,,6591
+23782,1161,.1 (paper says supported),Positive,51185,Regular,,6591-7,,6591
+23782,1162,0.05,Positive,23780,Regular,,6591-7,,6591
+23782,1163,Not supported,Positive,23781,Regular,,6591-8,,6591
+23782,1164,0.05,Positive,23783,Regular,,6591-9,,6591
+23784,1165,0.05,Negative,51185,Regular,,6591-0a,,6591
+23784,1166,0.05,Negative,23780,Regular,,6591-0a,,6591
+51185,1167,0.05,Negative,23784,Regular,,6591-0b,,6591
+23780,1168,0.05,Negative,23784,Regular,,6591-0b,,6591
+23784,1169,0.05,Negative,23783,Regular,,6591-0c,,6591
+60760,1170,0.05,Has an effect,51185,Regular,,6591-1,,6591
+60760,1171,0.05,Has an effect,23780,Regular,,6591-1,,6591
+51231,1172,0.0025,Has an effect,23785,Regular,,6657-1,,6657
+51231,1173,0.05,Negative,23786,Regular,,6657-2,,6657
+23815,1174,.059 (paper says supported),Has a relationship,23831,Regular,,6658-2,,6658
+23816,1175,0.002,Has a relationship,23831,Regular,,6658-3,,6658
+23817,1176,0.028,Has a relationship,23831,Regular,,6658-4,,6658
+23818,1177,Not supported,Has a relationship,23831,Regular,,6658-5,,6658
+23821,1178,0.0369999999999999,Has a relationship,23831,Regular,,6658-6,,6658
+23819,1179,Not supported,Has a relationship,23831,Regular,,6658-7,,6658
+23820,1180,0.00899999999999999,Has a relationship,23831,Regular,,6658-8,,6658
+23822,1181,0.001,Has a relationship,23831,Regular,,6658-9,,6658
+50784,1182,0.0001,Has a relationship,23831,Regular,,6658-0,,6658
+23825,1183,0.0001,Has a relationship,23832,Regular,,6658-1,,6658
+23826,1184,0.0001,Has a relationship,23832,Regular,,6658-1,,6658
+23825,1185,0.0001,Has a relationship,23833,Regular,,6658-1,,6658
+23826,1186,0.0001,Has a relationship,23833,Regular,,6658-1,,6658
+23827,1187,0.0001,Has a relationship,23832,Regular,,6658-2,,6658
+23828,1188,0.0001,Has a relationship,23832,Regular,,6658-2,,6658
+23827,1189,0.0001,Has a relationship,23833,Regular,,6658-2,,6658
+23828,1190,0.0001,Has a relationship,23833,Regular,,6658-2,,6658
+23831,1191,not supported,Has a relationship,23828,Regular,,6658-3,,6658
+23831,1192,not supported,Has a relationship,23827,Regular,,6658-3,,6658
+23831,1193,not supported,Has a relationship,23825,Regular,,6658-3,,6658
+23831,1194,not supported,Has a relationship,23826,Regular,,6658-3,,6658
+23887,1195,no,Positive,23878,Regular,,6660-1a,,6660
+23888,1196,no,Positive,23878,Regular,,6660-1a,,6660
+23887,1197,no,Positive,23879,Regular,,6660-1b,,6660
+23888,1198,no,Positive,23879,Regular,,6660-1b,,6660
+23887,1199,0.05,Negative,23880,Regular,,6660-1c,,6660
+23888,1200,0.05,Negative,23880,Regular,,6660-1c,,6660
+23887,1201,0.05,Positive,23881,Regular,,6660-1d,,6660
+23888,1202,0.05,Positive,23881,Regular,,6660-1d,,6660
+23887,1203,0.05,Positive,,Regular,,6660-1e,,6660
+23888,1204,0.05,Positive,23883,Regular,,6660-1e,,6660
+23887,1205,no,Positive,23882,Regular,,6660-1f,,6660
+23888,1206,no,Positive,23882,Regular,,6660-1f,,6660
+23887,1207,no,Positive,23884,Regular,,6660-1g,,6660
+23888,1208,no,Positive,23884,Regular,,6660-1g,,6660
+23885,1209,no,Positive,23878,Regular,,6660-2a,,6660
+23885,1210,no,Positive,23880,Regular,,6660-2b,,6660
+23885,1211,no,Positive,23881,Regular,,6660-2c,,6660
+23886,1212,no,Positive,23884,Regular,,6660-3a,,6660
+23863,1213,no,Positive,23873,Regular,,6662-1,,6662
+23864,1214,0.05,Positive,23873,Regular,,6662-2,,6662
+23865,1215,0.05,Negative,23873,Regular,,6662-3,,6662
+23866,1216,0.05,Positive,23873,Regular,,6662-4,,6662
+23867,1217,0.05,Positive,23873,Regular,,6662-5,,6662
+23868,1218,0.05,Positive,23873,Regular,,6662-6,,6662
+23869,1219,0.05,Positive,23873,Regular,,6662-7,,6662
+23863,1220,0.05,Positive,23872,Regular,,6662-8,,6662
+23864,1221,0.05,Positive,23872,Regular,,6662-9,,6662
+23865,1222,0.05,Positive,23872,Regular,,6662-0,,6662
+23866,1223,0.05,Positive,23872,Regular,,6662-1,,6662
+23873,1224,0.05,Positive,23874,Regular,,6662-2,,6662
+23872,1225,0.05,Positive,23874,Regular,,6662-3,,6662
+23872,1226,0.05,Negative,23875,Regular,,6662-4,,6662
+23870,1227,0.05,Positive,23875,Regular,,6662-5,,6662
+23871,1228,0.05,Positive,23875,Regular,,6662-6,,6662
+23873,1229,0.05,Positive,23876,Regular,,6662-7,,6662
+23871,1230,0.05,Positive,23877,Regular,,6662-8,,6662
+23869,1231,0.05,Positive,23876,Regular,,6662-9,,6662
+23869,1232,0.05,Negative,23877,Regular,,6662-0,,6662
+23874,1233,0.05,Positive,23876,Regular,,6662-1,,6662
+23875,1234,0.05,Positive,23877,Regular,,6662-2,,6662
+23874,1235,no,Negative,23877,Regular,,6662-3,,6662
+23875,1236,no,Negative,23876,Regular,,6662-4,,6662
+23892,1237,0.003,Positive,23889,Regular,,6665-1,,6665
+23892,1238,0.0509999999999999,Positive,23890,Regular,,6665-1,,6665
+23892,1239,no,Positive,23891,Regular,,6665-1,,6665
+23892,1240,0.002,Positive,23889,Regular,,6665-2,,6665
+23892,1241,0.003,Positive,23890,Regular,,6665-2,,6665
+23892,1242,no,Positive,23891,Regular,,6665-2,,6665
+23892,1243,partial .07,Positive,23889,Regular,,6665-3,,6665
+23892,1244,0.001,Positive,23890,Regular,,6665-3,,6665
+23892,1245,no,Positive,23891,Regular,,6665-3,,6665
+51426,1246,0.03,Positive,23889,Regular,,6665-4,,6665
+51426,1247,no,Positive,23890,Regular,,6665-4,,6665
+51426,1248,no,Positive,23891,Regular,,6665-4,,6665
+51426,1249,no,Positive,23889,Regular,,6665-5,,6665
+51426,1250,0.002,Positive,23890,Regular,,6665-5,,6665
+51426,1251,no,Positive,23891,Regular,,6665-5,,6665
+23950,1252,no,Has effect,23934,moderating,,6666-1a,60870,6666
+23950,1253,0.05,negative,23934,moderating,,6666-1a,60871,6666
+23949,1254,no,Has effect,23934,moderating,,6666-1a,60870,6666
+23949,1255,no,Has effect,23934,moderating,,6666-1a,60871,6666
+23952,1256,no,Has effect,23934,moderating,,6666-1a,60870,6666
+23952,1257,0.05,Has effect,23934,moderating,,6666-1a,60871,6666
+23955,1258,0.05,Has effect,23934,moderating,,6666-1a,60870,6666
+23955,1259,no,Has effect,23934,moderating,,6666-1a,60871,6666
+23950,1260,0.05,Has effect,23935,moderating,,6666-1a,60870,6666
+23950,1261,no,Has effect,23935,moderating,,6666-1a,60871,6666
+23949,1262,no,Has effect,23935,moderating,,6666-1a,60870,6666
+23949,1263,no,Has effect,23935,moderating,,6666-1a,60871,6666
+23952,1264,no,Has effect,23935,moderating,,6666-1a,60870,6666
+23952,1265,no,Has effect,23935,moderating,,6666-1a,60871,6666
+23955,1266,no,Has effect,23935,moderating,,6666-1a,60870,6666
+23955,1267,no,Has effect,23935,moderating,,6666-1a,60871,6666
+23950,1268,no,Has effect,23936,regular,,6666-1b,,6666
+23949,1269,no,Has effect,23936,regular,,6666-1b,,6666
+23952,1270,no,Has effect,23936,regular,,6666-1b,,6666
+23955,1271,no,Has effect,23936,regular,,6666-1b,,6666
+23950,1272,no,Has effect,23938,moderating,,6666-1c,60870,6666
+23950,1273,no,Has effect,23938,moderating,,6666-1c,60871,6666
+23949,1274,no,Has effect,23938,moderating,,6666-1c,60870,6666
+23949,1275,no,Has effect,23938,moderating,,6666-1c,60871,6666
+23952,1276,0.05,negative,23938,moderating,,6666-1c,60870,6666
+23952,1277,no,Has effect,23938,moderating,,6666-1c,60871,6666
+23955,1278,0.05,negative,23938,moderating,,6666-1c,60870,6666
+23955,1279,no,Has effect,23938,moderating,,6666-1c,60871,6666
+23950,1280,no,Has effect,23945,moderating,,6666-1d,60870,6666
+23950,1281,0.05,Has effect,23945,moderating,,6666-1d,60871,6666
+23949,1282,no,Has effect,23945,moderating,,6666-1d,60870,6666
+23949,1283,no,Has effect,23945,moderating,,6666-1d,60871,6666
+23952,1284,no,Has effect,23945,moderating,,6666-1d,60870,6666
+23952,1285,no,Has effect,23945,moderating,,6666-1d,60871,6666
+23955,1286,no,Has effect,23945,moderating,,6666-1d,60870,6666
+23955,1287,0.01,Has effect,23945,moderating,,6666-1d,60871,6666
+23933,1288,0.05,Has effect,23934,moderating,,6666-2a,60870,6666
+23933,1289,no,Has effect,23934,moderating,,6666-2a,60871,6666
+23933,1290,no,Has effect,23935,moderating,,6666-2a,60870,6666
+23933,1291,no,Has effect,23935,moderating,,6666-2a,60871,6666
+23933,1292,0.05,Has effect,23936,moderating,,6666-2b,60870,6666
+23933,1293,no,Has effect,23936,moderating,,6666-2b,60871,6666
+23933,1294,0.001,positive,23938,moderating,,6666-2c,60870,6666
+23933,1295,no,Has effect,23938,moderating,,6666-2c,60871,6666
+23933,1296,0.001,Has effect,23945,moderating,,6666-2d,60870,6666
+23933,1297,no,Has effect,23945,moderating,,6666-2d,60871,6666
+23934,1298,0.001,Has effect,23936,moderating,,6666-3a,60870,6666
+23934,1299,0.001,Has effect,23936,moderating,,6666-3a,60871,6666
+23935,1300,0.001,Has effect,23936,moderating,,6666-3a,60870,6666
+23935,1301,0.001,Has effect,23936,moderating,,6666-3a,60871,6666
+23934,1302,0.001,negative,23938,moderating,,6666-3b,60870,6666
+23934,1303,0.05,Has effect,23938,moderating,,6666-3b,60871,6666
+23935,1304,0.001,Has effect,23938,moderating,,6666-3b,60870,6666
+23935,1305,0.05,Has effect,23938,moderating,,6666-3b,60871,6666
+23936,1306,0.001,Has effect,23938,moderating,,6666-4a,60870,6666
+23936,1307,0.001,Has effect,23938,moderating,,6666-4a,60871,6666
+23936,1308,no,Has effect,23945,moderating,,6666-4b,60870,6666
+23936,1309,0.05,Has effect,23945,moderating,,6666-4b,60871,6666
+23938,1310,0.001,Has effect,23945,moderating,,6666-5,60870,6666
+23938,1311,0.05,Has effect,23945,moderating,,6666-5,60871,6666
+24448,1312,0.05,No effect,24433,Regular,,6667-1,,6667
+24448,1313,0.01,Positive,24434,Regular,,6667-2,,6667
+24448,1314,0.035,Positive,24435,Regular,,6667-3,,6667
+24448,1315,0.035,Positive,24437,Regular,,6667-3,,6667
+24448,1316,0.035,Positive,24438,Regular,,6667-3,,6667
+24448,1317,0.035,Positive,24439,Regular,,6667-3,,6667
+24448,1318,0.035,Positive,24441,Regular,,6667-3,,6667
+24448,1319,0.035,Positive,24442,Regular,,6667-3,,6667
+24448,1320,0.035,Positive,24443,Regular,,6667-3,,6667
+24448,1321,0.0539999999999999,No effect,24447,Regular,,6667-4,,6667
+23898,1322,0.01,No effect,23904,Regular,,6669-1,,6669
+23898,1323,0.01,No effect,23905,Regular,,6669-1,,6669
+23899,1324,No,Positive,23904,Regular,,6669-2,,6669
+23899,1325,No,Positive,23905,Regular,,6669-2,,6669
+23899,1326,No,Positive,23902,Regular,,6669-2,,6669
+23899,1327,No,Positive,23903,Regular,,6669-2,,6669
+23900,1328,No,Positive,23904,Regular,,6669-2,,6669
+23900,1329,No,Positive,23905,Regular,,6669-2,,6669
+23900,1330,No,Positive,23902,Regular,,6669-2,,6669
+23900,1331,No,Positive,23903,Regular,,6669-2,,6669
+23901,1332,0.05,Positive,23904,Regular,,6669-2,,6669
+23901,1333,0.05,Positive,23905,Regular,,6669-2,,6669
+23901,1334,0.05,Positive,23902,Regular,,6669-2,,6669
+23901,1335,0.05,Positive,23903,Regular,,6669-2,,6669
+23899,1336,No,Positive,23904,Regular,,6669-3,,6669
+23899,1337,No,Positive,23905,Regular,,6669-3,,6669
+23899,1338,No,Positive,23902,Regular,,6669-3,,6669
+23899,1339,No,Positive,23903,Regular,,6669-3,,6669
+23900,1340,No,Positive,23904,Regular,,6669-3,,6669
+23900,1341,No,Positive,23905,Regular,,6669-3,,6669
+23900,1342,No,Positive,23902,Regular,,6669-3,,6669
+23900,1343,No,Positive,23903,Regular,,6669-3,,6669
+23901,1344,0.01,Positive,23904,Regular,,6669-3,,6669
+23901,1345,0.01,Positive,23905,Regular,,6669-3,,6669
+23901,1346,No,Positive,23902,Regular,,6669-3,,6669
+23901,1347,No,Positive,23903,Regular,,6669-3,,6669
+23899,1348,0.01,Has effect,23904,Moderator,,6669-4,51429,6669
+23899,1349,0.01,Has effect,23905,Moderator,,6669-4,51429,6669
+23899,1350,No,Has effect,23902,Moderator,,6669-4,51429,6669
+23899,1351,No,Has effect,23903,Moderator,,6669-4,51429,6669
+23900,1352,No,Has effect,23904,Moderator,,6669-4,51429,6669
+23900,1353,No,Has effect,23905,Moderator,,6669-4,51429,6669
+23900,1354,No,Has effect,23902,Moderator,,6669-4,51429,6669
+23900,1355,No,Has effect,23903,Moderator,,6669-4,51429,6669
+23901,1356,No,Has effect,23904,Moderator,,6669-4,51429,6669
+23901,1357,No,Has effect,23905,Moderator,,6669-4,51429,6669
+23901,1358,No,Has effect,23902,Moderator,,6669-4,51429,6669
+23901,1359,No,Has effect,23903,Moderator,,6669-4,51429,6669
+24396,1360,0.023,Has effect,24397,Regular,,6757-1a,,6757
+51629,1361,0.023,Has effect,24397,Regular,,6757-1a,,6757
+24396,1362,0.0149999999999999,Has effect,24398,Regular,,6757-1b,,6757
+51629,1363,0.0149999999999999,,24398,Regular,,6757-1b,,6757
+24396,1364,0.001,Has effect,24399,Regular,,6757-1c,,6757
+51629,1365,0.001,Has effect,24399,Regular,,6757-1c,,6757
+51631,1366,0.281,No effect,24397,Regular,,6757-2,,6757
+51631,1367,0.483999999999999,No effect,24398,Regular,,6757-2,,6757
+51631,1368,0.999,No effect,51630,Regular,,6757-2,,6757
+51631,1369,0.207999999999999,No effect,24400,Regular,,6757-2,,6757
+51631,1370,0.056,No effect,24399,Regular,,6757-2,,6757
+51631,1371,0.0179999999999999,Positive,24397,Regular,,6757-3,,6757
+51631,1372,0.001,Negative,24398,Regular,,6757-3,,6757
+51631,1373,0.0259999999999999,Positive,51630,Regular,,6757-3,,6757
+51631,1374,0.001,Positive,24400,Regular,,6757-3,,6757
+51631,1375,0.001,Negative,24399,Regular,,6757-3,,6757
+24396,1376,0.136,No effect,24397,Regular,,6757-4,,6757
+24396,1377,0.587999999999999,No effect,24398,Regular,,6757-4,,6757
+24396,1378,0.529,No effect,51630,Regular,,6757-4,,6757
+24396,1379,0.463,No effect,24400,Regular,,6757-4,,6757
+24396,1380,No,No effect,24399,Regular,,6757-4,,6757
+51629,1381,0.571999999999999,No effect,24397,Regular,,6757-4,,6757
+51629,1382,0.681,No effect,24398,Regular,,6757-4,,6757
+51629,1383,0.79,No effect,51630,Regular,,6757-4,,6757
+51629,1384,0.899,No effect,24400,Regular,,6757-4,,6757
+51629,1385,No,No effect,24399,Regular,,6757-4,,6757
+24401,1386,0.001,Has effect,24403,Regular,,6758-1a,,6758
+24401,1387,0.001,Has effect,24403,Regular,,6758-1b,,6758
+24401,1388,0.05,Has effect,24403,Regular,,6758-1c,,6758
+24401,1389,0.001,Has effect,24404,Regular,,6758-2a,,6758
+24401,1390,0.001,Has effect,24404,Regular,,6758-2b,,6758
+24401,1391,0.05,Has effect,24404,Regular,,6758-2c,,6758
+24403,1392,0.001,Positive,24404,Regular,,6758-3,,6758
+24404,1393,0.001,Positive,24405,Regular,,6758-4a,,6758
+24401,1394,0.001,Positive,24405,Regular,,6758-4b,,6758
+24452,1395,No,Negative,24451,Regular,,6759-1a,,6759
+24453,1396,0.01,Negative,24451,Regular,,6759-1b,,6759
+24454,1397,No,Positive,24452,Regular,,6759-2a,,6759
+24454,1398,0.01,Positive,24453,Regular,,6759-2b,,6759
+24456,1399,0.01,Positive,24452,Regular,,6759-3a,,6759
+24456,1400,0.05,Positive,24453,Regular,,6759-3b,,6759
+24455,1401,0.001,Positive,24452,Regular,,6759-4a,,6759
+24455,1402,0.01,Positive,24453,Regular,,6759-4b,,6759
+26006,1403,0.01,Positive,26005,Regular,,6760-1,,6760
+26011,1404,0.01,Positive,26006,Regular,,6760-2,,6760
+26015,1405,0.01,Positive,26006,Regular,,6760-3,,6760
+26017,1406,0.01,Positive,26006,Regular,,6760-4,,6760
+26017,1407,0.01,Positive,26011,Regular,,6760-5,,6760
+26019,1408,No,Positive,26015,Regular,,6760-6a,,6760
+26019,1409,0.01,Positive,26017,Regular,,6760-6b,,6760
+26019,1410,No,Positive,26011,Regular,,6760-6c,,6760
+26019,1411,0.01,Positive,26006,Regular,,6760-6d,,6760
+26020,1412,No,Positive,26015,Regular,,6760-7a,,6760
+26020,1413,No,Positive,26017,Regular,,6760-7b,,6760
+26020,1414,No,Positive,26011,Regular,,6760-7c,,6760
+26020,1415,No,Positive,26006,Regular,,6760-7d,,6760
+26027,1416,No,Positive,26015,Regular,,6760-8a,,6760
+26027,1417,0.01,Positive,26017,Regular,,6760-8b,,6760
+26027,1418,0.01,Positive,26011,Regular,,6760-8c,,6760
+26027,1419,No,Positive,26006,Regular,,6760-8d,,6760
+26028,1420,No,Positive,26019,Regular,,6760-9a,,6760
+26028,1421,0.05,Positive,26020,Regular,,6760-9b,,6760
+26027,1422,0.01,Positive,26019,Regular,,6760-0a,,6760
+26027,1423,0.01,Positive,26020,Regular,,6760-0b,,6760
+26021,1424,0.01,Positive,26017,Regular,,6760-1,,6760
+26023,1425,0.05,Positive,26017,Regular,,6760-2,,6760
+24946,1426,0.05,Positive,24952,Regular,,6761-1a,,6761
+24947,1427,0.001,Positive,24952,Regular,,6761-1b,,6761
+24950,1428,0.01,Positive,24946,Regular,,6761-2a,,6761
+24950,1429,0.001,Positive,24946,Moderator,,6761-2b,24946,6761
+24949,1430,0.001,Positive,24947,Regular,,6761-3a,,6761
+24949,1431,0.001,Positive,24947,Moderator,,6761-3b,24947,6761
+24950,1432,0.05,Has effect,24951,Mediator,,6761-4a,24946,6761
+24949,1433,No,Has effect,24952,Mediator,,6761-4b,24947,6761
+24464,1434,0.001,Positive,24462,Regular,,6762-1,,6762
+24461,1435,0.001,Negative,24462,Regular,,6762-2a,,6762
+24464,1436,0.001,Negative,24462,Regular,,6762-2b,,6762
+24463,1437,0.001,Positive,24462,Regular,,6762-3a,,6762
+24464,1438,0.001,Positive,24463,Regular,,6762-3b,,6762
+24464,1439,0.001,Positive,24466,Regular,,6762-4,,6762
+24464,1440,0.001,Positive,24465,Regular,,6762-5,,6762
+24468,1441,0.05,Positive,24466,Regular,,6762-6,,6762
+24468,1442,0.001,Positive,24467,Regular,,6762-7,,6762
+24469,1443,0.001,Positive,24468,Regular,,6762-8,,6762
+24469,1444,0.01,Positive,24466,Regular,,6762-9,,6762
+24469,1445,0.01,Positive,24462,Regular,,6762-0,,6762
+24470,1446,0.001,Positive,24469,Regular,,6762-1,,6762
+24546,1447,0.05,Negative,24561,Regular,,6763-1,,6763
+24548,1448,0.001,Positive,24561,Regular,,6763-2,,6763
+24547,1449,No,Positive,24561,Regular,,6763-3,,6763
+24548,1450,0.05,Has effect,24561,Moderator,,6763-4,24547,6763
+24548,1451,0.05,Has effect,24561,Regular,,6763-4,,6763
+24547,1452,0.05,Has effect,24561,Regular,,6763-4,,6763
+24546,1453,No,Negative,24561,Regular,,6763-5,24548,6763
+24546,1454,No,Negative,24561,Regular,,6763-6,24547,6763
+24516,1455,0.05,Positive,24517,Moderator,,6781-1a,24512,6781
+24518,1456,0.05,Positive,24517,Moderator,,6781-1b,24512,6781
+24518,1457,0.05,Positive,24517,Moderator,,6781-2,24513,6781
+24510,1458,0.05,Negative,24516,Regular,,6781-3,,6781
+24509,1459,0.05,Positive,24516,Regular,,6781-4,,6781
+24511,1460,0.05,Positive,24516,Regular,,6781-5a,,6781
+24518,1461,0.05,Positive,24517,Moderator,,6781-5b,24511,6781
+54065,1462,0.001,Has effect,24658,Regular,,6782-1a,,6782
+54065,1463,0.03,Has effect,24659,Regular,,6782-1a,,6782
+54066,1464,0.001,Has effect,24658,Regular,,6782-1a,,6782
+54066,1465,0.03,Has effect,24659,Regular,,6782-1a,,6782
+54067,1466,0.03,Has effect,24658,Regular,,6782-1b,,6782
+54067,1467,0.07,Has effect,24659,Regular,,6782-1b,,6782
+54068,1468,0.03,Has effect,24658,Regular,,6782-1b,,6782
+54068,1469,0.07,Has effect,24659,Regular,,6782-1b,,6782
+24655,1470,No,Positive,24658,Regular,,6782-2a,,6782
+24655,1471,No,Positive,24659,Regular,,6782-2a,,6782
+24656,1472,No,Positive,24658,Regular,,6782-2b,,6782
+24656,1473,No,Positive,24659,Regular,,6782-2b,,6782
+24657,1474,No,Positive,24658,Regular,,6782-2c,,6782
+24657,1475,No,Positive,24659,Regular,,6782-2c,,6782
+24564,1476,No,Positive,24567,Regular,,6789-1a,,6789
+24565,1477,0.0369999999999999,Positive,24567,Regular,,6789-1b,,6789
+24566,1478,0.0459999999999999,Negative,24567,Regular,,6789-1c,,6789
+24564,1479,0.001,Positive,24568,Regular,,6789-2a,,6789
+24565,1480,0.0179999999999999,Positive,24568,Regular,,6789-2b,,6789
+24566,1481,No,Positive,24568,Regular,,6789-2c,,6789
+24564,1482,No,Positive,24569,Regular,,6789-3a,,6789
+24565,1483,0.021,Positive,24569,Regular,,6789-3b,,6789
+24566,1484,No,Positive,24569,Regular,,6789-3c,,6789
+24564,1485,0.024,Positive,24567,Moderator,,6789-1d,24565,6789
+24564,1486,No,Positive,24568,Moderator,,6789-2d,24565,6789
+24564,1487,No,Positive,24569,Moderator,,6789-3d,24565,6789
+24566,1488,No,Positive,24567,Moderator,,6789-1e,24565,6789
+24566,1489,No,Positive,24568,Moderator,,6789-2e,24565,6789
+24566,1490,No,Positive,24569,Moderator,,6789-3e,24565,6789
+24687,1491,0.001,Positive,24689,Regular,,6790-1,,6790
+24681,1492,0.001,Positive,24689,Regular,,6790-2,,6790
+24682,1493,0.001,Positive,24689,Regular,,6790-2,,6790
+24683,1494,0.001,Positive,24689,Regular,,6790-2,,6790
+24684,1495,0.001,Positive,24689,Regular,,6790-2,,6790
+24685,1496,0.001,Positive,24689,Regular,,6790-3,,6790
+24686,1497,0.001,Positive,24689,Regular,,6790-3,,6790
+24688,1498,0.001,Positive,24689,Regular,,6790-3,,6790
+24572,1499,No,Positive,24576,Regular,,6791-1a,,6791
+24572,1500,0.024,Positive,24577,Regular,,6791-1a,,6791
+24573,1501,0.0259999999999999,Positive,24576,Regular,,6791-1b,,6791
+24573,1502,0.034,Positive,24577,Regular,,6791-1b,,6791
+24574,1503,0.003,Positive,24576,Regular,,6791-2,,6791
+24574,1504,0.001,Positive,24577,Regular,,6791-2,,6791
+24575,1505,No,Positive,24576,Regular,,6791-3,,6791
+24575,1506,0.005,Positive,24577,Regular,,6791-3,,6791
+24575,1507,No,Negative,24576,Mediator,,6791-4,24574,6791
+24575,1508,No,Negative,24577,Mediator,,6791-4,24574,6791
+24590,1509,0.01,Positive,24589,Regular,,6795-1a,,6795
+24591,1510,No,Positive,24589,Regular,,6795-1b,,6795
+24592,1511,No,Positive,24589,Regular,,6795-1c,,6795
+24593,1512,0.01,Positive,24589,Regular,,6795-2a,,6795
+24594,1513,No,Positive,24589,Regular,,6795-2b,,6795
+24590,1514,No,Positive,24595,Regular,,6795-3a,,6795
+24591,1515,No,Negative,24595,Regular,,6795-3b,,6795
+24592,1516,No,Negative,24595,Regular,,6795-3c,,6795
+24596,1517,0.01,Positive,24590,Regular,,6795-4a,,6795
+24596,1518,0.01,Positive,24592,Regular,,6795-4b,,6795
+24597,1519,No,Positive,24591,Regular,,6795-5a,,6795
+24597,1520,0.01,Positive,24590,Regular,,6795-5b,,6795
+24597,1521,0.05,Positive,24592,Regular,,6795-5c,,6795
+24598,1522,No,Positive,24591,Regular,,6795-6a,,6795
+24598,1523,0.01,Positive,24590,Regular,,6795-6b,,6795
+24598,1524,No,Positive,24592,Regular,,6795-6c,,6795
+24599,1525,No,Positive,24591,Regular,,6795-7a,,6795
+24599,1526,0.01,Positive,24590,Regular,,6795-7b,,6795
+24599,1527,0.01,Positive,24592,Regular,,6795-7c,,6795
+60733,1528,No,No effect,54096,Regular,,6801-1,,6801
+60733,1529,No,No effect,54096,Moderator,,6801-2,24669,6801
+60733,1530,No,No effect,54096,Moderator,,6801-2,24671,6801
+60733,1531,No,No effect,54096,Moderator,,6801-2,24673,6801
+60733,1532,No,No effect,54096,Moderator,,6801-2,24670,6801
+60733,1533,No,No effect,54096,Moderator,,6801-2,24674,6801
+60733,1534,No,No effect,54096,Moderator,,6801-2,24675,6801
+60733,1535,No,No effect,54096,Moderator,,6801-2,54095,6801
+60733,1536,No,No effect,54096,Moderator,,6801-2,24667,6801
+60733,1537,No,No effect,54096,Moderator,,6801-2,60732,6801
+60733,1538,No,No effect,54096,Moderator,,6801-2,24676,6801
+60733,1539,No,No effect,54096,Moderator,,6801-2,54094,6801
+60733,1540,No,No effect,54096,Moderator,,6801-2,24672,6801
+24677,1541,0.05,Positive,24680,Regular,,6801-3a,,6801
+60732,1542,0.05,Positive,24680,Regular,,6801-3b,,6801
+24667,1543,0.05,Negative,24680,Regular,,6801-3c,,6801
+24666,1544,No,Negative,24680,Regular,,6801-4a,,6801
+24665,1545,0.05,Positive,24680,Regular,,6801-4b,,6801
+24664,1546,0.05,Negative,24680,Regular,,6801-4c,,6801
+24677,1547,0.05,Negative,24680,Regular,,6801-4d,,6801
+24678,1548,0.05,No effect,24680,Regular,,6801-4e,,6801
+24677,1549,0.05,Negative,24668,Regular,,6801-5a,,6801
+24667,1550,0.05,Negative,24668,Regular,,6801-5b,,6801
+24666,1551,No,Negative,24668,Regular,,6801-6a,,6801
+24664,1552,No,Negative,24668,Regular,,6801-6b,,6801
+24677,1553,No,Negative,24668,Regular,,6801-6c,,6801
+24665,1554,No,Negative,24668,Regular,,6801-6d,,6801
+24678,1555,0.05,No effect,24668,Regular,,6801-6e,,6801
+24679,1556,0.05,Negative,24668,Regular,,6801-6f,,6801
+24778,1557,0.01,Has effect,24776,Regular,,6803-1,,6803
+24779,1558,0.01,Has effect,24776,Regular,,6803-1,,6803
+24778,1559,0.01,Has effect,24774,Regular,,6803-2,,6803
+24779,1560,0.01,Has effect,24774,Regular,,6803-2,,6803
+24778,1561,No,Has effect,24775,Regular,,6803-2,,6803
+24779,1562,No,Has effect,24775,Regular,,6803-2,,6803
+24778,1563,No,Has effect,24777,Regular,,6803-3,,6803
+24779,1564,No,Has effect,24777,Regular,,6803-3,,6803
+24896,1565,0.01,Has effect,24902,Mediator,,6804-4,24901,6804
+24897,1566,Partially supported .1,Has effect,24902,Mediator,,6804-4,24901,6804
+24900,1567,Partially supported 0.1,Has effect,24902,Mediator,,6804-4,24901,6804
+24900,1568,0.05,Positive,24901,Moderator,,6804-5a,24899,6804
+24896,1569,No,Negative,24901,Moderator,,6804-5b,24899,6804
+24897,1570,No,Negative,24901,Moderator,,6804-5b,24899,6804
+24900,1571,0.001,Positive,24901,Moderator,,6804-6a,24898,6804
+24896,1572,0.01,Negative,24901,Moderator,,6804-6b,24898,6804
+24897,1573,0.01,Negative,24901,Moderator,,6804-6b,24898,6804
+24728,1574,0.01,Positive,24727,Regular,,6805-1,,6805
+24729,1575,No,Positive,24727,Regular,,6805-2,,6805
+24730,1576,No,Positive,24727,Regular,,6805-3,,6805
+24731,1577,0.05,Negative,24727,Regular,,6805-4,,6805
+24727,1578,No,Negative,24732,Regular,,6805-5,,6805
+24741,1579,0.001,Positive,24743,Regular,,6806-1,,6806
+24742,1580,0.05,Positive,24743,Regular,,6806-2,,6806
+24743,1581,0.001,Positive,24744,Regular,,6806-3,,6806
+24741,1582,No,Positive,24744,Regular,,6806-4,,6806
+24742,1583,0.05,Positive,24744,Regular,,6806-5,,6806
+24734,1584,0.01,Positive,24741,Regular,,6806-6,,6806
+24733,1585,0.01,Positive,24741,Regular,,6806-6,,6806
+24735,1586,0.01,Positive,24741,Regular,,6806-6,,6806
+24736,1587,0.01,Positive,24741,Regular,,6806-6,,6806
+24734,1588,0.01,Positive,24742,Regular,,6806-7,,6806
+24733,1589,0.01,Positive,24742,Regular,,6806-7,,6806
+24735,1590,0.01,Positive,24742,Regular,,6806-7,,6806
+24736,1591,0.01,Positive,24742,Regular,,6806-7,,6806
+24739,1596,0.001,Positive,24733,Regular,,6806-9,,6806
+24739,1597,0.01,Positive,24734,Regular,,6806-9,,6806
+24739,1598,0.01,Positive,24735,Regular,,6806-9,,6806
+24739,1599,0.001,Positive,24736,Regular,,6806-9,,6806
+24740,1600,0.001,Positive,24742,Regular,,6806-0,,6806
+24753,1601,0.05,No effect,24748,Moderator,,6807-1,24756,6807
+24753,1602,0.05,No effect,24750,Moderator,,6807-1,24756,6807
+24753,1603,0.05,No effect,24752,Moderator,,6807-1,24756,6807
+24755,1604,0.05,No effect,24748,Moderator,,6807-2,24756,6807
+24755,1605,0.05,No effect,24750,Moderator,,6807-2,24756,6807
+24755,1606,0.05,No effect,24752,Moderator,,6807-2,24756,6807
+24754,1607,No,No effect,24748,Moderator,,6807-2,24756,6807
+24754,1608,No,No effect,24750,Moderator,,6807-2,24756,6807
+24754,1609,No,No effect,24752,Moderator,,6807-2,24756,6807
+24814,1610,0.01,Positive,24813,Regular,,6808-1,,6808
+24815,1611,0.01,Positive,24813,Regular,,6808-1,,6808
+24816,1612,0.01,Positive,24813,Regular,,6808-1,,6808
+24817,1613,0.01,Positive,24813,Regular,,6808-1,,6808
+24818,1614,0.01,Positive,24813,Regular,,6808-1,,6808
+24819,1615,0.1,Positive,24813,Regular,,6808-2,,6808
+24820,1616,0.1,Positive,24813,Regular,,6808-2,,6808
+24780,1617,0.01,Positive,24784,Regular,,6809-1a,,6809
+24780,1618,No,Negative,24785,Regular,,6809-1b,,6809
+24781,1619,0.01,Positive,24784,Regular,,6809-2a,,6809
+24781,1620,No,Negative,24785,Regular,,6809-2b,,6809
+24782,1621,No,Positive,24784,Regular,,6809-3a,,6809
+24782,1622,No,Negative,24785,Regular,,6809-3b,,6809
+24783,1623,0.01,Positive,24784,Regular,,6809-4a,,6809
+24783,1624,No,Negative,24785,Regular,,6809-4b,,6809
+24784,1625,0.01,Negative,24785,Regular,,6809-5,,6809
+24784,1626,0.05,Positive,24786,Regular,,6809-6,,6809
+24785,1627,0.01,Negative,24786,Regular,,6809-7,,6809
+24786,1628,0.05,Positive,24787,Regular,,6809-8,,6809
+24986,1629,No,Has effect,24982,Moderator,,6810-1a,24988,6810
+24987,1630,No,Has effect,24982,Moderator,,6810-1a,24988,6810
+24986,1631,No,Has effect,24982,Moderator,,6810-1b,24989,6810
+24987,1632,No,Has effect,24982,Moderator,,6810-1b,24989,6810
+24986,1633,"Yes, .05",Has effect,24982,Moderator,,6810-1c,24990,6810
+24987,1634,"Yes, .05",Has effect,24982,Moderator,,6810-1c,24991,6810
+24990,1635,No,Has effect,24982,Moderator,,6810-1d,24989,6810
+24990,1636,No,Has effect,24982,Moderator,,6810-1d,24989,6810
+24991,1637,No,Has effect,24982,Moderator,,6810-1d,24989,6810
+24991,1638,No,Has effect,24982,Moderator,,6810-1d,24989,6810
+24986,1639,"Yes, .05",Has effect,24983,Moderator,,6810-2a,24988,6810
+24987,1640,"Yes, .05",Has effect,24983,Moderator,,6810-2a,24988,6810
+24988,1641,No,Has effect,24983,Moderator,,6810-2b,24989,6810
+24989,1642,No,Has effect,24983,Moderator,,6810-2b,24989,6810
+24986,1643,No,Has effect,24983,Moderator,,6810-2c,24989,6810
+24987,1644,No,Has effect,24983,Moderator,,6810-2c,24989,6810
+24986,1645,"Yes, .05",Has effect,24983,Moderator,,6810-2d,24988,6810
+24987,1646,"Yes, .05",Has effect,24983,Moderator,,6810-2d,24988,6810
+24986,1647,"Yes, .05",Has effect,24983,Moderator,,6810-2e,24989,6810
+24987,1648,"Yes, .05",Has effect,24983,Moderator,,6810-2e,24989,6810
+24986,1649,"Yes, .05",Has effect,24983,Moderator,,6810-2f,24988,6810
+24987,1650,"Yes, .05",Has effect,24983,Moderator,,6810-2f,24988,6810
+24986,1651,"Yes, .05",Has effect,24983,Moderator,,6810-2g,24989,6810
+24987,1652,"Yes, .05",Has effect,24983,Moderator,,6810-2g,24989,6810
+24986,1653,"Yes, .05",Has effect,24984,Moderator,,6810-3a,24988,6810
+24987,1654,"Yes, .05",Has effect,24984,Moderator,,6810-3a,24988,6810
+24986,1655,"Yes, .05",Has effect,24984,Moderator,,6810-3b,24989,6810
+24987,1656,"Yes, .05",Has effect,24984,Moderator,,6810-3b,24989,6810
+24986,1657,No,Has effect,24985,Moderator,,6810-4a,24988,6810
+24987,1658,No,Has effect,24985,Moderator,,6810-4a,24988,6810
+24986,1659,"Yes, .05",Has effect,24985,Moderator,,6810-4b,24989,6810
+24987,1660,"Yes, .05",Has effect,24985,Moderator,,6810-4b,24989,6810
+24799,1661,"YES, .01",Positive,24802,Regular,,6811-1a,,6811
+24799,1662,"YES, .01",Positive,24803,Regular,,6811-1b,,6811
+24801,1663,"YES, .01",Positive,24802,Regular,,6811-2a,,6811
+24801,1664,"YES, .01",Positive,24803,Regular,,6811-2b,,6811
+24800,1665,"YES, .01",Positive,24802,Regular,,6811-3a,,6811
+24800,1666,"YES, .01",Positive,24803,Regular,,6811-3b,,6811
+24802,1667,"YES, .01",Negative,24804,Regular,,6811-4,,6811
+24802,1668,"YES, .01",Negative,24805,Regular,,6811-4,,6811
+24802,1669,"YES, .01",Negative,24806,Regular,,6811-4,,6811
+24802,1670,"YES, .01",Negative,24807,Regular,,6811-4,,6811
+24802,1671,"YES, .01",Negative,24808,Regular,,6811-4,,6811
+24802,1672,"YES, .01",Negative,24809,Regular,,6811-4,,6811
+24803,1673,"YES, .01",Negative,24804,Regular,,6811-5,,6811
+24803,1674,"YES, .01",Negative,24805,Regular,,6811-5,,6811
+24803,1675,"YES, .01",Negative,24806,Regular,,6811-5,,6811
+24803,1676,"YES, .01",Negative,24807,Regular,,6811-5,,6811
+24803,1677,"YES, .01",Negative,24808,Regular,,6811-5,,6811
+24803,1678,"YES, .01",Negative,24809,Regular,,6811-5,,6811
+25526,1685,"YES, .05",,25529,Moderator,,6812-2a,54097,6812
+25526,1686,"YES, .05",,25530,Moderator,,6812-2a,54097,6812
+25526,1687,"YES, .05",,25531,Moderator,,6812-2a,54097,6812
+25527,1688,No,,25529,Moderator,,6812-2a,54097,6812
+25527,1689,No,,25530,Moderator,,6812-2a,54097,6812
+25527,1690,"YES, .05",,25531,Moderator,,6812-2a,54097,6812
+25528,1691,"YES, .05",,25529,Moderator,,6812-2a,54097,6812
+25528,1692,"YES, .05",,25530,Moderator,,6812-2a,54097,6812
+25528,1693,"YES, .05",,25531,Moderator,,6812-2a,54097,6812
+25526,1694,No,n/a,25529,Moderator,,6812-2b,54098,6812
+25527,1695,No,n/a,25529,Moderator,,6812-2b,54098,6812
+25528,1696,No,n/a,25529,Moderator,,6812-2b,54098,6812
+25526,1697,No,n/a,25530,Moderator,,6812-2b,54098,6812
+25527,1698,No,n/a,25530,Moderator,,6812-2b,54098,6812
+25528,1699,No,n/a,25530,Moderator,,6812-2b,54098,6812
+25526,1700,No,n/a,25531,Moderator,,6812-2b,54098,6812
+25527,1701,No,n/a,25531,Moderator,,6812-2b,54098,6812
+25528,1702,No,n/a,25531,Moderator,,6812-2b,54098,6812
+25526,1703,partial,n/a,25529,Moderator,,6812-2c,54099,6812
+25527,1704,partial,n/a,25529,Moderator,,6812-2c,54099,6812
+25528,1705,partial,n/a,25529,Moderator,,6812-2c,54099,6812
+25526,1706,partial,n/a,25530,Moderator,,6812-2c,54099,6812
+25527,1707,partial,n/a,25530,Moderator,,6812-2c,54099,6812
+25528,1708,partial,n/a,25530,Moderator,,6812-2c,54099,6812
+25526,1709,partial,n/a,25531,Moderator,,6812-2c,54099,6812
+25527,1710,partial,n/a,25531,Moderator,,6812-2c,54099,6812
+25528,1711,partial,n/a,25531,Moderator,,6812-2c,54099,6812
+54100,1712,"yes, 0.05",n/a,25529,Regular,,6812-3,,6812
+54100,1713,"yes, 0.05",n/a,25530,Regular,,6812-3,,6812
+54100,1714,"yes, 0.05",n/a,25531,Regular,,6812-3,,6812
+61348,1715,no,n/a,25529,Regular,,6812-4a,,6812
+61349,1716,"yes, 0.001",n/a,25530,Regular,,6812-4b,,6812
+61350,1717,"yes, 0.001",n/a,25531,Regular,,6812-4c,,6812
+25467,1718,"Study 1 (yes/.001)
+Study 2 (no)",Positive,25464,Regular,,6814-1a,,6814
+25464,1719,0.01,Positive,25464,Regular,,6814-1b,,6814
+25467,1720,0.001,Positive,25468,Regular,,6814-1c,,6814
+25465,1721,"Study 1 (yes/.05)
+Study 2 (no)",Has effect,25472,Moderator,,6814-2a,25464,6814
+25465,1722,"Study 1 (yes/.01)
+Study 2 (no)",Has effect,25472,Moderator,,6814-2b,25464,6814
+25465,1723,"Study 1 (yes/.01)
+Study 2 (no)",Has effect,25473,Moderator,,6814-2c,25464,6814
+25464,1724,no,Negative,25466,Regular,,6814-2d,,6814
+24853,1725,0.001,Negative,24846,Regular,,6815-1,,6815
+24853,1726,0.001,Positive,24846,Regular,,6815-2,,6815
+24846,1727,0.01,Negative,24847,Regular,,6815-3,,6815
+24846,1728,0.001,Positive,24848,Regular,,6815-4,,6815
+24847,1729,0.001,Negative,24848,Regular,,6815-5,,6815
+51618,1730,0.01,Negative,24846,Regular,,6815-6,,6815
+51618,1731,0.001,Positive,24847,Regular,,6815-7,,6815
+51618,1732,0.01,Negative,24848,Regular,,6815-8,,6815
+24866,1733,0.001,Positive,24870,Regular,,6816-1,,6816
+24871,1734,0.01,Positive,24870,Regular,,6816-2,,6816
+24892,1735,0.05,Positive,24895,Moderator,,6817-1,24891,6817
+24907,1736,0.01,Negative,24903,Regular,,6819-1a,,6819
+24907,1737,no,Negative,24904,Regular,,6819-1b,,6819
+24907,1738,0.01,Negative,24905,Regular,,6819-2a,,6819
+24907,1739,0.01,Negative,24906,Regular,,6819-2b,,6819
+51274,1740,0.01,Negative,24903,Regular,,6819-3a,,6819
+51274,1741,no,Negative,24904,Regular,,6819-3b,,6819
+51274,1742,no,Negative,24905,Regular,,6819-4a,,6819
+51274,1743,no,Negative,24906,Regular,,6819-4b,,6819
+24903,1744,0.01,Negative,24905,Regular,,6819-5a,,6819
+24904,1745,0.01,Positive,24905,Regular,,6819-5b,,6819
+24910,1746,0.05,Has relationship,24909,Regular,,6820-1,,6820
+24910,1747,no,Has relationship,24909,Regular,,6820-2,,6820
+24911,1748,no,Has relationship,24909,Regular,,6820-2,,6820
+24912,1749,no,Has relationship,24909,Regular,,6820-2,,6820
+24913,1750,no,Has relationship,24909,Regular,,6820-2,,6820
+24914,1751,no,Has relationship,24909,Regular,,6820-2,,6820
+51267,1752,0.01,Positive,24923,Regular,,6821-1,,6821
+51268,1753,0.01,Positive,24923,Regular,,6821-1,,6821
+51267,1754,0.01,Positive,51270,Regular,,6821-1,,6821
+51268,1755,0.01,Positive,51270,Regular,,6821-1,,6821
+51267,1756,0.01,Positive,51272,Regular,,6821-1,,6821
+51268,1757,0.01,Positive,51272,Regular,,6821-1,,6821
+51267,1758,0.01,Positive,24924,Regular,,6821-2,,6821
+51268,1759,0.01,Positive,24924,Regular,,6821-2,,6821
+51267,1760,0.01,Positive,51271,Regular,,6821-2,,6821
+51268,1761,0.01,Positive,51271,Regular,,6821-2,,6821
+24919,1762,0.01,Has effect,24922,Regular,,6821-3,,6821
+24919,1763,0.01,Has effect,24923,Regular,,6821-4,,6821
+24919,1764,No,Has effect,24923,Regular,,6821-5,,6821
+24919,1765,No,No effect,24924,Regular,,6821-6,,6821
+24920,1766,0.01,Positive,51269,Regular,,6821-7,,6821
+24920,1767,0.1,No effect,51272,Regular,,6821-8,,6821
+24920,1768,No,Positive,51272,Regular,,6821-9,,6821
+24920,1769,0.1,No effect,51271,Regular,,6821-0,,6821
+51268,1770,0.01,Has effect,51272,Moderator,,6821-1,24921,6821
+51267,1771,0.01,Has effect,51272,Moderator,,6821-1,24921,6821
+51268,1772,0.01,Has effect,51271,Moderator,,6821-2,24921,6821
+51267,1773,0.01,Has effect,51271,Moderator,,6821-2,24921,6821
+24928,1774,0.01,Positive,24927,Regular,,6822-1,,6822
+24927,1775,0.01,Negative,24929,Regular,,6822-2,,6822
+24927,1776,0.01,Positive,24931,Regular,,6822-3,,6822
+24927,1777,0.01,Negative,24930,Regular,,6822-4,,6822
+24927,1778,0.01,Negative,24932,Regular,,6822-5,,6822
+24930,1779,0.01,Positive,24933,Regular,,6822-6,,6822
+24932,1780,0.01,Positive,24933,Regular,,6822-7a,,6822
+24930,1781,0.01,Positive,24932,Regular,,6822-7b,,6822
+24927,1782,0.01,Negative,24937,Regular,,6822-8,,6822
+24927,1783,0.01,Negative,24938,Regular,,6822-8,,6822
+24927,1784,0.01,Negative,24939,Regular,,6822-8,,6822
+24937,1785,0.05,Negative,24929,Moderator,,6822-9a,24927,6822
+24938,1786,0.05,Negative,24929,Moderator,,6822-9a,24927,6822
+24939,1787,0.05,Negative,24929,Moderator,,6822-9a,24927,6822
+24937,1788,0.01,Positive,24931,Moderator,,6822-9b,24927,6822
+24938,1789,0.01,Positive,24931,Moderator,,6822-9b,24927,6822
+24939,1790,0.01,Positive,24931,Moderator,,6822-9b,24927,6822
+24929,1791,0.01,Negative,24930,Moderator,,6822-0a,24927,6822
+24925,1792,0.01,Negative,24927,Regular,,6822-1a,,6822
+24931,1793,0.01,Negative,24930,Moderator,,6822-0b,24927,6822
+24926,1794,0.01,Negative,24927,Regular,,6822-1b,,6822
+25018,1795,0.01,Negative,25025,Mediator,,6823-1a,25017,6823
+25019,1796,No,Negative,25025,Mediator,,6823-1a,25017,6823
+25020,1797,No,Negative,25025,Mediator,,6823-1a,25017,6823
+25025,1798,0.01,Negative,25026,Mediator,,6823-2a,25017,6823
+25215,1799,Partially supported,Negative,25232,Regular,,6824-1,,6824
+25216,1800,Partially supported,Negative,25232,Regular,,6824-1,,6824
+25217,1801,Partially supported,Negative,25232,Regular,,6824-1,,6824
+25215,1802,Partially supported,Negative,25233,Regular,,6824-1,,6824
+25216,1803,Partially supported,Negative,25233,Regular,,6824-1,,6824
+25217,1804,Partially supported,Negative,25233,Regular,,6824-1,,6824
+25215,1805,Partially supported,Negative,25234,Regular,,6824-1,,6824
+25216,1806,Partially supported,Negative,25234,Regular,,6824-1,,6824
+25217,1807,Partially supported,Negative,25234,Regular,,6824-1,,6824
+25218,1808,0.05,Positive,25232,Regular,,6824-2,,6824
+25219,1809,0.05,Positive,25232,Regular,,6824-2,,6824
+25220,1810,0.05,Positive,25232,Regular,,6824-2,,6824
+25221,1811,0.05,Positive,25232,Regular,,6824-2,,6824
+25222,1812,0.05,Positive,25232,Regular,,6824-2,,6824
+25218,1813,0.05,Positive,25233,Regular,,6824-2,,6824
+25219,1814,0.05,Positive,25233,Regular,,6824-2,,6824
+25220,1815,0.05,Positive,25233,Regular,,6824-2,,6824
+25221,1816,0.05,Positive,25233,Regular,,6824-2,,6824
+25222,1817,0.05,Positive,25233,Regular,,6824-2,,6824
+25218,1818,0.05,Positive,25234,Regular,,6824-2,,6824
+25219,1819,0.05,Positive,25234,Regular,,6824-2,,6824
+25220,1820,0.05,Positive,25234,Regular,,6824-2,,6824
+25221,1821,0.05,Positive,25234,Regular,,6824-2,,6824
+25222,1822,0.05,Positive,25234,Regular,,6824-2,,6824
+25223,1823,Partially supported,Positive,25232,Regular,,6824-3,,6824
+25225,1824,Partially supported,Positive,25232,Regular,,6824-3,,6824
+25223,1825,Partially supported,Positive,25233,Regular,,6824-3,,6824
+25225,1826,Partially supported,Positive,25233,Regular,,6824-3,,6824
+25223,1827,Partially supported,Positive,25234,Regular,,6824-3,,6824
+25225,1828,Partially supported,Positive,25234,Regular,,6824-3,,6824
+25226,1829,Partially supported,Positive,25232,Regular,,6824-4,,6824
+25227,1830,Partially supported,Positive,25232,Regular,,6824-4,,6824
+25226,1831,Partially supported,Positive,25233,Regular,,6824-4,,6824
+25227,1832,Partially supported,Positive,25233,Regular,,6824-4,,6824
+25226,1833,Partially supported,Positive,25234,Regular,,6824-4,,6824
+25227,1834,Partially supported,Positive,25234,Regular,,6824-4,,6824
+25228,1835,0.05,Positive,25232,Regular,,6824-5,,6824
+25229,1836,0.05,Positive,25232,Regular,,6824-5,,6824
+25230,1837,0.05,Positive,25232,Regular,,6824-5,,6824
+25231,1838,0.05,Positive,25232,Regular,,6824-5,,6824
+25228,1839,0.05,Positive,25233,Regular,,6824-5,,6824
+25229,1840,0.05,Positive,25233,Regular,,6824-5,,6824
+25230,1841,0.05,Positive,25233,Regular,,6824-5,,6824
+25231,1842,0.05,Positive,25233,Regular,,6824-5,,6824
+25228,1843,0.05,Positive,25234,Regular,,6824-5,,6824
+25229,1844,0.05,Positive,25234,Regular,,6824-5,,6824
+25230,1845,0.05,Positive,25234,Regular,,6824-5,,6824
+25231,1846,0.05,Positive,25234,Regular,,6824-5,,6824
+25510,1847,0.001,Has effect,25509,Regular,,6852-1,,6852
+25511,1848,0.01,Has effect,25509,Regular,,6852-2,,6852
+25512,1849,0.001,Negative,25509,Regular,,6852-3,,6852
+25512,1850,No,Has effect,25509,Regular,,6852-4,,6852
+25510,1851,No,Has effect,25509,Regular,,6852-4,,6852
+25512,1852,Partially supported,Has effect,25509,Moderator,,6852-5,25510,6852
+25512,1853,Partially supported,Has effect,25509,Moderator,,6852-5,25511,6852
+25513,1854,0.01,Negative,25509,Regular,,6852-6,,6852
+25513,1855,No,Has effect,25509,Regular,,6852-7,25510,6852
+25513,1856,No,Has effect,25509,Regular,,6852-7,25511,6852
+51418,1857,0.0001,Has effect,26757,Regular,,6854-1,,6854
+51419,1858,0.0001,Has effect,26757,Regular,,6854-1,,6854
+51418,1859,0.0001,Has effect,26764,Regular,,6854-2,,6854
+51419,1860,0.0001,Has effect,26764,Regular,,6854-2,,6854
+51418,1861,0.0001,Has effect,26766,Regular,,6854-3,,6854
+51419,1862,0.0001,Has effect,26766,Regular,,6854-3,,6854
+25516,1863,0.01,Positive,25514,Mediator,,6856-2,25517,6856
+25568,1864,0.01,Positive,25566,Regular,,6863-1,,6863
+25569,1865,0.01,Positive,25566,Regular,,6863-1,,6863
+25570,1866,0.01,Positive,25566,Regular,,6863-1,,6863
+25571,1867,0.01,Positive,25566,Regular,,6863-1,,6863
+25550,1868,0.01,Positive,25568,Regular,,6863-2,,6863
+25551,1869,0.01,Positive,25568,Regular,,6863-2,,6863
+25552,1870,0.01,Positive,25568,Regular,,6863-2,,6863
+25553,1871,0.01,Positive,25568,Regular,,6863-2,,6863
+25554,1872,0.01,Positive,25568,Regular,,6863-2,,6863
+25555,1873,0.01,Positive,25568,Regular,,6863-2,,6863
+25556,1874,0.01,Positive,25568,Regular,,6863-2,,6863
+25557,1875,0.01,Positive,25568,Regular,,6863-2,,6863
+25558,1876,0.01,Positive,25568,Regular,,6863-2,,6863
+25559,1877,0.01,Positive,25568,Regular,,6863-2,,6863
+25560,1878,0.01,Positive,25568,Regular,,6863-2,,6863
+25561,1879,0.01,Positive,25568,Regular,,6863-2,,6863
+25562,1880,0.01,Positive,25568,Regular,,6863-2,,6863
+25563,1881,0.01,Positive,25568,Regular,,6863-2,,6863
+25550,1882,0.01,Positive,25569,Regular,,6863-2,,6863
+25551,1883,0.01,Positive,25569,Regular,,6863-2,,6863
+25552,1884,0.01,Positive,25569,Regular,,6863-2,,6863
+25553,1885,0.01,Positive,25569,Regular,,6863-2,,6863
+25554,1886,0.01,Positive,25569,Regular,,6863-2,,6863
+25555,1887,0.01,Positive,25569,Regular,,6863-2,,6863
+25556,1888,0.01,Positive,25569,Regular,,6863-2,,6863
+25557,1889,0.01,Positive,25569,Regular,,6863-2,,6863
+25558,1890,0.01,Positive,25569,Regular,,6863-2,,6863
+25559,1891,0.01,Positive,25569,Regular,,6863-2,,6863
+25560,1892,0.01,Positive,25569,Regular,,6863-2,,6863
+25561,1893,0.01,Positive,25569,Regular,,6863-2,,6863
+25562,1894,0.01,Positive,25569,Regular,,6863-2,,6863
+25563,1895,0.01,Positive,25569,Regular,,6863-2,,6863
+25550,1896,0.01,Positive,25570,Regular,,6863-2,,6863
+25551,1897,0.01,Positive,25570,Regular,,6863-2,,6863
+25552,1898,0.01,Positive,25570,Regular,,6863-2,,6863
+25553,1899,0.01,Positive,25570,Regular,,6863-2,,6863
+25554,1900,0.01,Positive,25570,Regular,,6863-2,,6863
+25555,1901,0.01,Positive,25570,Regular,,6863-2,,6863
+25556,1902,0.01,Positive,25570,Regular,,6863-2,,6863
+25557,1903,0.01,Positive,25570,Regular,,6863-2,,6863
+25558,1904,0.01,Positive,25570,Regular,,6863-2,,6863
+25559,1905,0.01,Positive,25570,Regular,,6863-2,,6863
+25560,1906,0.01,Positive,25570,Regular,,6863-2,,6863
+25561,1907,0.01,Positive,25570,Regular,,6863-2,,6863
+25562,1908,0.01,Positive,25570,Regular,,6863-2,,6863
+25563,1909,0.01,Positive,25570,Regular,,6863-2,,6863
+25550,1910,0.01,Positive,25571,Regular,,6863-2,,6863
+25551,1911,0.01,Positive,25571,Regular,,6863-2,,6863
+25552,1912,0.01,Positive,25571,Regular,,6863-2,,6863
+25553,1913,0.01,Positive,25571,Regular,,6863-2,,6863
+25554,1914,0.01,Positive,25571,Regular,,6863-2,,6863
+25555,1915,0.01,Positive,25571,Regular,,6863-2,,6863
+25556,1916,0.01,Positive,25571,Regular,,6863-2,,6863
+25557,1917,0.01,Positive,25571,Regular,,6863-2,,6863
+25558,1918,0.01,Positive,25571,Regular,,6863-2,,6863
+25559,1919,0.01,Positive,25571,Regular,,6863-2,,6863
+25560,1920,0.01,Positive,25571,Regular,,6863-2,,6863
+25561,1921,0.01,Positive,25571,Regular,,6863-2,,6863
+25562,1922,0.01,Positive,25571,Regular,,6863-2,,6863
+25563,1923,0.01,Positive,25571,Regular,,6863-2,,6863
+25550,1924,0.01,Positive,25566,Regular,,6863-3,,6863
+25551,1925,0.01,Positive,25566,Regular,,6863-3,,6863
+25552,1926,0.01,Positive,25566,Regular,,6863-3,,6863
+25553,1927,0.01,Positive,25566,Regular,,6863-3,,6863
+25554,1928,0.01,Positive,25566,Regular,,6863-3,,6863
+25555,1929,0.01,Positive,25566,Regular,,6863-3,,6863
+25556,1930,0.01,Positive,25566,Regular,,6863-3,,6863
+25557,1931,0.01,Positive,25566,Regular,,6863-3,,6863
+25558,1932,0.01,Positive,25566,Regular,,6863-3,,6863
+25559,1933,0.01,Positive,25566,Regular,,6863-3,,6863
+25560,1934,0.01,Positive,25566,Regular,,6863-3,,6863
+25561,1935,0.01,Positive,25566,Regular,,6863-3,,6863
+25562,1936,0.01,Positive,25566,Regular,,6863-3,,6863
+25563,1937,0.01,Positive,25566,Regular,,6863-3,,6863
+25568,1938,0.01,Positive,25565,Regular,,6863-4,,6863
+25569,1939,0.01,Positive,25565,Regular,,6863-4,,6863
+25570,1940,0.01,Positive,25565,Regular,,6863-4,,6863
+25571,1941,0.01,Positive,25565,Regular,,6863-4,,6863
+25550,1942,0.01,Positive,25565,Regular,,6863-5,,6863
+25551,1943,0.01,Positive,25565,Regular,,6863-5,,6863
+25552,1944,0.01,Positive,25565,Regular,,6863-5,,6863
+25553,1945,0.01,Positive,25565,Regular,,6863-5,,6863
+25554,1946,0.01,Positive,25565,Regular,,6863-5,,6863
+25555,1947,0.01,Positive,25565,Regular,,6863-5,,6863
+25556,1948,0.01,Positive,25565,Regular,,6863-5,,6863
+25557,1949,0.01,Positive,25565,Regular,,6863-5,,6863
+25558,1950,0.01,Positive,25565,Regular,,6863-5,,6863
+25559,1951,0.01,Positive,25565,Regular,,6863-5,,6863
+25560,1952,0.01,Positive,25565,Regular,,6863-5,,6863
+25561,1953,0.01,Positive,25565,Regular,,6863-5,,6863
+25562,1954,0.01,Positive,25565,Regular,,6863-5,,6863
+25563,1955,0.01,Positive,25565,Regular,,6863-5,,6863
+25565,1956,0.01,Positive,25566,Regular,,6863-6,,6863
+25565,1957,0.01,Positive,25564,Regular,,6863-7,,6863
+25566,1958,0.01,Positive,25564,Regular,,6863-8,,6863
+51421,1959,0.05,Positive,25535,Regular,,6864-1a,,6864
+51421,1960,No,Positive,25535,Moderator,,6864-1b,51420,6864
+25534,1961,0.05,Negative,25535,Regular,,6864-2a,,6864
+25534,1962,No,Positive,25535,Moderator,,6864-2b,25533,6864
+51421,1963,0.001,Positive,25536,Regular,,6864-3a,,6864
+51421,1964,0.01,Positive,25536,Moderator,,6864-3b,51420,6864
+25534,1965,0.001,Negative,25536,Regular,,6864-4a,,6864
+25534,1966,0.01,Positive,25536,Moderator,,6864-4b,25533,6864
+51421,1967,No,Positive,25537,Moderator,,6864-5a,51420,6864
+25534,1968,0.05,Positive,25537,Moderator,,6864-5b,25533,6864
+25535,1969,0.001,Positive,25537,Regular,,6864-6a,,6864
+25536,1970,No,Negative,25537,Regular,,6864-6b,,6864
+25603,1971,0.05,Positive,25607,Regular,,6865-1,,6865
+25603,1972,0.05,Positive,25607,Regular,,6865-1,,6865
+25604,1973,No,Positive,25607,Regular,,6865-2,,6865
+25604,1974,No,Positive,25607,Regular,,6865-2,,6865
+25605,1975,0.01,Negative,25607,Regular,,6865-3,,6865
+25606,1976,0.01,Negative,25607,Regular,,6865-4,,6865
+25608,1977,0.01,Negative,25607,Regular,,6865-5,,6865
+25608,1978,0.01,Negative,25607,Regular,,6865-5,,6865
+26968,1979,0.001,Positive,26969,Regular,,6871-1,,6871
+26968,1980,0.001,Positive,26969,Regular,,6871-1,,6871
+51422,1981,No,Has effect,26968,Regular,,6871-2,,6871
+51423,1982,No,Has effect,26968,Regular,,6871-2,,6871
+26972,1983,No,Positive,26968,Regular,,6871-3a,,6871
+26972,1984,No,Positive,26968,Regular,,6871-3a,,6871
+26974,1985,0.01,Positive,26968,Regular,,6871-3b,,6871
+26974,1986,0.01,Positive,26968,Regular,,6871-3b,,6871
+26973,1987,0.01,Positive,26968,Regular,,6871-3c,,6871
+26973,1988,0.01,Positive,26968,Regular,,6871-3c,,6871
+26972,1989,0.05,Has effect,26968,Moderator,,6871-4a,51422,6871
+26972,1990,0.05,Has effect,26968,Moderator,,6871-4a,51423,6871
+26972,1991,0.05,Has effect,26968,Moderator,,6871-4a,51424,6871
+26974,1992,No,Has effect,26968,Moderator,,6871-4b,51422,6871
+26974,1993,No,Has effect,26968,Moderator,,6871-4b,51423,6871
+26974,1994,No,Has effect,26968,Moderator,,6871-4b,51424,6871
+26973,1995,0.05,Has effect,26968,Moderator,,6871-4c,51422,6871
+26973,1996,0.05,Has effect,26968,Moderator,,6871-4c,51423,6871
+26098,1997,0.01,Negative,26102,Regular,,6872-1a,,6872
+26098,1998,0.01,Negative,26102,Regular,,6872-1a,,6872
+26098,1999,0.01,Negative,26103,Regular,,6872-1b,,6872
+26098,2000,0.01,Negative,26103,Regular,,6872-1b,,6872
+26098,2001,0.01,Negative,26104,Regular,,6872-1c,,6872
+26098,2002,0.01,Negative,26104,Regular,,6872-1c,,6872
+26105,2003,0.01,Negative,26102,Regular,,6872-2a,,6872
+26105,2004,0.01,Negative,26102,Regular,,6872-2a,,6872
+26106,2005,0.01,Negative,26103,Regular,,6872-2b,,6872
+26106,2006,0.01,Negative,26103,Regular,,6872-2b,,6872
+26107,2007,No,Negative,26104,Regular,,6872-2c,,6872
+26107,2008,No,Negative,26104,Regular,,6872-2c,,6872
+26108,2009,No,Negative,26102,Regular,,6872-2d,,6872
+26108,2010,No,Negative,26102,Regular,,6872-2d,,6872
+26108,2011,0.01,Negative,26103,Regular,,6872-2e,,6872
+26108,2012,0.01,Negative,26103,Regular,,6872-2e,,6872
+26108,2013,No,Negative,26104,Regular,,6872-2f,,6872
+26108,2014,No,Negative,26104,Regular,,6872-2f,,6872
+26105,2015,0.01,Positive,26109,Regular,,6872-3,,6872
+26106,2016,0.01,Positive,26109,Regular,,6872-3,,6872
+26107,2017,0.01,Positive,26109,Regular,,6872-3,,6872
+26108,2018,0.01,Positive,26109,Regular,,6872-3,,6872
+26109,2019,0.01,Positive,26109,Regular,,6872-3,,6872
+26109,2020,0.01,Positive,26101,Regular,,6872-4,,6872
+26109,2021,0.01,Positive,26101,Regular,,6872-4,,6872
+25772,2022,No,Positive,25774,Regular,,6874-1a,,6874
+25772,2023,No,Positive,25774,Regular,,6874-1a,,6874
+25773,2024,0.01,Positive,25774,Regular,,6874-1b,,6874
+25773,2025,0.01,Positive,25774,Regular,,6874-1b,,6874
+25772,2026,0.01,Positive,25773,Regular,,6874-2,,6874
+25772,2027,0.01,Positive,25773,Regular,,6874-2,,6874
+25767,2028,0.01,Positive,25772,Regular,,6874-3a,,6874
+25767,2029,0.01,Positive,25772,Regular,,6874-3a,,6874
+25767,2030,0.1,Positive,25773,Regular,,6874-3b,,6874
+25767,2031,0.1,Positive,25773,Regular,,6874-3b,,6874
+25768,2032,0.1,Positive,25772,Regular,,6874-4a,,6874
+25768,2033,0.1,Positive,25772,Regular,,6874-4a,,6874
+25768,2034,No,Positive,25773,Regular,,6874-4b,,6874
+25768,2035,No,Positive,25773,Regular,,6874-4b,,6874
+25769,2036,0.1,Positive,25773,Regular,,6874-5,,6874
+25769,2037,0.1,Positive,25773,Regular,,6874-5,,6874
+25770,2038,No,Positive,25772,Regular,,6874-6a,,6874
+25770,2039,No,Positive,25772,Regular,,6874-6a,,6874
+25770,2040,0.05,Positive,25773,Regular,,6874-6b,,6874
+25770,2041,0.05,Positive,25773,Regular,,6874-6b,,6874
+25771,2042,0.05,Positive,25772,Regular,,6874-7a,,6874
+25771,2043,0.05,Positive,25772,Regular,,6874-7a,,6874
+25771,2044,No,Positive,25773,Regular,,6874-7b,,6874
+25771,2045,No,Positive,25773,Regular,,6874-7b,,6874
+26222,2046,0.05,Positive,26217,Regular,,6875-1,,6875
+26222,2047,0.05,Positive,26217,Regular,,6875-1,,6875
+26222,2048,0.05,Positive,26217,Regular,,6875-1,,6875
+26222,2049,0.01,Positive,26223,Regular,,6875-2,,6875
+26222,2050,0.01,Positive,26223,Regular,,6875-2,,6875
+26222,2051,0.01,Positive,26223,Regular,,6875-2,,6875
+26223,2052,0.01,Positive,26217,Regular,,6875-3,,6875
+26223,2053,0.01,Positive,26217,Regular,,6875-3,,6875
+26223,2054,0.01,Positive,26217,Regular,,6875-3,,6875
+26218,2055,0.01,Positive,26222,Regular,,6875-4,,6875
+26218,2056,0.01,Positive,26222,Regular,,6875-4,,6875
+26218,2057,0.01,Positive,26222,Regular,,6875-4,,6875
+26218,2058,0.01,Positive,26222,Regular,,6875-4,,6875
+26218,2059,0.01,Positive,26222,Regular,,6875-4,,6875
+26218,2060,0.01,Positive,26222,Regular,,6875-4,,6875
+26219,2061,No,Positive,26222,Regular,,6875-5,,6875
+26219,2062,No,Positive,26222,Regular,,6875-5,,6875
+26219,2063,No,Positive,26222,Regular,,6875-5,,6875
+26219,2064,No,Positive,26222,Regular,,6875-5,,6875
+26219,2065,No,Positive,26222,Regular,,6875-5,,6875
+26219,2066,No,Positive,26222,Regular,,6875-5,,6875
+26220,2067,0.01,Positive,26222,Regular,,6875-6,,6875
+26220,2068,0.01,Positive,26222,Regular,,6875-6,,6875
+26220,2069,0.01,Positive,26222,Regular,,6875-6,,6875
+26220,2070,0.01,Positive,26222,Regular,,6875-6,,6875
+26220,2071,0.01,Positive,26222,Regular,,6875-6,,6875
+26220,2072,0.01,Positive,26222,Regular,,6875-6,,6875
+26221,2073,0.05,Positive,26222,Regular,,6875-7,,6875
+26221,2074,0.05,Positive,26222,Regular,,6875-7,,6875
+26221,2075,,,26222,Regular,,6875-7,,6875
+26221,2076,,,26222,Regular,,6875-7,,6875
+26221,2077,0.05,Positive,26222,Regular,,6875-7,,6875
+26221,2078,0.05,Positive,26222,Regular,,6875-7,,6875
+25829,2079,0.05,Has affect,25826,Moderator,,6878-1,51143,6878
+25829,2080,0.05,Has affect,25826,Moderator,,6878-1,51143,6878
+25829,2081,0.05,Has affect,25826,Moderator,,6878-1,51143,6878
+25829,2082,0.05,Has affect,25826,Moderator,,6878-1,51143,6878
+25829,2083,0.05,Has affect,25826,Moderator,,6878-1,51144,6878
+25829,2084,0.05,Has affect,25826,Moderator,,6878-1,51144,6878
+25829,2085,0.05,Has affect,25826,Moderator,,6878-1,51144,6878
+25829,2086,0.05,Has affect,25826,Moderator,,6878-1,51144,6878
+25829,2087,No,Has affect,25826,Moderator,,6878-1,51145,6878
+25829,2088,No,Has affect,25826,Moderator,,6878-1,51145,6878
+25829,2089,No,Has affect,25826,Moderator,,6878-1,51145,6878
+25829,2090,No,Has affect,25826,Moderator,,6878-1,51145,6878
+25829,2091,No,Has affect,25826,Moderator,,6878-1,51146,6878
+25829,2092,No,Has affect,25826,Moderator,,6878-1,51146,6878
+25829,2093,No,Has affect,25826,Moderator,,6878-1,51146,6878
+25829,2094,No,Has affect,25826,Moderator,,6878-1,51146,6878
+25829,2095,0.05,Has affect,25822,Moderator,,6878-2,51143,6878
+25829,2096,0.05,Has affect,25822,Moderator,,6878-2,51143,6878
+25829,2097,0.05,Has affect,25822,Moderator,,6878-2,51143,6878
+25829,2098,0.05,Has affect,25822,Moderator,,6878-2,51143,6878
+25829,2099,No,Has affect,25822,Moderator,,6878-2,51144,6878
+25829,2100,No,Has affect,25822,Moderator,,6878-2,51144,6878
+25829,2101,No,Has affect,25822,Moderator,,6878-2,51144,6878
+25829,2102,No,Has affect,25822,Moderator,,6878-2,51144,6878
+25829,2103,0.05,Has affect,25827,Moderator,,6878-3,51143,6878
+25829,2104,0.05,Has affect,25827,Moderator,,6878-3,51143,6878
+25829,2105,0.05,Has affect,25827,Moderator,,6878-3,51143,6878
+25829,2106,No,Has affect,25828,Moderator,,6878-3,51144,6878
+25829,2107,No,Has affect,25828,Moderator,,6878-3,51144,6878
+25829,2108,No,Has affect,25828,Moderator,,6878-3,51144,6878
+25829,2109,No,Has affect,25824,Moderator,,6878-3,51145,6878
+25829,2110,No,Has affect,25824,Moderator,,6878-3,51145,6878
+25829,2111,No,Has affect,25824,Moderator,,6878-3,51145,6878
+25829,2112,0.05,Has affect,25824,Moderator,,6878-3,51146,6878
+25829,2113,0.05,Has affect,25824,Moderator,,6878-3,51146,6878
+25829,2114,0.05,Has affect,25824,Moderator,,6878-3,51146,6878
+25829,2115,0.05,Has affect,25825,Moderator,,6878-4,51143,6878
+25829,2116,0.05,Has affect,25825,Moderator,,6878-4,51143,6878
+25829,2117,0.05,Has affect,25825,Moderator,,6878-4,51143,6878
+25829,2118,0.05,Has affect,25825,Moderator,,6878-4,51143,6878
+25829,2119,0.05,Has affect,25825,Moderator,,6878-4,51144,6878
+25829,2120,0.05,Has affect,25825,Moderator,,6878-4,51144,6878
+25829,2121,0.05,Has affect,25825,Moderator,,6878-4,51144,6878
+25829,2122,0.05,Has affect,25825,Moderator,,6878-4,51144,6878
+50751,2123,0.05,positive,25937,regular,,6884-1,,6884
+50754,2124,0.05,negative,25937,regular,,6884-1,,6884
+50754,2125,0.05,negative,25937,regular,,6884-1,,6884
+50751,2126,0.05,positive,25939,regular,,6884-2,,6884
+50754,2127,0.05,negative,25939,regular,,6884-2,,6884
+50754,2128,0.05,negative,25939,regular,,6884-2,,6884
+50751,2129,0.05,positive,25940,regular,,6884-3,,6884
+50754,2130,0.05,negative,25940,regular,,6884-3,,6884
+50754,2131,0.05,negative,25940,regular,,6884-3,,6884
+25937,2132,no,positive,25939,regular,,6884-4,,6884
+25937,2133,no,positive,25939,regular,,6884-4,,6884
+25937,2134,no,positive,25939,regular,,6884-4,,6884
+25937,2135,no,positive,25940,regular,,6884-5,,6884
+25937,2136,no,positive,25940,regular,,6884-5,,6884
+25937,2137,no,positive,25940,regular,,6884-5,,6884
+25939,2138,0.05,positive,25940,regular,,6884-6,,6884
+25939,2139,0.05,positive,25940,regular,,6884-6,,6884
+25939,2140,0.05,positive,25940,regular,,6884-6,,6884
+25939,2141,0.05,positive,25940,regular,,6884-6,,6884
+25936,2142,0.05,positive,25937,regular,,6884-7,,6884
+25936,2143,0.05,positive,25937,regular,,6884-7,,6884
+25936,2144,0.05,positive,25937,regular,,6884-7,,6884
+25936,2145,0.05,positive,25939,regular,,6884-8,,6884
+25936,2146,0.05,positive,25939,regular,,6884-8,,6884
+25936,2147,0.05,positive,25939,regular,,6884-8,,6884
+25936,2148,0.05,positive,25940,regular,,6884-9,,6884
+25936,2149,0.05,positive,25940,regular,,6884-9,,6884
+25936,2150,0.05,positive,25940,regular,,6884-9,,6884
+25977,2151,0.05,Positive,25982,Regular,,6893-1,,6893
+25978,2152,0.05,Positive,25982,Regular,,6893-1,,6893
+25979,2153,0.05,Positive,25982,Regular,,6893-1,,6893
+25977,2154,0.05,Positive,25980,Regular,,6893-1,,6893
+25978,2155,0.05,Positive,25980,Regular,,6893-1,,6893
+25979,2156,0.05,Positive,25980,Regular,,6893-1,,6893
+25976,2157,0.05,Positive,25982,Moderating,,6893-2,25977,6893
+25976,2158,0.05,Positive,25982,Moderating,,6893-2,25978,6893
+25976,2159,0.05,Positive,25982,Moderating,,6893-2,25979,6893
+25976,2160,0.05,Positive,25980,Moderating,,6893-2,25977,6893
+25976,2161,0.05,Positive,25980,Moderating,,6893-2,25978,6893
+25976,2162,0.05,Positive,25980,Moderating,,6893-2,25979,6893
+25976,2163,0.05,Positive,25982,Regular,,6893-3,,6893
+25976,2164,no,Positive,25980,Regular,,6893-3,,6893
+25976,2165,no,Positive,25980,Regular,,6893-3,,6893
+26016,2166,0.01,Positive,26000,regular,,6894-1a,,6894
+26016,2167,0.01,Positive,26001,regular,,6894-1a,,6894
+26016,2168,0.01,Positive,26002,regular,,6894-1a,,6894
+26016,2169,0.01,Positive,26003,regular,,6894-1a,,6894
+26016,2170,0.01,Positive,26004,regular,,6894-1a,,6894
+26016,2171,0.01,positive,26001,regular,,6894-1b,,6894
+26016,2172,0.01,negative,26000,regular,,6894-1b,,6894
+26016,2173,0.01,negative,26000,regular,,6894-1b,,6894
+26016,2174,0.01,Positive,26003,regular,,6894-1c,,6894
+26016,2175,0.01,negative,26000,regular,,6894-1c,,6894
+26016,2176,0.01,negative,26000,regular,,6894-1c,,6894
+26018,2177,0.05,Positive,26000,regular,,6894-2a,,6894
+26018,2178,0.05,Positive,26001,regular,,6894-2a,,6894
+26018,2179,0.05,Positive,26002,regular,,6894-2a,,6894
+26018,2180,0.05,Positive,26003,regular,,6894-2a,,6894
+26018,2181,0.05,Positive,26004,regular,,6894-2a,,6894
+26018,2182,0.05,Positive,26001,regular,,6894-2b,,6894
+26018,2183,0.05,negative,26000,regular,,6894-2b,,6894
+26018,2184,0.05,negative,26000,regular,,6894-2b,,6894
+26018,2185,0.05,Positive,26003,regular,,6894-2c,,6894
+26018,2186,0.05,Positive,26003,regular,,6894-2c,,6894
+26018,2187,0.05,Positive,26003,regular,,6894-2c,,6894
+26018,2188,0.05,negative,26001,regular,,6894-2c,,6894
+26039,2189,no,Positive,26036,regular,,6895-1a,,6895
+26039,2190,no,Positive,26036,regular,,6895-1a,,6895
+26040,2191,0.1,Positive,26036,,,6895-1b,,6895
+26037,2192,0.05,Positive,26036,,,6895-2a,,6895
+26037,2193,0.05,Positive,26036,,,6895-2a,,6895
+26038,2194,no,Positive,26036,,,6895-2b,,6895
+26041,2195,0.01,Positive,26037,,,6895-3a,,6895
+26042,2196,0.01,Positive,26038,,,6895-3b,,6895
+26041,2197,0.01,Positive,26039,,,6895-4a,,6895
+26042,2198,0.01,Positive,26040,,,6895-4b,,6895
+26043,2199,0.01,Positive,26041,,,6895-5a,,6895
+26043,2200,0.01,Positive,26042,,,6895-5b,,6895
+50606,2201,0.05,Positive,26048,Regular,,6896-1,,6896
+50607,2202,0.05,Positive,,Regular,,6896-1,,6896
+50608,2203,0.05,Positive,,Regular,,6896-1,,6896
+50609,2204,0.05,Positive,,Regular,,6896-1,,6896
+50610,2205,0.05,Positive,26049,Regular,,6896-1,,6896
+50606,2206,0.05,Positive,26049,Regular,,6896-2,,6896
+50607,2207,0.05,Positive,,Regular,,6896-2,,6896
+50608,2208,0.05,Positive,,Regular,,6896-2,,6896
+50609,2209,0.05,Positive,,Regular,,6896-2,,6896
+50610,2210,0.05,Positive,26050,Regular,,6896-2,,6896
+50606,2211,0.05,Positive,26048,Regular,,6896-3,,6896
+50607,2212,0.05,Positive,,Regular,,6896-3,,6896
+50608,2213,0.05,Positive,,Regular,,6896-3,,6896
+50609,2214,0.05,Positive,,Regular,,6896-3,,6896
+50610,2215,0.05,Positive,26049,Regular,,6896-3,,6896
+50606,2216,0.05,Positive,26049,Regular,,6896-4,,6896
+50607,2217,0.05,Positive,26049,Regular,,6896-4,,6896
+50608,2218,0.05,Positive,26049,Regular,,6896-4,,6896
+50609,2219,0.05,Positive,26049,Regular,,6896-4,,6896
+50609,2220,0.05,Positive,26049,Regular,,6896-4,,6896
+50606,2221,0.05,Positive,26050,Regular,,6896-5,,6896
+50607,2222,0.05,Positive,26050,Regular,,6896-5,,6896
+50608,2223,0.05,Positive,26050,Regular,,6896-5,,6896
+50609,2224,0.05,Positive,26050,Regular,,6896-5,,6896
+50609,2225,0.05,Positive,26050,Regular,,6896-5,,6896
+50606,2226,0.05,Positive,26050,Regular,,6896-6,,6896
+50607,2227,0.05,Positive,26050,Regular,,6896-6,,6896
+50608,2228,0.05,Positive,26050,Regular,,6896-6,,6896
+50609,2229,0.05,Positive,26050,Regular,,6896-6,,6896
+50609,2230,0.05,Positive,26050,Regular,,6896-6,,6896
+26048,2231,0.05,Positive,26052,Regular,,6896-7,,6896
+26048,2232,0.05,Positive,26052,Regular,,6896-7,,6896
+26049,2233,0.05,Positive,26052,Regular,,6896-8,,6896
+26049,2234,0.05,Positive,26052,Regular,,6896-8,,6896
+26050,2235,0.05,Positive,26052,Regular,,6896-9,,6896
+26052,2236,0.05,Positive,26054,Regular,,6896-0,,6896
+26052,2237,0.05,Positive,26054,Regular,,6896-0,,6896
+26048,2238,0.05,Positive,26051,Regular,,6896-1,,6896
+26048,2239,0.05,Positive,26051,Regular,,6896-1,,6896
+26051,2240,0.05,Positive,26053,Regular,,6896-2,,6896
+26051,2241,0.05,Positive,26053,Regular,,6896-2,,6896
+26052,2242,0.05,Positive,26053,Regular,,6896-3,,6896
+26052,2243,0.05,Positive,26053,Regular,,6896-3,,6896
+26671,2244,0.005,Negative,26679,Mediating,,6910-1,26677,6910
+26671,2245,0.005,Negative,26679,Mediating,,6910-1,26674,6910
+26671,2246,0.005,Negative,26679,Mediating,,6910-1,26674,6910
+26671,2247,0.005,Negative,26679,Mediating,,6910-1,26675,6910
+26671,2248,0.005,Negative,26679,Mediating,,6910-1,26675,6910
+26671,2249,0.016,Negative,26681,Mediating,,6910-2,26677,6910
+26671,2250,0.016,Negative,26681,Mediating,,6910-2,26677,6910
+26671,2251,0.016,Negative,26681,Mediating,,6910-2,26674,6910
+26671,2252,0.016,Negative,26681,Mediating,,6910-2,26675,6910
+26671,2253,0.016,Negative,26681,Mediating,,6910-2,26675,6910
+26671,2254,0.016,Negative,26681,Mediating,,6910-2,26680,6910
+26056,2255,0.01,negative,26055,regular,,6911-1,,6911
+26056,2256,0.01,negative,26055,regular,,6911-1,,6911
+26056,2257,0.01,Positive,26067,regular,,6911-2,,6911
+26056,2258,0.01,Positive,26067,regular,,6911-2,,6911
+26067,2259,0.01,negative,26055,regular,,6911-3,,6911
+26067,2260,0.01,negative,26055,regular,,6911-3,,6911
+26058,2261,0.01,positive,26055,regular,,6911-4,,6911
+26058,2262,0.01,positive,26055,regular,,6911-4,,6911
+26056,2263,0.01,Negative,26068,regular,,6911-5,,6911
+26056,2264,0.01,Negative,26068,regular,,6911-5,,6911
+26059,2265,0.01,Positive,26055,regular,,6911-6,,6911
+26059,2266,0.01,Positive,26055,regular,,6911-6,,6911
+26064,2267,0.05,Positive,26069,Regular,,6912-1,,6912
+26064,2268,0.05,Positive,26069,Regular,,6912-1,,6912
+26064,2269,0.05,Positive,26069,Regular,,6912-1,,6912
+26065,2270,0.001,Positive,26069,Regular,,6912-2a,,6912
+26065,2271,0.001,Positive,26069,Regular,,6912-2a,,6912
+26065,2272,0.001,Positive,26069,Regular,,6912-2a,,6912
+26065,2273,no,Positive,26064,Regular,,6912-2b,,6912
+26065,2274,no,Positive,26064,Regular,,6912-2b,,6912
+26065,2275,no,Positive,26064,Regular,,6912-2b,,6912
+26060,2276,0.001,Positive,26064,Regular,,6912-3a,,6912
+26060,2277,0.001,Positive,26064,Regular,,6912-3a,,6912
+26060,2278,0.001,Positive,26064,Regular,,6912-3a,,6912
+26060,2279,0.001,Positive,26065,Regular,,6912-3b,,6912
+26060,2280,0.001,Positive,26065,Regular,,6912-3b,,6912
+26060,2281,0.001,Positive,26065,Regular,,6912-3b,,6912
+26060,2282,0.001,Positive,26065,Regular,,6912-3b,,6912
+26061,2283,0.001,Positive,26069,Regular,,6912-4,,6912
+26061,2284,0.001,Positive,26069,Regular,,6912-4,,6912
+26061,2285,0.001,Positive,26069,Regular,,6912-4,,6912
+26066,2286,0.001,Positive,26069,Regular,,6912-5a,,6912
+26066,2287,0.001,Positive,26069,Regular,,6912-5a,,6912
+26066,2288,0.001,Positive,26069,Regular,,6912-5a,,6912
+26066,2289,0.001,Positive,26064,Regular,,6912-5b,,6912
+26066,2290,0.001,Positive,26064,Regular,,6912-5b,,6912
+26066,2291,0.001,Positive,26064,Regular,,6912-5b,,6912
+26066,2292,0.001,Positive,26064,Regular,,6912-5b,,6912
+26066,2293,0.01,Positive,26065,Regular,,6912-5c,,6912
+26066,2294,0.01,Positive,26065,Regular,,6912-5c,,6912
+26066,2295,0.01,Positive,26065,Regular,,6912-5c,,6912
+26066,2296,0.01,Positive,26065,Regular,,6912-5c,,6912
+26067,2297,0.001,Positive,26069,Regular,,6912-6a,,6912
+26067,2298,0.001,Positive,26069,Regular,,6912-6a,,6912
+26067,2299,0.001,Positive,26069,Regular,,6912-6a,,6912
+26067,2300,no,Positive,26064,Regular,,6912-6b,,6912
+26067,2301,no,Positive,26064,Regular,,6912-6b,,6912
+26067,2302,no,Positive,26064,Regular,,6912-6b,,6912
+26067,2303,no,Positive,26064,Regular,,6912-6b,,6912
+26068,2304,0.001,Positive,26069,Regular,,6912-7a,,6912
+26068,2305,0.001,Positive,26069,Regular,,6912-7a,,6912
+26068,2306,0.001,Positive,26069,Regular,,6912-7a,,6912
+26068,2307,0.001,Positive,26064,Regular,,6912-7b,,6912
+26068,2308,0.001,Positive,26064,Regular,,6912-7b,,6912
+26068,2309,0.001,Positive,26064,Regular,,6912-7b,,6912
+26068,2310,0.001,Positive,26064,Regular,,6912-7b,,6912
+26062,2311,0.05,Positive,26069,Regular,,6912-8,,6912
+26062,2312,0.05,Positive,26069,Regular,,6912-8,,6912
+26062,2313,0.05,Positive,26069,Regular,,6912-8,,6912
+26063,2314,no,Positive,26069,Regular,,6912-9,,6912
+26063,2315,no,Positive,26069,Regular,,6912-9,,6912
+26063,2316,no,Positive,26069,Regular,,6912-9,,6912
+29437,2317,0.01,Positive,28082,regular,,6913-1a,,6913
+29438,2318,0.01,Positive,28082,regular,,6913-1a,,6913
+29439,2319,0.01,Positive,28082,regular,,6913-1a,,6913
+29440,2320,0.01,Positive,28082,regular,,6913-1a,,6913
+29437,2321,0.01,Positive,28083,regular,,6913-1a,,6913
+29438,2322,0.01,Positive,28083,regular,,6913-1a,,6913
+29439,2323,0.01,Positive,28083,regular,,6913-1a,,6913
+29440,2324,0.01,Positive,28083,regular,,6913-1a,,6913
+29506,2325,0.01,Positive,29437,regular,,6913-1b,,6913
+29507,2326,0.01,Positive,29437,regular,,6913-1b,,6913
+29517,2327,0.01,Positive,29437,regular,,6913-1b,,6913
+29518,2328,0.01,Positive,29437,regular,,6913-1b,,6913
+29519,2329,0.01,Positive,29437,regular,,6913-1b,,6913
+29506,2330,0.01,Positive,29438,regular,,6913-1b,,6913
+29507,2331,0.01,Positive,29438,regular,,6913-1b,,6913
+29517,2332,0.01,Positive,29438,regular,,6913-1b,,6913
+29518,2333,0.01,Positive,29438,regular,,6913-1b,,6913
+29519,2334,0.01,Positive,29438,regular,,6913-1b,,6913
+29506,2335,0.01,Positive,29439,regular,,6913-1b,,6913
+29507,2336,0.01,Positive,29439,regular,,6913-1b,,6913
+29517,2337,0.01,Positive,29439,regular,,6913-1b,,6913
+29518,2338,0.01,Positive,29439,regular,,6913-1b,,6913
+29519,2339,0.01,Positive,29439,regular,,6913-1b,,6913
+29506,2340,0.01,Positive,29440,regular,,6913-1b,,6913
+29507,2341,0.01,Positive,29440,regular,,6913-1b,,6913
+29517,2342,0.01,Positive,29440,regular,,6913-1b,,6913
+29518,2343,0.01,Positive,29440,regular,,6913-1b,,6913
+29519,2344,0.01,Positive,29440,regular,,6913-1b,,6913
+28084,2345,0.01,Positive,29506,regular,,6913-2,,6913
+28084,2346,0.01,Positive,29507,regular,,6913-2,,6913
+28084,2347,0.01,Positive,29517,regular,,6913-2,,6913
+28084,2348,0.01,Positive,29518,regular,,6913-2,,6913
+28084,2349,0.01,Positive,29519,regular,,6913-2,,6913
+28100,2350,0.01,Positive,29506,regular,,6913-2,,6913
+28100,2351,0.01,Positive,29507,regular,,6913-2,,6913
+28100,2352,0.01,Positive,29517,regular,,6913-2,,6913
+28100,2353,0.01,Positive,29518,regular,,6913-2,,6913
+28100,2354,0.01,Positive,29519,regular,,6913-2,,6913
+28101,2355,0.01,Positive,29506,regular,,6913-2,,6913
+28101,2356,0.01,Positive,29507,regular,,6913-2,,6913
+28101,2357,0.01,Positive,29517,regular,,6913-2,,6913
+28101,2358,0.01,Positive,29518,regular,,6913-2,,6913
+28101,2359,0.01,Positive,29519,regular,,6913-2,,6913
+29114,2360,0.01,Positive,29506,regular,,6913-2,,6913
+29114,2361,0.01,Positive,29507,regular,,6913-2,,6913
+29114,2362,0.01,Positive,29517,regular,,6913-2,,6913
+29114,2363,0.01,Positive,29518,regular,,6913-2,,6913
+29114,2364,0.01,Positive,29519,regular,,6913-2,,6913
+28084,2365,0.05,Positive,28082,mediating,,6913-3,29506,6913
+28084,2366,0.05,Positive,28082,mediating,,6913-3,29507,6913
+28084,2367,0.05,Positive,28082,mediating,,6913-3,29517,6913
+28084,2368,0.05,Positive,28082,mediating,,6913-3,29518,6913
+28084,2369,0.05,Positive,28082,mediating,,6913-3,29519,6913
+28084,2370,0.05,Positive,28082,mediating,,6913-3,29437,6913
+28084,2371,0.05,Positive,28082,mediating,,6913-3,29438,6913
+28084,2372,0.05,Positive,28082,mediating,,6913-3,29439,6913
+28084,2373,0.05,Positive,28082,mediating,,6913-3,29440,6913
+28084,2374,0.05,Positive,28083,mediating,,6913-3,29506,6913
+28084,2375,0.05,Positive,28083,mediating,,6913-3,29507,6913
+28084,2376,0.05,Positive,28083,mediating,,6913-3,29517,6913
+28084,2377,0.05,Positive,28083,mediating,,6913-3,29518,6913
+28084,2378,0.05,Positive,28083,mediating,,6913-3,29519,6913
+28084,2379,0.05,Positive,28083,mediating,,6913-3,29437,6913
+28084,2380,0.05,Positive,28083,mediating,,6913-3,29438,6913
+28084,2381,0.05,Positive,28083,mediating,,6913-3,29439,6913
+28084,2382,0.05,Positive,28083,mediating,,6913-3,29440,6913
+28100,2383,0.05,Positive,28082,mediating,,6913-3,29506,6913
+28100,2384,0.05,Positive,28082,mediating,,6913-3,29507,6913
+28100,2385,0.05,Positive,28082,mediating,,6913-3,29517,6913
+28100,2386,0.05,Positive,28082,mediating,,6913-3,29518,6913
+28100,2387,0.05,Positive,28082,mediating,,6913-3,29519,6913
+28100,2388,0.05,Positive,28082,mediating,,6913-3,29437,6913
+28100,2389,0.05,Positive,28082,mediating,,6913-3,29438,6913
+28100,2390,0.05,Positive,28082,mediating,,6913-3,29439,6913
+28100,2391,0.05,Positive,28082,mediating,,6913-3,29440,6913
+28100,2392,0.05,Positive,28083,mediating,,6913-3,29506,6913
+28100,2393,0.05,Positive,28083,mediating,,6913-3,29507,6913
+28100,2394,0.05,Positive,28083,mediating,,6913-3,29517,6913
+28100,2395,0.05,Positive,28083,mediating,,6913-3,29518,6913
+28100,2396,0.05,Positive,28083,mediating,,6913-3,29519,6913
+28100,2397,0.05,Positive,28083,mediating,,6913-3,29437,6913
+28100,2398,0.05,Positive,28083,mediating,,6913-3,29438,6913
+28100,2399,0.05,Positive,28083,mediating,,6913-3,29439,6913
+28100,2400,0.05,Positive,28083,mediating,,6913-3,29440,6913
+28101,2401,0.05,Positive,28082,mediating,,6913-3,29506,6913
+28101,2402,0.05,Positive,28082,mediating,,6913-3,29507,6913
+28101,2403,0.05,Positive,28082,mediating,,6913-3,29517,6913
+28101,2404,0.05,Positive,28082,mediating,,6913-3,29518,6913
+28101,2405,0.05,Positive,28082,mediating,,6913-3,29519,6913
+28101,2406,0.05,Positive,28082,mediating,,6913-3,29437,6913
+28101,2407,0.05,Positive,28082,mediating,,6913-3,29438,6913
+28101,2408,0.05,Positive,28082,mediating,,6913-3,29439,6913
+28101,2409,0.05,Positive,28082,mediating,,6913-3,29440,6913
+28101,2410,0.05,Positive,28083,mediating,,6913-3,29506,6913
+28101,2411,0.05,Positive,28083,mediating,,6913-3,29507,6913
+28101,2412,0.05,Positive,28083,mediating,,6913-3,29517,6913
+28101,2413,0.05,Positive,28083,mediating,,6913-3,29518,6913
+28101,2414,0.05,Positive,28083,mediating,,6913-3,29519,6913
+28101,2415,0.05,Positive,28083,mediating,,6913-3,29437,6913
+28101,2416,0.05,Positive,28083,mediating,,6913-3,29438,6913
+28101,2417,0.05,Positive,28083,mediating,,6913-3,29439,6913
+28101,2418,0.05,Positive,28083,mediating,,6913-3,29440,6913
+29114,2419,0.05,Positive,28082,mediating,,6913-3,29506,6913
+29114,2420,0.05,Positive,28082,mediating,,6913-3,29507,6913
+29114,2421,0.05,Positive,28082,mediating,,6913-3,29517,6913
+29114,2422,0.05,Positive,28082,mediating,,6913-3,29518,6913
+29114,2423,0.05,Positive,28082,mediating,,6913-3,29519,6913
+29114,2424,0.05,Positive,28082,mediating,,6913-3,29437,6913
+29114,2425,0.05,Positive,28082,mediating,,6913-3,29438,6913
+29114,2426,0.05,Positive,28082,mediating,,6913-3,29439,6913
+29114,2427,0.05,Positive,28082,mediating,,6913-3,29440,6913
+29114,2428,0.05,Positive,28083,mediating,,6913-3,29506,6913
+29114,2429,0.05,Positive,28083,mediating,,6913-3,29507,6913
+29114,2430,0.05,Positive,28083,mediating,,6913-3,29517,6913
+29114,2431,0.05,Positive,28083,mediating,,6913-3,29518,6913
+29114,2432,0.05,Positive,28083,mediating,,6913-3,29519,6913
+29114,2433,0.05,Positive,28083,mediating,,6913-3,29437,6913
+29114,2434,0.05,Positive,28083,mediating,,6913-3,29438,6913
+29114,2435,0.05,Positive,28083,mediating,,6913-3,29439,6913
+29114,2436,0.05,Positive,28083,mediating,,6913-3,29440,6913
+28084,2437,0.05,Positive,29506,Moderating,,6913-4,29520,6913
+28084,2438,0.05,Positive,29507,Moderating,,6913-4,29520,6913
+28084,2439,0.05,Positive,29517,Moderating,,6913-4,29520,6913
+28084,2440,0.05,Positive,29518,Moderating,,6913-4,29520,6913
+28084,2441,0.05,Positive,29519,Moderating,,6913-4,29520,6913
+28084,2442,0.05,Positive,29506,Moderating,,6913-4,29521,6913
+28084,2443,0.05,Positive,29507,Moderating,,6913-4,29521,6913
+28084,2444,0.05,Positive,29517,Moderating,,6913-4,29521,6913
+28084,2445,0.05,Positive,29518,Moderating,,6913-4,29521,6913
+28084,2446,0.05,Positive,29519,Moderating,,6913-4,29521,6913
+28084,2447,0.05,Positive,29506,Moderating,,6913-4,29522,6913
+28084,2448,0.05,Positive,29507,Moderating,,6913-4,29522,6913
+28084,2449,0.05,Positive,29517,Moderating,,6913-4,29522,6913
+28084,2450,0.05,Positive,29518,Moderating,,6913-4,29522,6913
+28084,2451,0.05,Positive,29519,Moderating,,6913-4,29522,6913
+28084,2452,0.05,Positive,29506,Moderating,,6913-4,29523,6913
+28084,2453,0.05,Positive,29507,Moderating,,6913-4,29523,6913
+28084,2454,0.05,Positive,29517,Moderating,,6913-4,29523,6913
+28084,2455,0.05,Positive,29518,Moderating,,6913-4,29523,6913
+28084,2456,0.05,Positive,29519,Moderating,,6913-4,29523,6913
+28100,2457,0.05,Positive,29506,Moderating,,6913-4,29520,6913
+28100,2458,0.05,Positive,29507,Moderating,,6913-4,29520,6913
+28100,2459,0.05,Positive,29517,Moderating,,6913-4,29520,6913
+28100,2460,0.05,Positive,29518,Moderating,,6913-4,29520,6913
+28100,2461,0.05,Positive,29519,Moderating,,6913-4,29520,6913
+28100,2462,0.05,Positive,29506,Moderating,,6913-4,29521,6913
+28100,2463,0.05,Positive,29507,Moderating,,6913-4,29521,6913
+28100,2464,0.05,Positive,29517,Moderating,,6913-4,29521,6913
+28100,2465,0.05,Positive,29518,Moderating,,6913-4,29521,6913
+28100,2466,0.05,Positive,29519,Moderating,,6913-4,29521,6913
+28100,2467,0.05,Positive,29506,Moderating,,6913-4,29522,6913
+28100,2468,0.05,Positive,29507,Moderating,,6913-4,29522,6913
+28100,2469,0.05,Positive,29517,Moderating,,6913-4,29522,6913
+28100,2470,0.05,Positive,29518,Moderating,,6913-4,29522,6913
+28100,2471,0.05,Positive,29519,Moderating,,6913-4,29522,6913
+28100,2472,0.05,Positive,29506,Moderating,,6913-4,29523,6913
+28100,2473,0.05,Positive,29507,Moderating,,6913-4,29523,6913
+28100,2474,0.05,Positive,29517,Moderating,,6913-4,29523,6913
+28100,2475,0.05,Positive,29518,Moderating,,6913-4,29523,6913
+28100,2476,0.05,Positive,29519,Moderating,,6913-4,29523,6913
+28101,2477,0.05,Positive,29506,Moderating,,6913-4,29520,6913
+28101,2478,0.05,Positive,29507,Moderating,,6913-4,29520,6913
+28101,2479,0.05,Positive,29517,Moderating,,6913-4,29520,6913
+28101,2480,0.05,Positive,29518,Moderating,,6913-4,29520,6913
+28101,2481,0.05,Positive,29519,Moderating,,6913-4,29520,6913
+28101,2482,0.05,Positive,29506,Moderating,,6913-4,29521,6913
+28101,2483,0.05,Positive,29507,Moderating,,6913-4,29521,6913
+28101,2484,0.05,Positive,29517,Moderating,,6913-4,29521,6913
+28101,2485,0.05,Positive,29518,Moderating,,6913-4,29521,6913
+28101,2486,0.05,Positive,29519,Moderating,,6913-4,29521,6913
+28101,2487,0.05,Positive,29506,Moderating,,6913-4,29522,6913
+28101,2488,0.05,Positive,29507,Moderating,,6913-4,29522,6913
+28101,2489,0.05,Positive,29517,Moderating,,6913-4,29522,6913
+28101,2490,0.05,Positive,29518,Moderating,,6913-4,29522,6913
+28101,2491,0.05,Positive,29519,Moderating,,6913-4,29522,6913
+28101,2492,0.05,Positive,29506,Moderating,,6913-4,29523,6913
+28101,2493,0.05,Positive,29507,Moderating,,6913-4,29523,6913
+28101,2494,0.05,Positive,29517,Moderating,,6913-4,29523,6913
+28101,2495,0.05,Positive,29518,Moderating,,6913-4,29523,6913
+28101,2496,0.05,Positive,29519,Moderating,,6913-4,29523,6913
+29114,2497,0.05,Positive,29506,Moderating,,6913-4,29520,6913
+29114,2498,0.05,Positive,29507,Moderating,,6913-4,29520,6913
+29114,2499,0.05,Positive,29517,Moderating,,6913-4,29520,6913
+29114,2500,0.05,Positive,29518,Moderating,,6913-4,29520,6913
+29114,2501,0.05,Positive,29519,Moderating,,6913-4,29520,6913
+29114,2502,0.05,Positive,29506,Moderating,,6913-4,29521,6913
+29114,2503,0.05,Positive,29507,Moderating,,6913-4,29521,6913
+29114,2504,0.05,Positive,29517,Moderating,,6913-4,29521,6913
+29114,2505,0.05,Positive,29518,Moderating,,6913-4,29521,6913
+29114,2506,0.05,Positive,29519,Moderating,,6913-4,29521,6913
+29114,2507,0.05,Positive,29506,Moderating,,6913-4,29522,6913
+29114,2508,0.05,Positive,29507,Moderating,,6913-4,29522,6913
+29114,2509,0.05,Positive,29517,Moderating,,6913-4,29522,6913
+29114,2510,0.05,Positive,29518,Moderating,,6913-4,29522,6913
+29114,2511,0.05,Positive,29519,Moderating,,6913-4,29522,6913
+29114,2512,0.05,Positive,29506,Moderating,,6913-4,29523,6913
+29114,2513,0.05,Positive,29507,Moderating,,6913-4,29523,6913
+29114,2514,0.05,Positive,29517,Moderating,,6913-4,29523,6913
+29114,2515,0.05,Positive,29518,Moderating,,6913-4,29523,6913
+29114,2516,0.05,Positive,29519,Moderating,,6913-4,29523,6913
+29437,2517,0.01,Negative,28082,Moderating,,6913-5a,29520,6913
+29437,2518,0.01,Negative,28083,Moderating,,6913-5a,29520,6913
+29437,2519,0.01,Negative,28082,Moderating,,6913-5a,29521,6913
+29437,2520,0.01,Negative,28083,Moderating,,6913-5a,29521,6913
+29437,2521,0.01,Negative,28082,Moderating,,6913-5a,29522,6913
+29437,2522,0.01,Negative,28083,Moderating,,6913-5a,29522,6913
+29437,2523,0.01,Negative,28082,Moderating,,6913-5a,29523,6913
+29437,2524,0.01,Negative,28083,Moderating,,6913-5a,29523,6913
+29438,2525,0.01,Negative,28082,Moderating,,6913-5a,29520,6913
+29438,2526,0.01,Negative,28083,Moderating,,6913-5a,29520,6913
+29438,2527,0.01,Negative,28082,Moderating,,6913-5a,29521,6913
+29438,2528,0.01,Negative,28083,Moderating,,6913-5a,29521,6913
+29438,2529,0.01,Negative,28082,Moderating,,6913-5a,29522,6913
+29438,2530,0.01,Negative,28083,Moderating,,6913-5a,29522,6913
+29438,2531,0.01,Negative,28082,Moderating,,6913-5a,29523,6913
+29438,2532,0.01,Negative,28083,Moderating,,6913-5a,29523,6913
+29439,2533,0.01,Negative,28082,Moderating,,6913-5a,29520,6913
+29439,2534,0.01,Negative,28083,Moderating,,6913-5a,29520,6913
+29439,2535,0.01,Negative,28082,Moderating,,6913-5a,29521,6913
+29439,2536,0.01,Negative,28083,Moderating,,6913-5a,29521,6913
+29439,2537,0.01,Negative,28082,Moderating,,6913-5a,29522,6913
+29439,2538,0.01,Negative,28083,Moderating,,6913-5a,29522,6913
+29439,2539,0.01,Negative,28082,Moderating,,6913-5a,29523,6913
+29439,2540,0.01,Negative,28083,Moderating,,6913-5a,29523,6913
+29440,2541,0.01,Negative,28082,Moderating,,6913-5a,29520,6913
+29440,2542,0.01,Negative,28083,Moderating,,6913-5a,29520,6913
+29440,2543,0.01,Negative,28082,Moderating,,6913-5a,29521,6913
+29440,2544,0.01,Negative,28083,Moderating,,6913-5a,29521,6913
+29440,2545,0.01,Negative,28082,Moderating,,6913-5a,29522,6913
+29440,2546,0.01,Negative,28083,Moderating,,6913-5a,29522,6913
+29440,2547,0.01,Negative,28082,Moderating,,6913-5a,29523,6913
+29440,2548,0.01,Negative,28083,Moderating,,6913-5a,29523,6913
+29506,2549,0.01,Positive,29437,Moderating,,6913-5b,29520,6913
+29506,2550,0.01,Positive,29438,Moderating,,6913-5b,29520,6913
+29506,2551,0.01,Positive,29439,Moderating,,6913-5b,29520,6913
+29506,2552,0.01,Positive,29440,Moderating,,6913-5b,29520,6913
+29506,2553,0.01,Positive,29437,Moderating,,6913-5b,29521,6913
+29506,2554,0.01,Positive,29438,Moderating,,6913-5b,29521,6913
+29506,2555,0.01,Positive,29439,Moderating,,6913-5b,29521,6913
+29506,2556,0.01,Positive,29440,Moderating,,6913-5b,29521,6913
+29506,2557,0.01,Positive,29437,Moderating,,6913-5b,29522,6913
+29506,2558,0.01,Positive,29438,Moderating,,6913-5b,29522,6913
+29506,2559,0.01,Positive,29439,Moderating,,6913-5b,29522,6913
+29506,2560,0.01,Positive,29440,Moderating,,6913-5b,29522,6913
+29506,2561,0.01,Positive,29437,Moderating,,6913-5b,29523,6913
+29506,2562,0.01,Positive,29438,Moderating,,6913-5b,29523,6913
+29506,2563,0.01,Positive,29439,Moderating,,6913-5b,29523,6913
+29506,2564,0.01,Positive,29440,Moderating,,6913-5b,29523,6913
+29507,2565,0.01,Positive,29437,Moderating,,6913-5b,29520,6913
+29507,2566,0.01,Positive,29438,Moderating,,6913-5b,29520,6913
+29507,2567,0.01,Positive,29439,Moderating,,6913-5b,29520,6913
+29507,2568,0.01,Positive,29440,Moderating,,6913-5b,29520,6913
+29507,2569,0.01,Positive,29437,Moderating,,6913-5b,29521,6913
+29507,2570,0.01,Positive,29438,Moderating,,6913-5b,29521,6913
+29507,2571,0.01,Positive,29439,Moderating,,6913-5b,29521,6913
+29507,2572,0.01,Positive,29440,Moderating,,6913-5b,29521,6913
+29507,2573,0.01,Positive,29437,Moderating,,6913-5b,29522,6913
+29507,2574,0.01,Positive,29438,Moderating,,6913-5b,29522,6913
+29507,2575,0.01,Positive,29439,Moderating,,6913-5b,29522,6913
+29507,2576,0.01,Positive,29440,Moderating,,6913-5b,29522,6913
+29507,2577,0.01,Positive,29437,Moderating,,6913-5b,29523,6913
+29507,2578,0.01,Positive,29438,Moderating,,6913-5b,29523,6913
+29507,2579,0.01,Positive,29439,Moderating,,6913-5b,29523,6913
+29507,2580,0.01,Positive,29440,Moderating,,6913-5b,29523,6913
+29517,2581,0.01,Positive,29437,Moderating,,6913-5b,29520,6913
+29517,2582,0.01,Positive,29438,Moderating,,6913-5b,29520,6913
+29517,2583,0.01,Positive,29439,Moderating,,6913-5b,29520,6913
+29517,2584,0.01,Positive,29440,Moderating,,6913-5b,29520,6913
+29517,2585,0.01,Positive,29437,Moderating,,6913-5b,29521,6913
+29517,2586,0.01,Positive,29438,Moderating,,6913-5b,29521,6913
+29517,2587,0.01,Positive,29439,Moderating,,6913-5b,29521,6913
+29517,2588,0.01,Positive,29440,Moderating,,6913-5b,29521,6913
+29517,2589,0.01,Positive,29437,Moderating,,6913-5b,29522,6913
+29517,2590,0.01,Positive,29438,Moderating,,6913-5b,29522,6913
+29517,2591,0.01,Positive,29439,Moderating,,6913-5b,29522,6913
+29517,2592,0.01,Positive,29440,Moderating,,6913-5b,29522,6913
+29517,2593,0.01,Positive,29437,Moderating,,6913-5b,29523,6913
+29517,2594,0.01,Positive,29438,Moderating,,6913-5b,29523,6913
+29517,2595,0.01,Positive,29439,Moderating,,6913-5b,29523,6913
+29517,2596,0.01,Positive,29440,Moderating,,6913-5b,29523,6913
+29518,2597,0.01,Positive,29437,Moderating,,6913-5b,29520,6913
+29518,2598,0.01,Positive,29438,Moderating,,6913-5b,29520,6913
+29518,2599,0.01,Positive,29439,Moderating,,6913-5b,29520,6913
+29518,2600,0.01,Positive,29440,Moderating,,6913-5b,29520,6913
+29518,2601,0.01,Positive,29437,Moderating,,6913-5b,29521,6913
+29518,2602,0.01,Positive,29438,Moderating,,6913-5b,29521,6913
+29518,2603,0.01,Positive,29439,Moderating,,6913-5b,29521,6913
+29518,2604,0.01,Positive,29440,Moderating,,6913-5b,29521,6913
+29518,2605,0.01,Positive,29437,Moderating,,6913-5b,29522,6913
+29518,2606,0.01,Positive,29438,Moderating,,6913-5b,29522,6913
+29518,2607,0.01,Positive,29439,Moderating,,6913-5b,29522,6913
+29518,2608,0.01,Positive,29440,Moderating,,6913-5b,29522,6913
+29518,2609,0.01,Positive,29437,Moderating,,6913-5b,29523,6913
+29518,2610,0.01,Positive,29438,Moderating,,6913-5b,29523,6913
+29518,2611,0.01,Positive,29439,Moderating,,6913-5b,29523,6913
+29518,2612,0.01,Positive,29440,Moderating,,6913-5b,29523,6913
+29519,2613,0.01,Positive,29437,Moderating,,6913-5b,29520,6913
+29519,2614,0.01,Positive,29438,Moderating,,6913-5b,29520,6913
+29519,2615,0.01,Positive,29439,Moderating,,6913-5b,29520,6913
+29519,2616,0.01,Positive,29440,Moderating,,6913-5b,29520,6913
+29519,2617,0.01,Positive,29437,Moderating,,6913-5b,29521,6913
+29519,2618,0.01,Positive,29438,Moderating,,6913-5b,29521,6913
+29519,2619,0.01,Positive,29439,Moderating,,6913-5b,29521,6913
+29519,2620,0.01,Positive,29440,Moderating,,6913-5b,29521,6913
+29519,2621,0.01,Positive,29437,Moderating,,6913-5b,29522,6913
+29519,2622,0.01,Positive,29438,Moderating,,6913-5b,29522,6913
+29519,2623,0.01,Positive,29439,Moderating,,6913-5b,29522,6913
+29519,2624,0.01,Positive,29440,Moderating,,6913-5b,29522,6913
+29519,2625,0.01,Positive,29437,Moderating,,6913-5b,29523,6913
+29519,2626,0.01,Positive,29438,Moderating,,6913-5b,29523,6913
+29519,2627,0.01,Positive,29439,Moderating,,6913-5b,29523,6913
+29519,2628,0.01,Positive,29440,Moderating,,6913-5b,29523,6913
+50593,2629,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2630,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2631,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2632,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2633,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2634,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2635,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2636,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2637,no,Positive,26196,Regular,,6915-1a,,6915
+50593,2638,no,Positive,26196,Regular,,6915-1a,,6915
+50592,2639,no,Negative,26196,Regular,,6915-1a,,6915
+50594,2640,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2641,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2642,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2643,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2644,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2645,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2646,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2647,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2648,0.05,Positive,26196,Regular,,6915-1b,,6915
+50594,2649,0.05,Positive,26196,Regular,,6915-1b,,6915
+50592,2650,0.05,Negative,26196,Regular,,6915-1b,,6915
+50595,2651,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2652,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2653,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2654,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2655,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2656,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2657,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2658,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2659,0.05,Positive,26196,Regular,,6915-1c,,6915
+50595,2660,0.05,Positive,26196,Regular,,6915-1c,,6915
+50592,2661,0.05,Negative,26196,Regular,,6915-1c,,6915
+50595,2662,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2663,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2664,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2665,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2666,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2667,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2668,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2669,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2670,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2671,0.05,Positive,26196,Regular,,6915-2a,,6915
+50595,2672,0.05,Positive,26196,Regular,,6915-2a,,6915
+50593,2673,0.05,Negative,26196,Regular,,6915-2a,,6915
+50595,2674,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2675,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2676,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2677,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2678,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2679,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2680,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2681,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2682,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2683,0.05,Positive,26196,Regular,,6915-2b,,6915
+50595,2684,0.05,Positive,26196,Regular,,6915-2b,,6915
+50594,2685,0.05,Negative,26196,Regular,,6915-2b,,6915
+26208,2686,0.01,Positive,26209,Regular,,6916-1a,,6916
+26208,2687,0.01,Positive,26209,Regular,,6916-1a,,6916
+26208,2688,0.01,Positive,26209,Regular,,6916-1a,,6916
+26208,2689,0.01,Positive,26210,Regular,,6916-1b,,6916
+26208,2690,0.01,Positive,26210,Regular,,6916-1b,,6916
+26208,2691,0.01,Positive,26210,Regular,,6916-1b,,6916
+26206,2692,0.01,Positive,26209,Regular,,6916-2a,,6916
+26206,2693,0.01,Positive,26209,Regular,,6916-2a,,6916
+26206,2694,0.01,Positive,26209,Regular,,6916-2a,,6916
+26206,2695,0.01,Positive,26210,Regular,,6916-2b,,6916
+26206,2696,0.01,Positive,26210,Regular,,6916-2b,,6916
+26206,2697,0.01,Positive,26210,Regular,,6916-2b,,6916
+26207,2698,0.01,Positive,26209,Regular,,6916-3a,,6916
+26207,2699,0.01,Positive,26209,Regular,,6916-3a,,6916
+26207,2700,0.01,Positive,26209,Regular,,6916-3a,,6916
+26207,2701,0.01,negative,26210,Regular,,6916-3b,,6916
+26207,2702,0.01,negative,26210,Regular,,6916-3b,,6916
+26207,2703,0.01,negative,26210,Regular,,6916-3b,,6916
+26209,2704,0.05,Positive,26211,Regular,,6916-4,,6916
+26209,2705,0.05,Positive,26211,Regular,,6916-4,,6916
+26209,2706,0.05,Positive,26211,Regular,,6916-4,,6916
+26210,2707,no,Positive,26211,Regular,,6916-5,,6916
+26210,2708,no,Positive,26211,Regular,,6916-5,,6916
+26210,2709,no,Positive,26211,Regular,,6916-5,,6916
+26209,2710,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2711,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2712,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2713,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2714,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2715,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26209,2716,0.001,Both,26211,Moderating,,6916-6,26210,6916
+26229,2717,0.001,,26228,Regular,,6917-1,,6917
+26229,2718,0.001,,26228,Regular,,6917-1,,6917
+26230,2719,no,,26228,Regular,,6917-2,,6917
+26230,2720,no,,26228,Regular,,6917-2,,6917
+26230,2721,no,,26228,Regular,,6917-2,,6917
+26228,2722,0.01,,26235,Regular,,6917-3,,6917
+26228,2723,0.01,,26235,Regular,,6917-3,,6917
+26228,2724,0.01,,26231,Regular,,6917-4,,6917
+26228,2725,0.01,,26231,Regular,,6917-4,,6917
+26231,2726,0.01,,26234,Regular,,6917-5,,6917
+26231,2727,0.01,,26234,Regular,,6917-5,,6917
+26235,2728,0.01,,26234,Regular,,6917-6,,6917
+26235,2729,0.01,,26234,Regular,,6917-6,,6917
+26235,2730,0.01,,26231,Regular,,6917-7,,6917
+26235,2731,0.01,,26231,Regular,,6917-7,,6917
+26228,2732,0.01,,26234,Mediating,,6917-8,26235,6917
+26228,2733,0.01,,26234,Mediating,,6917-8,26231,6917
+26228,2734,,,26234,Mediating,,6917-8,26227,6917
+26228,2735,,,26234,Mediating,,6917-8,26223,6917
+26416,2736,0.01,Positive,26418,Regular,,6918-1,,6918
+26416,2737,0.01,Positive,26418,Regular,,6918-1,,6918
+26417,2738,0.01,Positive,26418,Regular,,6918-2,,6918
+26417,2739,0.01,Positive,26418,Regular,,6918-2,,6918
+26412,2740,0.01,Positive,26416,Regular,,6918-3a,,6918
+26412,2741,0.01,Positive,26416,Regular,,6918-3a,,6918
+26414,2742,0.01,Negative,26416,Regular,,6918-3b,,6918
+26414,2743,0.01,Negative,26416,Regular,,6918-3b,,6918
+26411,2744,0.01,Positive,26417,Regular,,6918-4a,,6918
+26411,2745,0.01,Positive,26417,Regular,,6918-4a,,6918
+26413,2746,0.01,Negative,26417,Regular,,6918-4b,,6918
+26413,2747,0.01,Negative,26417,Regular,,6918-4b,,6918
+26243,2748,0.05,Positive,26237,Regular,,6919-1,,6919
+26243,2749,0.05,Positive,26237,Regular,,6919-1,,6919
+26243,2750,0.05,Positive,26237,Regular,,6919-2,,6919
+26243,2751,0.05,Positive,26237,Regular,,6919-2,,6919
+26244,2752,0.05,Positive,26238,Regular,,6919-3,,6919
+26244,2753,0.05,Positive,26238,Regular,,6919-3,,6919
+26244,2754,0.05,Positive,26238,Regular,,6919-4,,6919
+26244,2755,0.05,Positive,26238,Regular,,6919-4,,6919
+26245,2756,0.005,positive,26252,regular,,6924-1,,6924
+26246,2757,0.005,positive,26252,regular,,6924-1,,6924
+26247,2758,0.005,positive,26252,regular,,6924-1,,6924
+26248,2759,0.005,positive,26252,regular,,6924-1,,6924
+26249,2760,0.005,positive,26252,regular,,6924-1,,6924
+26250,2761,0.005,positive,26252,regular,,6924-1,,6924
+26245,2762,0.05,negative,26253,regular,,6924-2,,6924
+26245,2763,0.05,negative,26254,regular,,6924-2,,6924
+26245,2764,0.05,negative,26255,regular,,6924-2,,6924
+26245,2765,0.05,negative,26256,regular,,6924-2,,6924
+26245,2766,0.05,negative,26257,regular,,6924-2,,6924
+26245,2767,0.05,negative,26258,regular,,6924-2,,6924
+26246,2768,0.05,negative,26253,regular,,6924-2,,6924
+26246,2769,0.05,negative,26254,regular,,6924-2,,6924
+26246,2770,0.05,negative,26255,regular,,6924-2,,6924
+26246,2771,0.05,negative,26256,regular,,6924-2,,6924
+26246,2772,0.05,negative,26257,regular,,6924-2,,6924
+26246,2773,0.05,negative,26258,regular,,6924-2,,6924
+26247,2774,0.05,negative,26253,regular,,6924-2,,6924
+26247,2775,0.05,negative,26254,regular,,6924-2,,6924
+26247,2776,0.05,negative,26255,regular,,6924-2,,6924
+26247,2777,0.05,negative,26256,regular,,6924-2,,6924
+26247,2778,0.05,negative,26257,regular,,6924-2,,6924
+26247,2779,0.05,negative,26258,regular,,6924-2,,6924
+26248,2780,0.05,negative,26253,regular,,6924-2,,6924
+26248,2781,0.05,negative,26254,regular,,6924-2,,6924
+26248,2782,0.05,negative,26255,regular,,6924-2,,6924
+26248,2783,0.05,negative,26256,regular,,6924-2,,6924
+26248,2784,0.05,negative,26257,regular,,6924-2,,6924
+26248,2785,0.05,negative,26258,regular,,6924-2,,6924
+26249,2786,0.05,negative,26253,regular,,6924-2,,6924
+26249,2787,0.05,negative,26254,regular,,6924-2,,6924
+26249,2788,0.05,negative,26255,regular,,6924-2,,6924
+26249,2789,0.05,negative,26256,regular,,6924-2,,6924
+26249,2790,0.05,negative,26257,regular,,6924-2,,6924
+26249,2791,0.05,negative,26258,regular,,6924-2,,6924
+26252,2792,0.001,negative,26253,regular,,6924-3,,6924
+26252,2793,0.001,negative,26254,regular,,6924-3,,6924
+26252,2794,0.001,negative,26255,regular,,6924-3,,6924
+26252,2795,0.001,negative,26256,regular,,6924-3,,6924
+26252,2796,0.001,negative,26257,regular,,6924-3,,6924
+26252,2797,0.001,negative,26258,regular,,6924-3,,6924
+26252,2798,0.001,negative,26258,regular,,6924-3,,6924
+26252,2799,0.001,negative,26258,regular,,6924-3,,6924
+26252,2800,0.001,negative,26258,regular,,6924-3,,6924
+26252,2801,0.001,negative,26258,regular,,6924-3,,6924
+26250,2802,0.05,negative,26252,regular,,6924-4,,6924
+26250,2803,0.05,negative,26252,regular,,6924-4,,6924
+26250,2804,0.05,negative,26245,regular,,6924-5,,6924
+26250,2805,0.05,negative,26246,regular,,6924-5,,6924
+26250,2806,0.05,negative,26247,regular,,6924-5,,6924
+26250,2807,0.05,negative,26248,regular,,6924-5,,6924
+26250,2808,0.05,negative,26249,regular,,6924-5,,6924
+26250,2809,0.05,negative,26249,regular,,6924-5,,6924
+26251,2810,no,negative,26252,regular,,6924-6,,6924
+26251,2811,0.05,positive,26253,regular,,6924-7,,6924
+26251,2812,0.05,positive,26254,regular,,6924-7,,6924
+26251,2813,0.05,positive,26255,regular,,6924-7,,6924
+26251,2814,0.05,positive,26256,regular,,6924-7,,6924
+26251,2815,0.05,positive,26257,regular,,6924-7,,6924
+26251,2816,0.05,positive,26258,regular,,6924-7,,6924
+26251,2817,0.05,positive,26258,regular,,6924-7,,6924
+26251,2818,0.05,positive,26258,regular,,6924-7,,6924
+26251,2819,0.05,positive,26258,regular,,6924-7,,6924
+26251,2820,0.05,positive,26258,regular,,6924-7,,6924
+26250,2821,0.05,positive,26253,regular,,6924-8,,6924
+26250,2822,0.05,positive,26254,regular,,6924-8,,6924
+26250,2823,0.05,positive,26255,regular,,6924-8,,6924
+26250,2824,0.05,positive,26256,regular,,6924-8,,6924
+26250,2825,0.05,positive,26257,regular,,6924-8,,6924
+26250,2826,0.05,positive,26258,regular,,6924-8,,6924
+26251,2827,0.05,positive,26253,regular,,6924-8,,6924
+26251,2828,0.05,positive,26254,regular,,6924-8,,6924
+26251,2829,0.05,positive,26255,regular,,6924-8,,6924
+26251,2830,0.05,positive,26256,regular,,6924-8,,6924
+26251,2831,0.05,positive,26257,regular,,6924-8,,6924
+26251,2832,0.05,positive,26258,regular,,6924-8,,6924
+26295,2833,no,positive,26299,regular,,6929-1a,,6929
+26295,2834,no,positive,26299,regular,,6929-1a,,6929
+26295,2835,0.05,positive,26300,regular,,6929-1b,,6929
+26295,2836,0.05,positive,26300,regular,,6929-1b,,6929
+26295,2837,0.05,positive,26298,regular,,6929-1c,,6929
+26295,2838,0.05,positive,26298,regular,,6929-1c,,6929
+26296,2839,0.05,positive,26299,regular,,6929-2a,,6929
+26296,2840,0.05,positive,26299,regular,,6929-2a,,6929
+26296,2841,0.05,positive,26300,regular,,6929-2b,,6929
+26296,2842,0.05,positive,26300,regular,,6929-2b,,6929
+26296,2843,0.05,positive,26298,regular,,6929-2c,,6929
+26296,2844,0.05,positive,26298,regular,,6929-2c,,6929
+26297,2845,0.05,positive,26299,regular,,6929-3a,,6929
+26297,2846,0.05,positive,26299,regular,,6929-3a,,6929
+26297,2847,0.05,positive,26300,regular,,6929-3b,,6929
+26297,2848,0.05,positive,26300,regular,,6929-3b,,6929
+26297,2849,0.05,positive,26298,regular,,6929-3c,,6929
+26297,2850,0.05,positive,26298,regular,,6929-3c,,6929
+50530,2851,0.001,negative,26429,Regular,,6931-1,,6931
+50530,2852,0.001,negative,26429,Regular,,6931-1,,6931
+50530,2853,0.001,negative,26429,Regular,,6931-1,,6931
+50531,2854,0.001,positive,26429,Regular,,6931-1,,6931
+26435,2855,0.01,No relationship,50519,Regular,,6934-1,,6934
+26435,2856,0.01,No relationship,50519,Regular,,6934-1,,6934
+50515,2857,0.01,No relationship,50519,Regular,,6934-1,,6934
+50516,2858,0.01,No relationship,50519,Regular,,6934-1,,6934
+50517,2859,0.01,No relationship,50519,Regular,,6934-1,,6934
+26435,2860,0.01,No relationship,50520,Regular,,6934-2,,6934
+26435,2861,0.01,No relationship,50520,Regular,,6934-2,,6934
+50515,2862,0.01,No relationship,50520,Regular,,6934-2,,6934
+50516,2863,0.01,No relationship,50520,Regular,,6934-2,,6934
+50517,2864,0.01,No relationship,50520,Regular,,6934-2,,6934
+26435,2865,0.01,No relationship,26444,Regular,,6934-3,,6934
+26435,2866,0.01,No relationship,26444,Regular,,6934-3,,6934
+50515,2867,0.01,No relationship,26444,Regular,,6934-3,,6934
+50516,2868,0.01,No relationship,26444,Regular,,6934-3,,6934
+50517,2869,0.01,No relationship,26444,Regular,,6934-3,,6934
+50515,2870,0.05,No relationship,26433,Regular,,6934-4,,6934
+50516,2871,0.05,No relationship,26433,Regular,,6934-4,,6934
+50516,2872,0.05,No relationship,26433,Regular,,6934-4,,6934
+26435,2873,0.01,No relationship,26433,Regular,,6934-5,,6934
+50515,2874,0.01,No relationship,26433,Regular,,6934-5,,6934
+50516,2875,0.01,No relationship,26433,Regular,,6934-5,,6934
+50517,2876,0.01,No relationship,26433,Regular,,6934-5,,6934
+26723,2877,0.05,Positive,26775,regular,,6936-1,,6936
+26720,2878,no,Positive,26776,regular,,6936-1,,6936
+26726,2879,0.05,Positive,26775,regular,,6936-2,,6936
+26726,2880,no,Negative,26776,regular,,6936-2,,6936
+26738,2881,0.05,Positive,26775,regular,,6936-3,,6936
+26735,2882,no,Positive,26776,regular,,6936-3,,6936
+26747,2883,0.05,Positive,26775,regular,,6936-4,,6936
+26747,2884,no,Negative,26776,regular,,6936-4,,6936
+26756,2885,no,Positive,26775,regular,,6936-5,,6936
+26750,2886,no,Positive,26776,regular,,6936-5,,6936
+26756,2887,Partial,Positive,26775,regular,,6936-6,,6936
+26756,2888,Partial,Positive,26775,regular,,6936-6,,6936
+26756,2889,Partial,Positive,26775,regular,,6936-6,,6936
+26756,2890,Partial,Positive,26775,regular,,6936-6,,6936
+26756,2891,Partial,Negative,26776,regular,,6936-6,,6936
+26462,2892,no,Negative,26461,Regular,,6938-1,,6938
+26462,2893,no,Negative,26461,Regular,,6938-1,,6938
+26473,2894,0.01,Positive,26461,Regular,,6938-2a,,6938
+26465,2895,0.01,Positive,26461,Regular,,6938-2a,,6938
+26465,2896,0.01,Positive,26461,Regular,,6938-2a,,6938
+26466,2897,0.01,Positive,26461,Regular,,6938-2a,,6938
+26466,2898,0.01,Positive,26461,Regular,,6938-2a,,6938
+26469,2899,0.01,Positive,26461,Regular,,6938-2b,,6938
+26469,2900,0.01,Positive,26461,Regular,,6938-2b,,6938
+26471,2901,0.01,Positive,26461,Regular,,6938-2b,,6938
+26474,2902,no,Positive,26461,Regular,,6938-3,,6938
+26474,2903,no,Positive,26461,Regular,,6938-3,,6938
+60587,2904,no,Relationship exists,26461,moderating,,6938-5,26474,6938
+60587,2905,no,Relationship exists,26461,moderating,,6938-5,26474,6938
+60587,2906,no,Relationship exists,26461,moderating,,6938-5,26474,6938
+26606,2907,0.05,Positive,26609,Regular,,6940-1a,,6940
+26606,2908,0.05,Positive,26609,Regular,,6940-1a,,6940
+26606,2909,0.05,Positive,26607,Regular,,6940-1a,,6940
+26613,2910,0.05,Positive,26609,Regular,,6940-1b,,6940
+26613,2911,0.05,Positive,26607,Regular,,6940-1b,,6940
+26613,2912,0.05,Positive,26605,Regular,,6940-1b,,6940
+26611,2913,0.05,Positive,26609,Regular,,6940-1c,,6940
+26611,2914,0.05,Positive,26607,Regular,,6940-1c,,6940
+26611,2915,0.05,Positive,26605,Regular,,6940-1c,,6940
+26605,2916,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26610,2917,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26612,2918,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26614,2919,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26615,2920,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26616,2921,0.05,No relationship,26609,Regular,,6940-1d,,6940
+50440,2922,0.05,No relationship,26609,Regular,,6940-1d,,6940
+26605,2923,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26610,2924,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26612,2925,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26614,2926,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26615,2927,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26616,2928,0.05,No relationship,26607,Regular,,6940-1d,,6940
+50440,2929,0.05,No relationship,26607,Regular,,6940-1d,,6940
+26641,2930,0.01,Positive,26631,Regular,,6941-1a,,6941
+26641,2931,0.01,Positive,26632,Regular,,6941-1a,,6941
+26641,2932,0.01,Positive,26633,Regular,,6941-1a,,6941
+26641,2933,0.01,Positive,26634,Regular,,6941-1a,,6941
+60586,2934,0.05,Positive,26635,Regular,,6941-1b,,6941
+60586,2935,0.05,Positive,26635,Regular,,6941-1b,,6941
+60586,2936,0.05,Positive,26636,Regular,,6941-1b,,6941
+60586,2937,0.05,Positive,26637,Regular,,6941-1b,,6941
+60586,2938,0.05,Positive,26638,Regular,,6941-1b,,6941
+60586,2939,0.05,Positive,26639,Regular,,6941-1c,,6941
+60586,2940,0.05,Positive,26639,Regular,,6941-1c,,6941
+60586,2941,0.05,Positive,26639,Regular,,6941-1c,,6941
+26664,2942,no,Positive,26631,Regular,,6941-2a,,6941
+26664,2943,no,Positive,26631,Regular,,6941-2a,,6941
+26664,2944,no,Positive,26632,Regular,,6941-2a,,6941
+26664,2945,no,Positive,26633,Regular,,6941-2a,,6941
+26664,2946,no,Positive,26634,Regular,,6941-2a,,6941
+26666,2947,no,Positive,26635,Regular,,6941-2b,,6941
+26666,2948,no,Positive,26635,Regular,,6941-2b,,6941
+26666,2949,no,Positive,26636,Regular,,6941-2b,,6941
+26666,2950,no,Positive,26637,Regular,,6941-2b,,6941
+26666,2951,no,Positive,26638,Regular,,6941-2b,,6941
+26666,2952,no,Positive,26639,Regular,,6941-2c,,6941
+26666,2953,no,Positive,26639,Regular,,6941-2c,,6941
+26666,2954,no,Positive,26640,Regular,,6941-2c,,6941
+26667,2955,0.05,Positive,26635,Regular,,6941-3a,,6941
+26667,2956,0.05,Positive,26635,Regular,,6941-3a,,6941
+26667,2957,0.05,Positive,26636,Regular,,6941-3a,,6941
+26667,2958,0.05,Positive,26637,Regular,,6941-3a,,6941
+26667,2959,0.05,Positive,26638,Regular,,6941-3a,,6941
+26667,2960,0.01,Positive,26639,Regular,,6941-3b,,6941
+26667,2961,0.01,Positive,26639,Regular,,6941-3b,,6941
+26667,2962,0.01,Positive,26640,Regular,,6941-3b,,6941
+26668,2963,0.05,Positive,26631,Regular,,6941-4a,,6941
+26668,2964,0.05,Positive,26632,Regular,,6941-4a,,6941
+26668,2965,0.05,Positive,26633,Regular,,6941-4a,,6941
+26668,2966,0.05,Positive,26633,Regular,,6941-4a,,6941
+26668,2967,0.05,Positive,26634,Regular,,6941-4a,,6941
+26668,2968,no,Positive,26635,Regular,,6941-4b,,6941
+26668,2969,no,Positive,26636,Regular,,6941-4b,,6941
+26668,2970,no,Positive,26637,Regular,,6941-4b,,6941
+26668,2971,no,Positive,26637,Regular,,6941-4b,,6941
+26668,2972,no,Positive,26638,Regular,,6941-4b,,6941
+26669,2973,Partial 0.1,Positive,26639,Regular,,6941-5,,6941
+26669,2974,Partial 0.2,Positive,26639,Regular,,6941-5,,6941
+26669,2975,Partial 0.1,Positive,26640,Regular,,6941-5,,6941
+49999,2976,0.001,positive,27525,Mediator,,7150-1,27528,7150
+49999,2977,0.001,positive,27525,Mediator,,7150-1,27528,7150
+49999,2978,0.001,positive,27525,Mediator,,7150-1,27528,7150
+49999,2979,0.019,positive,27525,Mediator,,7150-1,27527,7150
+49999,2980,0.063,positive,27526,Regular,,7150-2,,7150
+49999,2981,0.063,positive,27526,Regular,,7150-2,,7150
+49999,2982,0.0149999999999999,negative,27524,Regular,,7150-3,,7150
+49999,2983,0.0149999999999999,negative,27524,Regular,,7150-3,,7150
+49999,2984,0.01,negative,27530,Regular,,7150-4,,7150
+49999,2985,0.01,negative,27530,Regular,,7150-4,,7150
+27535,2986,0.05,positive,27537,Regular,,7151-1,,7151
+27535,2987,0.05,positive,27537,Regular,,7151-1,,7151
+27536,2988,0.05,positive,27537,Regular,,7151-2,,7151
+27536,2989,0.05,positive,27537,Regular,,7151-2,,7151
+27531,2990,no,positive,27535,Regular,,7151-3,,7151
+27531,2991,no,positive,27535,Regular,,7151-3,,7151
+27532,2992,0.05,positive,27535,Regular,,7151-4,,7151
+27532,2993,0.05,positive,27535,Regular,,7151-4,,7151
+27533,2994,0.05,positive,27535,Regular,,7151-5,,7151
+27533,2995,0.05,positive,27535,Regular,,7151-5,,7151
+27533,2996,0.05,positive,27536,Regular,,7151-6,,7151
+27533,2997,0.05,positive,27536,Regular,,7151-6,,7151
+27534,2998,no,positive,27536,Regular,,7151-7,,7151
+27534,2999,no,positive,27536,Regular,,7151-7,,7151
+27532,3000,no,positive,27536,Regular,,7151-8,,7151
+27532,3001,no,positive,27536,Regular,,7151-8,,7151
+27564,3002,0.05,Positive,27568,Regular,,7152-1,,7152
+27564,3003,0.05,Positive,27568,Regular,,7152-1,,7152
+27564,3004,0.05,Positive,27568,Regular,,7152-1,,7152
+27564,3005,0.05,Positive,27568,Regular,,7152-1,,7152
+27564,3006,0.05,Positive,27568,Mediating,,7152-2,27567,7152
+27564,3007,0.05,Positive,27568,Mediating,,7152-2,27566,7152
+27564,3008,0.05,Positive,27568,Mediating,,7152-2,27551,7152
+27564,3009,0.05,Positive,27568,Mediating,,7152-2,27551,7152
+27564,3010,0.05,Positive,27568,Mediating,,7152-2,27551,7152
+27564,3011,no,Positive,27568,Mediating,,7152-3,27563,7152
+27564,3012,no,Positive,27568,Mediating,,7152-3,27563,7152
+27564,3013,no,Positive,27568,Mediating,,7152-3,27563,7152
+27564,3014,no,Positive,27568,Mediating,,7152-3,27563,7152
+27564,3015,0.05,Positive,27568,Mediating,,7152-4,27565,7152
+27564,3016,0.05,Positive,27568,Mediating,,7152-4,27565,7152
+27564,3017,0.05,Positive,27568,Mediating,,7152-4,27565,7152
+27564,3018,0.05,Positive,27568,Mediating,,7152-4,27565,7152
+28420,3019,0.05,positive,28425,regular,,7153-1,,7153
+28420,3020,0.05,positive,28425,regular,,7153-1,,7153
+28716,3021,0.05,Positive,28689,regular,,7154-1,,7154
+28718,3022,0.05,Positive,28689,regular,,7154-1,,7154
+28719,3023,0.05,Positive,28689,regular,,7154-1,,7154
+28722,3024,0.05,Positive,28689,regular,,7154-1,,7154
+28716,3025,0.01,Positive,28691,regular,,7154-2,,7154
+28718,3026,0.01,Positive,28691,regular,,7154-2,,7154
+28719,3027,0.01,Positive,28691,regular,,7154-2,,7154
+28722,3028,0.01,Positive,28691,regular,,7154-2,,7154
+28716,3029,no,Positive,28709,regular,,7154-3,,7154
+28718,3030,no,Positive,28709,regular,,7154-3,,7154
+28719,3031,no,Positive,28709,regular,,7154-3,,7154
+28722,3032,no,Positive,28709,regular,,7154-3,,7154
+27594,3033,0.05,positive,27595,Regular,,7155-1a,,7155
+27594,3034,0.05,positive,27595,Regular,,7155-1a,,7155
+27594,3035,0.05,positive,27595,mediator,,7155-1b,27593,7155
+27594,3036,0.05,positive,27595,mediator,,7155-1b,27593,7155
+27594,3037,0.05,positive,27595,mediator,,7155-1b,27593,7155
+27594,3038,0.05,positive,27592,Regular,,7155-2,,7155
+27594,3039,0.05,positive,27592,Regular,,7155-2,,7155
+27594,3040,0.05,positive,27592,mediator,,7155-3,27596,7155
+27594,3041,0.05,positive,27592,mediator,,7155-3,27596,7155
+27594,3042,0.05,positive,27592,mediator,,7155-3,27596,7155
+27594,3043,0.05,positive,27590,Regular,,7155-4,,7155
+27594,3044,0.05,positive,27590,Regular,,7155-4,,7155
+27594,3045,0.05,positive,27590,Mediator,,7155-5,27593,7155
+27594,3046,0.05,positive,27590,Mediator,,7155-5,27593,7155
+27594,3047,0.05,positive,27590,Mediator,,7155-5,27593,7155
+27606,3048,No,No effect,27603,Regular,,7156-1a,,7156
+27606,3049,No,Negative,27603,Regular,,7156-1b,,7156
+27606,3050,No,Positive,27603,Regular,,7156-1c,,7156
+27606,3051,0.05,Negative,,Regular,,7156-2,,7156
+27606,3052,0.05,Negative,27603,Regular,,7156-3a,,7156
+27598,3053,0.01,Has effect,27603,Regular,,7156-4a,,7156
+27598,3054,0.01,Has effect,27603,Regular,,7156-4a,,7156
+27598,3055,0.001,Has effect,27603,Regular,,7156-4b,,7156
+27598,3056,0.001,Has effect,27603,Regular,,7156-4b,,7156
+27598,3057,0.001,Has effect,27603,Regular,,7156-4b,,7156
+28331,3058,0.01,positive,28334,regular,,7339-1,,7339
+28331,3059,0.001,positive,28335,regular,,7339-1,,7339
+28331,3060,0.001,positive,28336,regular,,7339-1,,7339
+28331,3061,0.001,positive,28337,regular,,7339-1,,7339
+28331,3062,0.001,positive,28338,regular,,7339-1,,7339
+28331,3063,0.01,positive,28334,moderating,,7339-2,28332,7339
+28331,3064,0.001,positive,28335,moderating,,7339-2,28332,7339
+28331,3065,0.001,positive,28336,moderating,,7339-2,28332,7339
+28331,3066,0.001,positive,28337,moderating,,7339-2,28332,7339
+28331,3067,0.01,positive,28334,moderating,,7339-2,28330,7339
+28331,3068,0.001,positive,28335,moderating,,7339-2,28330,7339
+28331,3069,0.001,positive,28336,moderating,,7339-2,28330,7339
+28331,3070,0.001,negative,28334,moderating,,7339-3,28333,7339
+28331,3071,0.001,negative,28335,moderating,,7339-3,28333,7339
+28331,3072,0.001,negative,28336,moderating,,7339-3,28333,7339
+28331,3073,0.001,negative,28337,moderating,,7339-3,28333,7339
+28331,3074,0.001,negative,28334,moderating,,7339-3,28330,7339
+28331,3075,0.001,negative,28335,moderating,,7339-3,28330,7339
+28331,3076,0.001,negative,28336,moderating,,7339-3,28330,7339

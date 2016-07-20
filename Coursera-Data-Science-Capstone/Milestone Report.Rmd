@@ -1,0 +1,276 @@
+---
+title: "Milestone Report"
+author: "Bill Su"
+date: "July 26, 2015"
+output: html_document
+---
+
+## Introduction
+
+The goal of this report is to showcase the work I have done so far in the Datascience Capstone Project. In this report, I am going to first demostrate codes I have used to load the file and convert them to n-grams. Then I am going to showcase some descriptive summary data I have collected. Finally, I am going to conclude by offering next step in my data analysis and some interesting questions to consider. 
+
+## Loading and Cleaning
+
+Here below illustrate my codes in loading and cleaning the data.
+
+Tokenize load the data and parse it into a huge vector of words. It also cleans out punctuations and convert all words to lower cases for convience of analysis. The code is displayed below. 
+
+```{r}
+tokenize <- function(file_name){
+    
+    strings <- readLines(con =  file(file_name, "r", blocking = FALSE), n = -1)
+    splited <- strsplit(strings, " ")
+    unlisted <- unlist(splited)
+    cleaned <- gsub("[[:punct:]]", "", unlisted)
+    result <- tolower(cleaned)
+    return (result)
+}
+```
+
+profane_filter filters out profanity from the datasets. Code is displayed below.
+
+```{r}
+
+profane_filter <- function(list){
+    bad.words <- readLines("~/Google Drive/en_US/bad-words.txt")
+    filtered <- subset(list, !(list %in% (intersect(bad.words,list))))
+    return (filtered)
+}
+```
+
+## Pre-Tokenizing Summary Statistics
+
+The goal of this section is to provide some general summary statistics of the data before any tokenizing operations are performed on them. The summary statistics here define the dataset we are going to operate on throughout the project. Here I am going to describe the number of lines and words are in the twitter file, the news file, and the blogs file. 
+
+###Twitter
+
+```{r}
+twitter_general <- readLines(con =  file("en_US.twitter.txt", "r", blocking = FALSE), n = -1)
+# Number of lines 
+length(twitter_general)
+
+# Number of words
+twitter <- tokenize("en_US.twitter.txt")
+twitter_cleaned <- profane_filter(twitter)
+length(twitter_cleaned)
+
+# Tables for 10 most frequent words
+onecount_twitter <- table(twitter_cleaned)
+onecount_twitter <- sort(onecount_twitter, decreasing = TRUE)
+onecount_twitter[1:10]
+
+# Word Frequency Histogram
+# This graph displays the macro distributional characteristics of the data. 
+library(ggplot2)
+plot_twitter <- qplot(onecount_twitter,binwidth = 10) + ggtitle("Twitter Word Frequency Graph") + xlab("Frequency") + ylab("Word Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_twitter
+```
+
+###Blogs
+
+```{r}
+blogs_general <- readLines(con =  file("en_US.blogs.txt", "r", blocking = FALSE), n = -1)
+
+# Number of lines 
+length(blogs_general)
+
+# Number of words
+blogs <- tokenize("en_US.blogs.txt")
+blogs_cleaned <- profane_filter(blogs)
+length(blogs_cleaned)
+
+# Tables for 10 most frequent words
+onecount_blogs <- table(blogs_cleaned)
+onecount_blogs <- sort(onecount_blogs, decreasing = TRUE)
+onecount_blogs[1:10]
+
+# Word Frequency Histogram
+# This graph displays the macro distributional characteristics of the data. 
+plot_blogs <- qplot(onecount_blogs,binwidth = 10) + ggtitle("Blogs Word Frequency Graph") + xlab("Frequency") + ylab("Word Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_blogs
+```
+
+###News
+
+```{r}
+news_general <- readLines(con =  file("en_US.news.txt", "r", blocking = FALSE), n = -1)
+# Number of lines 
+length(news_general)
+
+# Number of words
+news <- tokenize("en_US.news.txt")
+news_cleaned <- profane_filter(news)
+length(news_cleaned)
+
+# Tables for 10 most frequent words
+onecount_news <- table(news_cleaned)
+onecount_news <- sort(onecount_news, decreasing = TRUE)
+onecount_news[1:10]
+
+# Word Frequency Histogram
+# This graph displays the macro distributional characteristics of the data. 
+plot_news <- qplot(onecount_news,binwidth = 10) + ggtitle("News Word Frequency Graph") + xlab("Frequency") + ylab("Word Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_news
+```
+
+###Total Summary
+
+```{r}
+total <- c(twitter,blogs,news)
+# Number of lines
+length(total)
+
+# Number of words
+total_cleaned <- c(twitter_cleaned,blogs_cleaned,news_cleaned)
+length(total_cleaned)
+
+# Tables for 10 most frequent words
+onecount_total <- table(total_cleaned)
+onecount_total <- sort(onecount_total, decreasing = TRUE)
+onecount_total[1:10]
+
+# Word Frequency Histogram
+# This graph displays the macro distributional characteristics of the data. 
+plot_total <- qplot(onecount_total,binwidth = 10) + ggtitle("Total Frequency Graph") + xlab("Frequency") + ylab("Word Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_total
+```
+
+### % frequency function:
+used to determine the amount of unique words that is required to cover a certain percent of all word instances, given a sorted frequency list and desired coverage rate. 
+```{r}
+coverage <- function(list, percentage) {
+    sorted <- sort(table(list), decreasing = TRUE)
+    target_length = length(list) * percentage
+    count = 0
+    working_total = 0
+    for (i in 1:length(list))
+        if (working_total < target_length) {
+        working_total = working_total + sorted[i]
+        count = count + 1}
+    return (count)
+}
+
+```
+
+### 50% frequency: 
+describes the amount of unique words required to cover 50% of all word instances. 
+```{r}
+coverage(total_cleaned, .5)
+```
+
+###90% frequency:
+describes the amount of unique words required to cover 90% of all word instances. 
+
+```{r}
+coverage(total_cleaned, .9)
+```
+
+#Tokenize Data into 2-grams and 3-grams
+
+After conducting those steps, I have converts words into 3-gram tokens and 2-gram tokens. This is done four times: to twitter data, to news data, to blog data, and to the total data. An example of 2-gram token would be "I am", and a 3-gram token example would be "Hello I am". The code is displayed below. In this code we have used the "tm" library and "RWeka" library. In this section, only 10,000 lines were drawn from each dataset to speed up processing. 
+
+```{r}
+options( java.parameters = "-Xmx4g" )
+library(RWeka)
+library("tm")
+
+#twitter
+twitter_strings <- readLines(con =  file("en_US.twitter.txt", "r", blocking = FALSE), n = 10000)
+two_gram_twitter <- NGramTokenizer(twitter_strings, Weka_control(min = 2, max = 2))
+two_gram_twitter <- tolower(two_gram_twitter)
+three_gram_twitter <- NGramTokenizer(twitter_strings, Weka_control(min = 3, max = 3))
+three_gram_twitter <- tolower(three_gram_twitter)
+
+#blogs
+blogs_strings <- readLines(con =  file("en_US.blogs.txt", "r", blocking = FALSE), n = 10000)
+two_gram_blogs <- NGramTokenizer(blogs_strings, Weka_control(min = 2, max = 2))
+two_gram_blogs <- tolower(two_gram_blogs)
+three_gram_blogs <- NGramTokenizer(blogs_strings, Weka_control(min = 3, max = 3))
+three_gram_blogs <- tolower(three_gram_blogs)
+
+#news
+news_strings <- readLines(con =  file("en_US.news.txt", "r", blocking = FALSE), n = 10000)
+two_gram_news <- NGramTokenizer(news_strings, Weka_control(min = 2, max = 2))
+two_gram_news <- tolower(two_gram_news)
+three_gram_news <- NGramTokenizer(news_strings, Weka_control(min = 3, max = 3))
+three_gram_news <- tolower(three_gram_news)
+
+#total
+total_two_gram <- c(two_gram_twitter, two_gram_blogs, two_gram_news)
+total_two_gram <- tolower(total_two_gram)
+total_three_gram <- c(three_gram_twitter, three_gram_blogs, three_gram_news)
+total_three_gram <- tolower(total_two_gram)
+```
+
+## N-Gram Summary
+
+This section displays the basic descriptive statistics for 2-gram and 3-gram version of the three files and combination of all three.
+
+###Twitter
+
+```{r}
+# Top 10 two-gram terms
+two_gram_twitter_sort <- sort(table(two_gram_twitter), decreasing = TRUE)
+two_gram_twitter_sort[1:10]
+
+# Top 10 three-gram terms
+three_gram_twitter_sort <- sort(table(three_gram_twitter), decreasing = TRUE)
+three_gram_twitter_sort[1:10]
+
+```
+
+###Blogs
+
+```{r}
+# Top 10 two-gram terms
+two_gram_blogs_sort <- sort(table(two_gram_blogs), decreasing = TRUE)
+two_gram_blogs_sort[1:10]
+
+# Top 10 three-gram terms
+three_gram_blogs_sort <- sort(table(three_gram_blogs), decreasing = TRUE)
+three_gram_blogs_sort[1:10]
+
+```
+
+
+###News
+
+```{r}
+# Top 10 two-gram terms
+two_gram_news_sort <- sort(table(two_gram_news), decreasing = TRUE)
+two_gram_news_sort[1:10]
+
+# Top 10 three-gram terms
+three_gram_news_sort <- sort(table(three_gram_news), decreasing = TRUE)
+three_gram_news_sort[1:10]
+
+```
+
+###Total
+
+```{r}
+# Top 10 two-gram terms
+two_gram_total_sort <- sort(table(total_two_gram), decreasing = TRUE)
+two_gram_total_sort[1:10]
+
+# Two-gram distribution graph
+plot_two_gram_total <- qplot(two_gram_total_sort,binwidth = 10) + ggtitle("Two Gram Total Word Frequency Graph") + xlab("Frequency") + ylab("Two Grams Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_two_gram_total
+
+# Top 10 three-gram terms
+three_gram_total_sort <- sort(table(total_three_gram), decreasing = TRUE)
+three_gram_total_sort[1:10]
+
+# Three-gram distribution graph
+plot_three_gram_total <- qplot(three_gram_total_sort,binwidth = 10) + ggtitle("Three Gram Total Word Frequency Graph") + xlab("Frequency") + ylab("Three Grams Frequency") + scale_x_continuous(limits=c(0, 200))
+plot_three_gram_total
+```
+
+##Insights
+As we can see, for almost all graphs, most of the words are concentrated in the low frequency area occur less than 10 times in the dataset. There are only few words and n-grams that are very frequently used and can reach a extremly high frequency.  
+
+##Next Step
+To build my prediction model, I plan first to constuct a 2-gram model.The first step of the 2-gram model is to calculate the probability of second word's occurance in the 2-gram given the first word. This operation is going to be done on all 2-gram of a specific sentence to calculate the probability of that sentence from occuring. For example, for "I want to eat", the sentence is going to be borken down to "i", "i want", "want to", "to eat", "eat", the probability of all of these terms are going to be calculated and the product of all these terms are going to return the probability of this sentence occuring. 
+
+With the same principle, I am going to also construct a 3-gram model that is able to calculate the probably of any given sentences. 
+

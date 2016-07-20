@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="7.0.001">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="7.0.001" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="read_csv" compatibility="7.0.001" expanded="true" height="68" name="Read CSV" width="90" x="112" y="34">
+        <parameter key="csv_file" value="/Users/billsu/Desktop/Mturk Result Nomz.csv"/>
+        <parameter key="column_separators" value=","/>
+        <parameter key="trim_lines" value="false"/>
+        <parameter key="use_quotes" value="true"/>
+        <parameter key="quotes_character" value="&quot;"/>
+        <parameter key="escape_character" value="\"/>
+        <parameter key="skip_comments" value="false"/>
+        <parameter key="comment_characters" value="#"/>
+        <parameter key="parse_numbers" value="true"/>
+        <parameter key="decimal_character" value="."/>
+        <parameter key="grouped_digits" value="false"/>
+        <parameter key="grouping_character" value=","/>
+        <parameter key="date_format" value=""/>
+        <parameter key="first_row_as_names" value="false"/>
+        <list key="annotations">
+          <parameter key="0" value="Name"/>
+        </list>
+        <parameter key="time_zone" value="SYSTEM"/>
+        <parameter key="locale" value="English (United States)"/>
+        <parameter key="encoding" value="UTF-8"/>
+        <list key="data_set_meta_data_information">
+          <parameter key="0" value="How quickly pages load.true.integer.attribute"/>
+          <parameter key="1" value="Ease of making a purchase.true.integer.attribute"/>
+          <parameter key="2" value="How interactive is the website?.true.integer.attribute"/>
+          <parameter key="3" value="Ease of finding the product you were looking for.true.integer.attribute"/>
+          <parameter key="4" value="Ease of navigating and browsing.true.integer.attribute"/>
+          <parameter key="5" value="Overall functionality of the website.true.integer.attribute"/>
+          <parameter key="6" value="Helpfulness of the website's layout.true.integer.attribute"/>
+          <parameter key="7" value="Appealing nature of the website's graphics.true.integer.attribute"/>
+          <parameter key="8" value="Helpfulness of the product images provided.true.integer.attribute"/>
+          <parameter key="9" value="Appealing nature of the website's font styles.true.integer.attribute"/>
+          <parameter key="10" value="Amount of content per page.true.integer.attribute"/>
+          <parameter key="11" value="Overall satisfaction of the website's visual appearance.true.integer.attribute"/>
+          <parameter key="12" value="Usefulness of information on how the business works.true.integer.attribute"/>
+          <parameter key="13" value="Usefulness of product descriptions provided.true.integer.attribute"/>
+          <parameter key="14" value="Usefulness of product customer reviews provided.true.integer.attribute"/>
+          <parameter key="15" value="Ease of reading product description.true.integer.attribute"/>
+          <parameter key="16" value="Ease of accessing customer reviews.true.integer.attribute"/>
+          <parameter key="17" value="Overall usefulness of information provided.true.integer.attribute"/>
+          <parameter key="18" value="Overall trustworthiness of the website.true.integer.attribute"/>
+          <parameter key="19" value="Overall level of satisfaction with the website.true.integer.attribute"/>
+          <parameter key="20" value="Please indicate your gender:.true.integer.attribute"/>
+          <parameter key="21" value="What is your age range?.true.integer.attribute"/>
+          <parameter key="22" value="Ethnicity origin (or Race):.true.integer.attribute"/>
+          <parameter key="23" value="What is your income level?.true.integer.attribute"/>
+          <parameter key="24" value="Likelihood of placing an order on the website (strictly based on the layout).true.integer.attribute"/>
+          <parameter key="25" value="Likelihood of recommending Nomz to your friends.true.integer.attribute"/>
+          <parameter key="26" value="Please leave any additional comments below:.true.polynominal.attribute"/>
+        </list>
+        <parameter key="read_not_matching_values_as_missings" value="true"/>
+        <parameter key="datamanagement" value="double_array"/>
+      </operator>
+      <connect from_op="Read CSV" from_port="output" to_port="result 1"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+    </process>
+  </operator>
+</process>

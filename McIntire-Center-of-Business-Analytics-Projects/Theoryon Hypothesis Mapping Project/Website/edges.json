@@ -1,0 +1,233 @@
+[
+   {
+      "source_id": "75", 
+      "to": "r1", 
+      "arrows": "to", 
+      "from": "49179", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r1", 
+      "from": "103", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r1", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r2", 
+      "arrows": "to", 
+      "from": "49180", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r2", 
+      "from": "103", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r2", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r14", 
+      "arrows": "to", 
+      "from": "49179", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r14", 
+      "from": "104", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r14", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r15", 
+      "arrows": "to", 
+      "from": "49180", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r15", 
+      "from": "104", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r15", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r16", 
+      "arrows": "to", 
+      "from": "49181", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r16", 
+      "from": "104", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r16", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r23", 
+      "arrows": "to", 
+      "from": "49179", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r23", 
+      "from": "106", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r23", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r24", 
+      "arrows": "to", 
+      "from": "49180", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r24", 
+      "from": "106", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r24", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r25", 
+      "arrows": "to", 
+      "from": "49185", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r25", 
+      "from": "106", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r25", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r26", 
+      "arrows": "to", 
+      "from": "49181", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r26", 
+      "from": "106", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "110", 
+      "arrows": "to", 
+      "from": "r26", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r38", 
+      "arrows": "to", 
+      "from": "49180", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r38", 
+      "from": "107", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "49188", 
+      "arrows": "to", 
+      "from": "r38", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r39", 
+      "arrows": "to", 
+      "from": "49181", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "r39", 
+      "from": "107", 
+      "color": "black"
+   }, 
+   {
+      "source_id": "75", 
+      "to": "49188", 
+      "arrows": "to", 
+      "from": "r39", 
+      "color": "black"
+   }, 
+   {
+      "to": "49188", 
+      "from": "110", 
+      "Relationship": "Positive Effect", 
+      "P_Value": "0.05", 
+      "source_id": "75", 
+      "Supported": "True", 
+      "arrows": "to", 
+      "color": "black", 
+      "label": "+"
+   }
+]

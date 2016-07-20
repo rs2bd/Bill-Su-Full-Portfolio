@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/upgrade_screen_buttonless2"
+android:weightSum="1">
+
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/fearUpgrade"
+    android:background="@drawable/fear_upgrade_button"
+    android:onClick="fearUpgrade"
+    android:layout_centerVertical="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignStart="@+id/batteryUpgrade" />
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/batteryUpgrade"
+    android:background="@drawable/battery_upgrade_button"
+    android:onClick="batteryUpgrade"
+    android:layout_marginBottom="87dp"
+    android:layout_above="@+id/startButton"
+    android:layout_toEndOf="@+id/startButton" />
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/startButton"
+    android:background="@drawable/start_upgrade_button"
+    android:onClick="startGame"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/fearUpgrade"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp">
+
+        <TextView
+            android:layout_width="184dp"
+            android:layout_height="95dp"
+            android:text="New Text"
+            android:id="@+id/storemoney"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,212 @@
+<html>
+<head>
+	<title>Visualization Project</title>
+
+	<script type="text/javascript" src="vis.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.9.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+
+	<style type="text/css">
+		#mynetwork {
+			width: 800px;
+			height: 600px;
+			border: 1px solid lightgray;
+		}
+        body, select {
+            font: 10pt sans;
+        }
+
+        table.legend_table {
+            font-size: 11px;
+            border-width:1px;
+            border-color:#d3d3d3;
+            border-style:solid;
+        }
+        table.legend_table,td {
+            border-width:1px;
+            border-color:#d3d3d3;
+            border-style:solid;
+            padding: 2px;
+        }
+        div.table_content {
+            width:80px;
+            text-align:center;
+        }
+        div.table_description {
+            width:100px;
+        }
+
+        #operation {
+            font-size:28px;
+        }
+        #network-popUp {
+            display:none;
+            position:absolute;
+            top:350px;
+            left:170px;
+            z-index:299;
+            width:250px;
+            height:120px;
+            background-color: #f9f9f9;
+            border-style:solid;
+            border-width:3px;
+            border-color: #5394ed;
+            padding:10px;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+
+<p>
+	Please enter desired document below.
+</p>
+
+<input type="text" id="source" />
+<button onclick="submit();" href="javascript:;">Submit</button>
+
+
+<script>
+	function submit(){
+		var source_id = document.getElementById('source');
+		draw(source_id)}
+
+</script>
+
+
+
+<p style="width: 700px; font-size:14px; text-align: justify;">
+</p>
+
+<div id="network-popUp">
+    <span id="operation">node</span> <br>
+    <table style="margin:auto;"><tr>
+        <td>id</td><td><input id="node-id" value="new value" /></td>
+    </tr>
+        <tr>
+            <td>label</td><td><input id="node-label" value="new value" /></td>
+        </tr></table>
+    <input type="button" value="save" id="saveButton" />
+    <input type="button" value="cancel" id="cancelButton" />
+</div>
+<p id="selection"></p>
+<div id = mynetwork></div>
+
+
+<script type="text/javascript">
+	// import data
+
+    function clearPopUp() {
+        document.getElementById('saveButton').onclick = null;
+        document.getElementById('cancelButton').onclick = null;
+        document.getElementById('network-popUp').style.display = 'none';
+    }
+
+    function cancelEdit(callback) {
+        clearPopUp();
+        callback(null);
+    }
+
+    function saveData(data,callback) {
+        data.id = document.getElementById('node-id').value;
+        data.label = document.getElementById('node-label').value;
+        clearPopUp();
+        callback(data);
+    }
+
+	function draw(source_id) {
+		var edges;
+		var nodes;
+		var final_edges = [];
+		var final_nodes = [];
+		var url1 = "http://localhost:8080/edges.json";
+		var url2 = "http://localhost:8080/nodes.json";
+		var oReq = new XMLHttpRequest();
+		oReq.open("GET", url1, false);
+		oReq.send(null);
+		edges = JSON.parse(oReq.responseText);
+
+		var Req2 = new XMLHttpRequest();
+		Req2.open("GET", url2, false);
+		Req2.send(null);
+		nodes = JSON.parse(Req2.responseText);
+
+		for (var j = 0; j < nodes.length; j++){
+			if (nodes[j]["source_id"] == source_id.value){
+				final_nodes.push(nodes[j]);
+			}
+		}
+		for (var j = 0; j < edges.length; j++){
+			if (edges[j]["source_id"] == source_id.value){
+				final_edges.push(edges[j]);}
+		}
+		console.log(final_nodes)
+		console.log(final_edges)
+		// create a network
+		var container = document.getElementById('mynetwork');
+		var data = {
+			nodes: final_nodes,
+			edges: final_edges
+		};
+
+		var options = {
+			manipulation: {
+                addNode: function (data, callback) {
+                    // filling in the popup DOM elements
+                    document.getElementById('operation').innerHTML = "Add Node";
+                    document.getElementById('node-id').value = data.id;
+                    document.getElementById('node-label').value = data.label;
+                    document.getElementById('saveButton').onclick = saveData.bind(this, data, callback);
+                    document.getElementById('cancelButton').onclick = clearPopUp.bind();
+                    document.getElementById('network-popUp').style.display = 'block';
+                },
+                editNode: function (data, callback) {
+                    // filling in the popup DOM elements
+                    document.getElementById('operation').innerHTML = "Edit Node";
+                    document.getElementById('node-id').value = data.id;
+                    document.getElementById('node-label').value = data.label;
+                    document.getElementById('saveButton').onclick = saveData.bind(this, data, callback);
+                    document.getElementById('cancelButton').onclick = cancelEdit.bind(this, callback);
+                    document.getElementById('network-popUp').style.display = 'block';
+                },
+                addEdge: function (data, callback) {
+                    if (data.from == data.to) {
+                        var r = confirm("Do you want to connect the node to itself?");
+                        if (r == true) {
+                            callback(data);
+                        }
+                    }
+                    else {
+                        callback(data);
+                    }
+                }
+            },
+			edges:{
+				arrows:{
+					to: {enabled: true, scaleFactor:.3}
+				},
+
+				smooth:{
+					enabled: false
+				}
+
+			},
+
+            interaction: {
+                navigationButtons: true,
+                keyboard: true
+            },
+			physics:{
+				enabled : false
+			}
+
+
+		};
+		var network = new vis.Network(container, data, options);
+
+        network.on('select', function(params) {
+            document.getElementById('selection').innerHTML = 'Selection: ' + params.nodes;
+        });}
+</script>
+</body>
+</html>

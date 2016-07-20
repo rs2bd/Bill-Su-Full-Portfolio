@@ -1,0 +1,55 @@
+Capstone Report
+========================================================
+author: Bill Su
+date: 8/22/2015
+font-family: 'Helvetica'
+
+Project Objective
+========================================================
+
+Write an application on Shiny that is able to predict the next word given a 
+sentence as accuratly as possible utilizing the n-gram model. 
+
+User Instruction 
+
+User is able to enter a sentence in the text box, chose out of three predictions (one primary prediction and two alternative perdictions), and then see the word chosen and the final sentence. 
+
+N-Gram Model Summary
+
+N-Gram Model predict the next word given a sentence based on n numbers of pervious words. Detailed implementation of the algorithm is listed in the next slide. 
+
+Application Summary
+========================================================
+For this application, 10,000 lines of the given documents were used. Those 10,000 lines were selected at random and consist roughly of 5% of the total sample. The development of the application follow the rough steps of: 
+
+1. clean the training texts
+2. tokenize the training texts
+3. convert texts into two grams and three grams
+4. calculate frequency of occurance of bigrams and three grams
+5. predict utilizing sorted frequencies, the prediction procedure can be simplified as
+    taking the last two words of a sentence, find the most frequent trigram in which the first two words are that of the sentence. 
+
+Smoothing Methods
+========================================================
+I have considered following smoothing techniques to account for unknown words.
+
+**Stupid Backoff**: find the most frequent bigram given only one previous word if there are no trigrams given two previous words.
+
+**Good-Turing**: modify the overall count of sorted frequency to takee into unknown words
+
+**Intropolation**: Taking into account all three levels of ngrams during prediction by applying a weighting factor to each grams. 
+
+Eventually, I have decided against implementing Good-Turing due to complexityand intropolation due to the unreliability. Stupid Backoff was chosen due to its simplicity.
+
+Application Summary
+===
+Advantage
+- Simple, efficient
+- Reasonablily accurate
+- Improved accuracy with human intuition
+- No NA answers
+
+Future Improvements
+- Utilize more complex smoothing models
+- Add-in more human intuition features
+- Train with a larger training set (given more time)

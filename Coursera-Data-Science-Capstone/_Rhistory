@@ -1,0 +1,512 @@
+g
+sim <- matrix(rexp(f * n, rate = .2), f, n)
+means <- rowMeans(sim)
+hist(means)
+g<- ggplot(frame, aes(x=means))
+g
+g<- ggplot(frame, aes(x=means))
+g<- g + geom_histogram(aes(y = ..density..), binwidth = .1, fill = "green") + stat_function(fun = dnorm, size = 2)
+g
+g<- g + geom_histogram(aes(y = ..density..), binwidth = .1, alpha = .2, fill = "green") + stat_function(fun = dnorm, size = 2)
+g
+g<- qplot(means, color = "green")
+g
+g<- qplot(means, colour = "green")
+g
+g<- qplot(means, colour = green, binwidth = .1)
+g
+g<- qplot(means, binwidth = .1)
+g
+g<- ggplot(data.frame(means), aes(x = means))
+g<- ggplot(data.frame(means), aes(x = means))
+g<- ggplot(data.frame(means), aes(x = means))
+g<- g + geom_histogram(aes(y = ..density..), binwidth = .1, fill = "green") + stat_function(fun = dnorm, size = 2)
+g
+g<- g + geom_histogram(aes(y = ..density..), color = "blue", binwidth = .1, fill = "green") + stat_function(fun = dnorm(x, mean = 5, sd = (1/lambda)^2 / n), size = 2)
+g<- g + geom_histogram(aes(y = ..density..), color = "blue", binwidth = .1, fill = "green") + stat_function(fun = dnorm, args = list(mean = 1/lambda, sd = (1/lambda)^2 / n), size = 1)
+g
+g<- ggplot(data.frame(means), aes(x = means))
+g<- g + geom_histogram(aes(y = ..density..), color = "blue", binwidth = .1, fill = "green") + stat_function(fun = dnorm, args = list(mean = 1/lambda, sd = (1/lambda)^2 / n), size = 1)
+g
+#Let's go back to the original graph and place both a normal line and a expoential line over the distribution of means.
+ToothGrowth
+data <- ToothGrowth
+View(data)
+?ToothGrowth
+summary(data)
+summary(data$len)
+var(data$len)^.5
+g <- qplot(len, data = data, gnom = "line", facets = .~supp)
+g
+g <- qplot(len, ...density..., data = data, gnom = "line", facets = .~supp)
+g
+g <- ggplot(data, (aes(x = data)))
+g <- ggplot(data, (aes(x = data))) + geom+histogram(aes(y=..density..), fill = "blue", facets = .~supp)
+g <- ggplot(data, (aes(x = data))) + geom_histogram(aes(y=..density..), fill = "blue", facets = .~supp)
+g
+g <- ggplot(data, (aes(x = data))) + geom_histogram(aes(y=..density..), fill = "blue")
+g
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue")
+g
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", color = "black", facets = .~supp)
+g
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue"， binwidth = 2)
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 2)
+g
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 2)
+g + facet_grid(. ~ supp)
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 3)
+g + facet_grid(. ~ supp)
+g <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 3)
+g + facet_grid(. ~ supp) + labs(title = "Tooth Length According to Delivery Type", xlab = "Tooth Length")
+g2 <- ggplot(data, (aes(x = data$len))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 3)
+g2 + facet_grid(. ~ dose) + labs(title = "Tooth Length According to Dosage", xlab = "Tooth Length")
+t.test(data$len~data$supp)
+t.test(data$len~data$supp, alternative = "greater")
+t.test(data$len, data$dose)
+ttest2 <- subset(data, data$dose == .5 | data$dose == 2.0)
+t.test(ttest2$len~ttest2$dose, alternative = "greater")
+ttest2 <- subset(data, data$dose == .5 | data$dose == 2.0)
+t.test(ttest2$len~ttest2$dose, alternative = "smaller")
+data <- mtcars
+View(data)
+View(data)
+?mtcars
+library(ggplot2)
+g <- ggplot(data, (aes(x = data$mpg))) + geom_histogram(aes(y=..density..), fill = "blue", binwidth = 3)
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission", xlab = "Miles/(US) gallon")
+library(ggplot2)
+levels(data$am)[levels(data$am)== "0"] <- "Automatic"
+levels(data$am)[levels(data$am)== "1"] <- "Manual"
+g <- ggplot(data, (aes(x = data$mpg))) + geom_histogram(aes(y=..density..), fill = "blue", colour = "black", binwidth = 3)
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission", xlabs = "Miles/(US) gallon"
+)
+library(ggplot2)
+levels(data$am)[levels(data$am)== "0"] <- "Automatic"
+levels(data$am)[levels(data$am)== "1"] <- "Manual"
+g <- ggplot(data, (aes(x = data$mpg))) + geom_histogram(aes(y=..density..), fill = "blue", colour = "black", binwidth = 3)
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission") + xlab ("Miles/(US) gallon")
+View(data)
+library(ggplot2)
+#Change label for better graphing
+data$am[data$am== "0"] <- "Automatic"
+data$am[data$am== "1"] <- "Manual"
+g <- ggplot(data, (aes(x = data$mpg))) + geom_histogram(aes(y=..density..), fill = "blue", colour = "black", binwidth = 3)
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission") + xlab ("Miles/(US) gallon")
+lm(data$mpg ~ data$am)
+model1 <- lm(data$mpg ~ data$am)
+summary(model1)
+g <- ggplot(data, (aes(x = data$mpg))) + geom_boxplot()
+g
+g <- ggplot(data, (aes(factor(am), mpg)) + geom_boxplot()
+g
+g <- ggplot(data, (aes(factor(am), mpg)) + geom_boxplot())
+g
+g <- ggplot(data, (aes(x = mpg)) + geom_boxplot()
+)
+g <- ggplot(data, (aes(factor(am), data$mpg)) + geom_boxplot()
+）
+g <- ggplot(data, (aes(factor(am), data$mpg)) + geom_boxplot())
+g <- ggplot(data, (aes(factor(am), data$mpg))
+)
+g + boxplot()
+g + geom_boxplot()
+g <- ggplot(data, (aes(factor(am), data$mpg)))
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission") + xlab ("Transmission Type") + ylab("Miles/(US) gallon")
+g <- ggplot(data, (aes(factor(am), data$mpg))) + geom_boxplot()
+g + facet_grid(. ~ am) + labs(title = "MPG Comparison of Manual and Automatic Transmission") + xlab ("Transmission Type") + ylab("Miles/(US) gallon")
+g <- ggplot(data, (aes(factor(am), data$mpg))) + geom_boxplot()
+g + labs(title = "MPG Comparison of Manual and Automatic Transmission") + xlab ("Transmission Type") + ylab("Miles/(US) gallon")
+stepy <- step(lm(data = mtcars, mpg ~ .)
+)
+summary(stepy)
+g2 = ggplot(data.frame(x = data$mpg, y = resid(model1)),
+aes(x = x, y = y))
+g2
+g2 = ggplot(data.frame(x = data$mpg, y = resid(model1)),
+aes(x = x, y = y))
+g2 = g2 + geom_hline(yintercept = 0, size = 2);
+g2 = g2 + geom_point(size = 7, colour = "black", alpha = 0.4)
+g2 = g2 + geom_point(size = 5, colour = "red", alpha = 0.4)
+g2 = g2 + xlab("X") + ylab("Residual")
+g2
+par(mfrow=c(2, 2))
+plot(model1)
+par(mfrow=c(2, 2))
+plot(stepy)
+lm(data$mpg ~ c(data$cyl, data$wt))
+lm(data$mpg ~ data$cyl, data$wt))
+lm(data$mpg ~ c(data$cyl, data$wt)
+)
+lm(data$mpg ~ data$cyl + data$wt))
+lm(data$mpg ~ data$cyl + data$wt)
+-1.508*4
+summary(lm(data$mpg ~ data$cyl + data$wt))
+summary(lm(data$mpg ~ data$cyl - data$wt))
+-2.8758 *4
+summary(lm(data$mpg ~ data$cyl - data$wt))
+model <- lm(data$mpg ~ data$cyl - data$wt)
+predict(model, c(4,8))
+predict(model, data.frame(x=seq(4,8), se.fit = True)
+)
+predict(model, data.frame(x=seq(4,8), se.fit = True))
+predict(model, data.frame(x=seq(4,8), se.fit = TRUE))
+model2 <- lm(data$mpg ~ data$cyl)
+predict(model2)
+model <- lm(data$mpg ~ data$cyl + data$wt)
+predict(model)
+23.47588 - 20.38052
+summary(model)
+-1.5078 *2
+summary(model2)
+predict(model2)
+lm(data$mpg ~ factor(data$cyl) + data$wt)
+summary(lm(data$mpg ~ factor(data$cyl) + data$wt))
+model <- lm(data$mpg ~ factor(data$cyl) + data$wt)
+model2 <- lm(data$mpg ~ factor(data$cyl))
+summary(model2)
+lm(data$mpg ~ factor(data$cyl)*data$weight)
+lm(data$mpg ~ factor(data$cyl)*data$wt)
+interaction <- lm(data$mpg ~ factor(data$cyl)*data$wt)
+lrtest(model, interaction)
+library(lmtest)
+install.package(lmtest)
+install.packages("lmtest")
+library(lmtest)
+lrtest(model, interaction)
+summary(lrtest(model, interaction))
+x <- c(0.586, 0.166, -0.042, -0.614, 11.72)
+y <- c(0.549, -0.026, -0.127, -0.751, 1.344)
+influence(lm(y~x))
+round(hatvalues(lm(y~x)))
+hatvalues(lm(y~x))
+dfbetas(lm(y~x))
+lm(mpg ~ I(wt * 0.5) + factor(cyl), data = mtcars)
+summary(lm(mpg ~ I(wt * 0.5) + factor(cyl), data = mtcars))
+3.833*30
+save.image("~/Environment Default.RData")
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+data(cars)
+cars
+View(cars)
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+summary(car[,speed])
+summary(cars[,speed])
+summary(cars[,"speed"])
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+install.packages('devtools')
+devtools::install_github('rstudio/shinyapps')
+shinyapps::setAccountInfo(name='su20yu1919',
+token='AFE4F85D0DD36CA62A4650017ED180FB',
+secret='<SECRET>')
+library(shinyapps)
+setAccountInfo
+shiny::runApp('Desktop/Shiny Project')
+shinyapps::setAccountInfo(name='su20yu1919', token='AFE4F85D0DD36CA62A4650017ED180FB', secret='Zk5eH+k+poSP5yx4BAnQsKhH5dlPZkM3ymVZktxM')
+shinyapps::setAccountInfo(name='su20yu1919', token='AFE4F85D0DD36CA62A4650017ED180FB', secret='Zk5eH+k+poSP5yx4BAnQsKhH5dlPZkM3ymVZktxM')
+shinyapps::setAccountInfo(name='su20yu1919', token='A0FDC100C4C10F10FBCF754D327B0D70', secret='hSEh5/wVQRph4UVvIqb9L7su+PXuWEiygjBDaX7p')
+library(shinyapps)
+shinyapps::deployApp('~/desktop/Shiny Project')
+shinyapps::setAccountInfo(name='rs2bd',
+token='5139C7A3252661AE5DC00B1FA8DB315A',
+secret='<SECRET>')
+Sys.setlocale(locale="en_US.UTF-8")
+shinyapps::setAccountInfo(name='rs2bd',
++                           token='5139C7A3252661AE5DC00B1FA8DB315A',
++                           secret='<SECRET>')
+shinyapps::setAccountInfo(name='rs2bd', token='5139C7A3252661AE5DC00B1FA8DB315A', secret='KRPjtrwY0slovka/se1KsuebD+Cgsj63Bk36YEbK')
+Sys.setlocale(locale="en_US.UTF-8")
+shinyapps::setAccountInfo(name='rs2bd', token='5139C7A3252661AE5DC00B1FA8DB315A', secret='KRPjtrwY0slovka/se1KsuebD+Cgsj63Bk36YEbK')
+shinyapps::deployApp('~/desktop/Shiny Project')
+shinyapps::deployApp('~/desktop/Shiny Project')
+?shinyapps
+accounts()
+shinyapps::accounts()
+shinyapps::removeAccount(rs2bd, shinyapps.io)
+shinyapps::removeAccount(rs2bd)
+shinyapps::removeAccount(su20yu1919)
+shinyapps::deployApp("~/Shiny Project", account = "su20yu1919")
+shinyapps::deployApp("~/Desktop/Shiny Project", account = "su20yu1919")
+shinyapps::deployApp("~/Desktop/Shiny Project", account = "su20yu1919", appName = "Shiny Project")
+shinyapps::deployApp("~/Desktop/Shiny Project", account = "su20yu1919", appName = "Shiny_Project")
+data$mtcars
+data(mtcars)
+View(mtcars)
+colnames(mtcars)
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+summary(lm(mtcars[, input$dataset]))
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+model<- lm(mtcars$mpg ~ mtcars[, input$dataset])
+model<- lm(mtcars$mpg ~ mtcars[, cyl])
+model<- lm(mtcars$mpg ~ mtcars[, "cyl"])
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+printout<- summary(model)
+shiny::runApp('Desktop/Shiny Project')
+model$coefficients
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+print(lm(mtcars$mpg ~ mtcars[, matcars$cyl]))
+print(lm(mtcars$mpg ~ mtcars[, mtcars$cyl]))
+print(lm(mtcars$mpg ~ mtcars[, "cyl"]))
+printoutput <- print(lm(mtcars$mpg ~ mtcars[, "cyl"]))
+shiny::runApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+shiny::deployApp('Desktop/Shiny Project')
+shinyapps::deployApp('Desktop/Shiny Project')
+shiny::runApp('Desktop/Shiny Project')
+deployApp('Desktop/Shiny Project')
+deployApp('~/Desktop/Shiny Project')
+shinyapps::deployApp('~/Desktop/Shiny Project')
+?mtcars
+df <- read.csv("~/Downloads/turnstile_data_master_with_weather.csv")
+View(df)
+library(dplyr)
+rain <- filter(df, rain == 1)
+norain <- filter(df, rain == 0)
+library(ggplot)
+library(ggplot2)
+rain <- rain$ENTRIESn_hourly
+norain <- norain$ENTRIESn_hourly
+rain_plot <- ggplot(aes(rain)) + geom_histogram()
+rain <- filter(df, rain == 1)
+norain <- filter(df, rain == 0)
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram()
+rain_plot
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 1000)
+rain_plot
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 100)
+rain_plot
+rain_plot + scale_x_continuous(limits = c(-5000, 5000))
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 100)
+rain_plot + scale_x_continuous(limits = c(0, 5000))
+rain_plot + xlab('Ridership') + ylab('Frequency') + Titles('Rain Day Histogram for Ridership Each Day')
+rain_plot + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day')
+rain_plot + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 5000))
+rain_plot + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+final_rain <- rain_plot + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(bindwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(bindwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(bindwidth = 10) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 100) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 10) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000))
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) + scale_y_continuous(limits = c(0, 10000)
+)
+rain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) +  scale_y_continuous(limits = c(0, 10000)
+)
+norain_plot
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) +  scale_y_continuous(limits = c(0, 8000)
++ )
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) + scale_y_continuous(limits = c(0, 10000))
+norain_plot <- ggplot(aes(ENTRIESn_hourly), data = norain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Non-Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) +  scale_y_continuous(limits = c(0, 8000))
+rain_plot
+norain_plot
+rain_plot <- ggplot(aes(ENTRIESn_hourly), data = rain) + geom_histogram(binwidth = 50) + xlab('Ridership') + ylab('Frequency') + ggtitle('Rain Day Histogram for Ridership Each Day') + scale_x_continuous(limits = c(0, 3000)) + scale_y_continuous(limits = c(0, 8000))
+rain_plot
+df = group_by(hour)
+df = group_by(df$hour)
+df = group_by(dfHhour)
+df = group_by(dfHour)
+df = group_by(df$Hour)
+df = group_by(factor(df$Hour)
+)
+group <- group_by(df, Hour)
+View(group)
+mean(group)
+summary <- (group, means = mean(ENTRIESn_hourly))
+summary <- summarise(group, means = mean(ENTRIESn_hourly))
+View(summary)
+plot2 <- ggplot(summary, aes(Hour, means)) + geom_line()
+plot2
+plot2 + stat_smooth()
+plot2 = plot2 + stat_smooth() + xlab('Hour') + ylab('Average Ridership') + ggtitle("Average Ridership by Hour, Blue Display Smoothed Version")
+plot2
+setwd("Google Drive/en_US")
+shiny::runApp('App')
+shiny::runApp('App')
+load("~/Google Drive/en_US/App/Untitled.RData")
+trigram_prediction("I love the", sorted_unigram, sorted_bigram)
+trigram_prediction("I love the", sorted_unigram, sorted_bigram, sorted_trigram)
+trigram_prediction("I love", sorted_unigram, sorted_bigram, sorted_trigram)
+shiny::runApp('App')
+rm(sentence)
+trigram_prediction("you are", sorted_unigram, sorted_bigram, sorted_trigram)
+rm(cars, df)
+rm(group,mtcars,norain,rain, summary, bigram_set, blogs_general, final_rain, model, news_general, norain_plot)
+rm(plot2, printout, printoutput, rain_plot, splited, three_gram_set, threeg, total_dataset,total_sample, total_sample_gram)
+rm(trigram_set)
+rm(twitter_general)
+rm(three_gram_test, twog, test)
+rm(total_test)
+bigram_prediction <- function(sentence) {
+library(gdata)
+new_s <- string_processing(sentence)
+new_s <- unlist(new_s)
+#new_s <- new_s[-(which(new_s %in% common_words))]
+#new_s <- paste(new_s, collapse = " ")
+previous <- tail(new_s,2)[1]
+bottom <- sorted_unigram[previous]
+possibilities <- names(sorted_bigram)
+pos_freq_table <- sorted_bigram[startsWith(possibilities, previous)][1:5]
+result <- strsplit(names(pos_freq_table), " ")
+for (i in 1:5) {
+if (is.na(result[i])) {
+result[i:5] = names(sorted_unigram[1:(5-i+1)])
+break
+}}
+result <- unlist(lapply(result, function(x) x[2]))
+return (result)
+}
+trigram_prediction <- function(sentence) {
+library(gdata)
+new_s <- string_processing(sentence)
+new_s <- unlist(new_s)
+previous <- tail(new_s,3)[1:2]
+previous <- paste(previous, collapse = " ")
+bottom <- sorted_bigram[previous]
+possibilities <- names(sorted_trigram)
+pos_freq_table <- sorted_trigram[startsWith(possibilities, previous)][1:5]
+result <- names(pos_freq_table)
+bg <- bigram_prediction(sentence,sorted_unigram,sorted_bigram)
+result <- strsplit(names(pos_freq_table), " ")
+for (i in 1:5) {
+if (is.na(result[i])){
+result[i:5] = bg[1:(5-i+1)]
+break
+}
+}
+result <- unlist(lapply(result, function(x) {
+if (length(x) == 3) x[3]
+else x
+}))
+return (result)
+}
+trigram_prediction("I love")
+bigram_prediction <- function(sentence) {
+library(gdata)
+new_s <- string_processing(sentence)
+new_s <- unlist(new_s)
+#new_s <- new_s[-(which(new_s %in% common_words))]
+#new_s <- paste(new_s, collapse = " ")
+previous <- tail(new_s,2)[1]
+bottom <- sorted_unigram[previous]
+possibilities <- names(sorted_bigram)
+pos_freq_table <- sorted_bigram[startsWith(possibilities, previous)][1:5]
+result <- strsplit(names(pos_freq_table), " ")
+for (i in 1:5) {
+if (is.na(result[i])) {
+result[i:5] = names(sorted_unigram[1:(5-i+1)])
+break
+}}
+result <- unlist(lapply(result, function(x) x[2]))
+return (result)
+}
+trigram_prediction <- function(sentence) {
+library(gdata)
+new_s <- string_processing(sentence)
+new_s <- unlist(new_s)
+previous <- tail(new_s,3)[1:2]
+previous <- paste(previous, collapse = " ")
+bottom <- sorted_bigram[previous]
+possibilities <- names(sorted_trigram)
+pos_freq_table <- sorted_trigram[startsWith(possibilities, previous)][1:5]
+result <- names(pos_freq_table)
+bg <- bigram_prediction(sentence)
+result <- strsplit(names(pos_freq_table), " ")
+for (i in 1:5) {
+if (is.na(result[i])){
+result[i:5] = bg[1:(5-i+1)]
+break
+}
+}
+result <- unlist(lapply(result, function(x) {
+if (length(x) == 3) x[3]
+else x
+}))
+return (result)
+}
+trigram_prediction("i love")
+save.image("~/Google Drive/en_US/App/AppEnv.RData")
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+shiny::runApp('App')
+- Good-Turing: modify the overall count of sorted frequency to takee into unknown words

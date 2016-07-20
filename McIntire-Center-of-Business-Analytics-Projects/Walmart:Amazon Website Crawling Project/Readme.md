@@ -1,0 +1,5 @@
+In this project my task was to identify consumer purchase trends on Walmart and Amazon based on 1 TB of clickstream data. Unfortunatly I have signed an NDA for this project so I can only show part of the desenstivized code and the code cannot be run. Therefore I am going to explain in more details about what I actually did. 
+
+1. From the 1TB dataset, I extracted relevant records that indicate the visit of a product page on either websites. 
+2. I then extracted unique item IDs from those clickstreams and used Walmart and Amazon API to identify the categories of those items. Due to the large amount of unique item IDs (3 million total), I used 10 servers to pull those IDs and the process took around a week. 
+3. Finally, I joined the clickstream dataset with customer demographic information to identify the category preferences of those customers. 

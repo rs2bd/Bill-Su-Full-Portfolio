@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body { font: 12px Arial;}
+
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+
+</style>
+<head>
+    <meta charset="utf-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript">
+
+        function draw(data) {
+
+            //Setup relevant formats
+            var num_format = d3.format(",.01%");
+            var date_format = d3.time.format("%m/%d/%y").parse;
+            var date_format_2 = d3.time.format("%-m/%d/%y").parse;
+            var date_format_year = d3.time.format("%Y").parse;
+
+            //Make sure numbers are read correctly
+            data.forEach(function(d){
+                d['delay_change'] = parseFloat(d['delay_change']);
+                d['growth_rate'] = parseFloat(d['growth_rate']);
+                d['date'] = date_format(d['date']);
+                d['year'] = d["date"].getFullYear();
+                d['delay_percentage'] = parseFloat(d['delay_percentage']);
+//                d['arr_flights']  = parseInt(d['arr_flights'])
+
+            });
+
+
+
+
+            // Set up canvas
+            "use strict";
+            var margin = {top: 40, right: 150, bottom: 50, left: 150},
+                    width = 1200 - margin.left - margin.right,
+                    height = 600 - margin.top - margin.bottom;
+
+            d3.select("body")
+                    .select("#header")
+                    .text("The Great Recession Led To Lower Delays in Airports");
+
+
+            //Load Growth Data
+            d3.csv("data-draft-3/growth.csv", function(growth) {
+
+                //Make Sure Data Loads Correctly
+                growth.forEach(function(d) {
+                    d["growth"] = parseFloat(d["growth"]);
+                    d['date'] = date_format_2(d['date'])
+                });
+
+                //Set Scales
+                var x = d3.time.scale().range([0, width]);
+                var y0 = d3.scale.linear().range([height, 0]);
+                var y1 = d3.scale.linear().range([height, 0]);
+
+                //Set Axis
+                var xAxis = d3.svg.axis().scale(x)
+                        .orient("bottom").ticks(10);
+
+                var yAxisLeft = d3.svg.axis().scale(y0)
+                        .orient("left").ticks(10)
+                        .tickFormat(num_format);
+
+
+                var yAxisRight = d3.svg.axis().scale(y1)
+                        .orient("right").ticks(10)
+                        .tickFormat(num_format);
+
+                //Group Dataset by year and return mean delay_percentage and total_flights
+                var mean_by_year = d3.nest()
+                        .key(function(d) {
+                            return d['year'];
+                        })
+                        .rollup(function(leaves){
+
+
+                            var delay_percentage = d3.mean(leaves, function(d) {
+                                return d['delay_percentage']
+                            });
+
+                            var total_flights = d3.sum(leaves, function(d){
+                                return d['arr_flights']
+                            });
+
+                            return {
+                                "delay_percentage" : delay_percentage,
+                                "total_flights": total_flights
+                            }
+                        })
+                        .entries(data);
+                debugger;
+
+                //Make Value Lines
+                var valueline2 = d3.svg.line()
+                        .x(function(d) {
+                            var date = d3.time.month.offset(date_format_year(d['key']), 6);
+                            return x(date) })
+                        .y(function(d) { return y0(d['values']['delay_percentage'])});
+
+                var valueline = d3.svg.line()
+                        .x(function(d) { return x(d.date); })
+                        .y(function(d) { return y1(d.growth); });
+
+                var valueline3 = d3.svg.line()
+                        .interpolate("monotone")
+                        .x(function(d) { return x(d.date); })
+                        .y(function(d) { return y0(d.delay_percentage); });
+
+
+
+                //Start SVG
+                var svg = d3.select("#graph")
+                        .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                        .append("g")
+                        .attr("transform",
+                                "translate(" + margin.left + "," + margin.top + ")");
+
+
+                // Scale the range of the data
+
+                var min_delay_percentage = d3.min(data, function(d){
+                    return d.delay_percentage;
+                });
+
+                var max_delay_percentage = d3.max(data, function(d) {
+                    return d.delay_percentage;
+                });
+
+                var min_growth = d3.min(growth, function(d){
+                    return d.growth;
+                });
+
+                var max_growth = d3.max(growth, function(d) {
+                    return d.growth;
+                });
+
+
+                // Setup Axis Domain
+
+                x.domain(d3.extent(growth, function(d) { return d.date; }));
+
+                y0.domain([min_delay_percentage-.10, max_delay_percentage]);
+
+                y1.domain([min_growth-.025, max_growth+.15]);
+
+
+                //draw playground
+
+
+                svg.append("g")            // Add the X Axis
+                        .attr("class", "x axis")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(xAxis);
+
+                svg.append("g")
+                        .attr("class", "y axis")
+                        .style("fill", "steelblue")
+                        .call(yAxisLeft);
+
+
+                svg.append("g")
+                        .attr("class", "y axis")
+                        .attr("transform", "translate(" + width + " ,0)")
+                        .style("fill", "red")
+                        .call(yAxisRight);
+
+                //Add All Paths
+
+                svg.append("path")
+                        .style('stroke', "red")
+                        .attr("d", valueline(growth));
+
+
+                svg.append("path")
+                        .style("stroke", "steelblue")
+                        .style("stroke-opacity", "0.3")
+                        .attr("d", valueline3(data));
+
+                svg.append("path")
+                        .style("stroke", "steelblue")
+                        .attr("d", valueline2(mean_by_year));
+
+
+                //Add Other Static Elements
+
+                svg.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", -100)
+                        .attr("x", -250)
+                        .attr("dy", "1em")
+                        .style("text-anchor", "middle")
+                        .style("fill", "steelblue")
+                        .text("Percent of Flights That Are Delayed (%)");
+
+                svg.append("text")
+                        .attr("transform", "rotate(90)")
+                        .attr("y", -1000)
+                        .attr("x", 250)
+                        .attr("dy", "1em")
+                        .style("text-anchor", "middle")
+                        .style("fill", "red")
+                        .text("GDP Growth (%)");
+
+                svg.append("text")
+                        .attr("x", 450 )
+                        .attr("y", 550 )
+                        .style("text-anchor", "middle")
+                        .text("Date (year)");
+
+
+                svg.append("line")
+                        .attr("class", "GDP_line")
+                        .attr("x1", 800)
+                        .attr("x2", 830)
+                        .attr("y1", 50)
+                        .attr("y2", 50)
+                        .style("stroke", "rgb(255,0,0)")
+                        .style("stroke-width", "5");
+
+                svg.append("text")
+                        .attr("class", "GDP_text")
+                        .attr("x", 710)
+                        .attr("y", 54)
+                        .text("GDP Growth");
+
+
+                svg.append("line")
+                        .attr("class", "Delay_line")
+                        .attr("x1", 800)
+                        .attr("x2", 830)
+                        .attr("y1", 30)
+                        .attr("y2", 30)
+                        .style("stroke", "steelblue")
+                        .style("stroke-width", "5");
+
+                svg.append("text")
+                        .attr("class", "Delay_text")
+                        .attr("x", 670)
+                        .attr("y", 34)
+                        .text("Percent Delay (Mean)");
+
+                svg.append("line")
+                        .attr("class", "Delay_line")
+                        .attr("x1", 800)
+                        .attr("x2", 830)
+                        .attr("y1", 10)
+                        .attr("y2", 10)
+                        .style("stroke", "steelblue")
+                        .style("stroke-width", "5")
+                        .style("stroke-opacity", "0.3");
+
+
+                svg.append("text")
+                        .attr("class", "Delay_text")
+                        .attr("x", 708)
+                        .attr("y", 14)
+                        .text("Percent Delay");
+
+
+                svg.append("text")
+                        .attr("class", "natural_text")
+                        .attr("x", 600)
+                        .attr("y", 74)
+                        .text("Natural Rate of GDP Growth (2.5%)");
+
+                svg.append("text")
+                        .attr("class", "natural_text")
+                        .attr("x", 250)
+                        .attr("y", 280)
+                        .text("Beginning of the Great Recession");
+
+
+                svg.append("line")
+                        .attr("class", "natural_line")
+                        .attr("x1", 0)
+                        .attr("x2", 900)
+                        .attr("y1", y1(.025))
+                        .attr("y2", y1(.025))
+                        .style("stroke", "red")
+                        .style("stroke-dasharray", ("5, 5"))
+                        .style("stroke-opacity", "0.3");
+
+
+                svg.append("line")
+                        .attr("class", "financial_crisis_line")
+                        .attr("x1", x(d3.time.format("%y/%m/%d").parse("07/06/31")))
+                        .attr("x2", x(d3.time.format("%y/%m/%d").parse("07/06/31")))
+                        .attr("y1", 0)
+                        .attr("y2", 510)
+                        .style("stroke", "black")
+                        .style("stroke-dasharray", ("5, 5"))
+                        .style("stroke-opacity", "0.3");
+
+                svg.append("line")
+                        .attr("class", "Delay_line")
+                        .attr("x1", 800)
+                        .attr("x2", 830)
+                        .attr("y1", 70)
+                        .attr("y2", 70)
+                        .style("stroke", "red")
+                        .style("stroke-width", "5")
+                        .style("stroke-dasharray", ("2, 2"));
+
+                svg.append("g")
+                        .selectAll(".growth_point")
+                        .data(growth)
+                        .enter()
+                        .append("circle")
+                        .attr("class", "growth_point")
+                        .attr("cx", function(d){ return x(d.date)})
+                        .attr("cy", function(d){ return y1(d.growth)})
+                        .attr("r", 4)
+                        .style("fill", "red")
+                        .on("mouseover", function(d){
+
+                            //Get this circle's x/y values, then augment for the tooltip
+                            var xPosition = parseFloat(d3.select(this).attr("cx")) + 170;
+                            var yPosition = parseFloat(d3.select(this).attr("cy")) + 50;
+
+                            //Update the tooltip position and value
+                            d3.select("#GDP-tooltip")
+                                    .style("left", xPosition + "px")
+                                    .style("top", yPosition + "px")
+                                    .select("#GDP_growth")
+                                    .text(num_format(d['growth']));
+                            //Show the tooltip
+                            d3.select("#GDP-tooltip").classed("hidden", false);
+
+                        })
+                        .on("mouseout", function(){d3.select("#GDP-tooltip").classed("hidden", true)});
+
+
+                svg.append("g")
+                        .selectAll(".delay_point")
+                        .data(mean_by_year)
+                        .enter()
+                        .append("circle")
+                        .attr("class", "delay_point")
+                        .attr("cx", function(d) {
+                            var date = d3.time.month.offset(date_format_year(d['key']), 6);
+                            return x(date) })
+                        .attr("cy", function(d){ return y0(d['values']['delay_percentage'])})
+                        .attr("r", 4)
+                        .style("fill", "steelblue")
+                        .on("mouseover", function(d){
+
+                            //Get this circle's x/y values, then augment for the tooltip
+                            var xPosition = parseFloat(d3.select(this).attr("cx")) + 170;
+                            var yPosition = parseFloat(d3.select(this).attr("cy")) + 50;
+
+                            //Update the tooltip position and value
+                            d3.select("#tooltip")
+                                    .style("left", xPosition + "px")
+                                    .style("top", yPosition + "px")
+                                    .select("#delayed_flight")
+                                    .text(num_format(d.values['delay_percentage']));
+                            //Show the tooltip
+                            d3.select("#tooltip").classed("hidden", false);
+
+                        })
+                        .on("mouseout", function(){d3.select("#tooltip").classed("hidden", true)});
+
+
+
+
+
+            });
+        }
+
+
+
+
+    </script>
+</head>
+<body>
+
+<h2 id="header">Major Airport Delays... Loading...</h2>
+<div id="GDP-tooltip" class="hidden">
+    <p><strong>GDP Growth Rate:</strong></p>
+    <p><span id="GDP_growth">Empty</span></p>
+</div>
+<div id="tooltip" class="hidden">
+    <p><strong>Percent of Flights Delayed:</strong></p>
+    <p><span id="delayed_flight">Empty</span></p>
+
+</div>
+<script type="text/javascript">
+
+    /*
+     Use D3 to load the GeoJSON file
+     */
+
+    d3.csv("data-draft-3/cleaned_with_size.csv", draw);
+</script>
+<div id = "graph">
+
+</div>
+<div>
+    <p>* Mean of percent of delays represents the average delay of that specific year, and is display on June 30st.</p>
+    <p>** Natural rate of GDP growth represent how much the GDP is supposed to grow in absence of any major economic events.</p>
+</div>
+</body>
+</html>
